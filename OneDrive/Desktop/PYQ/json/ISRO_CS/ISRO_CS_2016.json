@@ -1,0 +1,801 @@
+{
+    "exam": "ISRO Previous Year Questions",
+    "questions": [
+      {
+        "id": 1,
+        "question": "At a particular time of computation the value of a counting semaphore is 7. Then 20 P operations and x V operations were completed on this semaphore. If the new value of semaphore is 5 ,x will be",
+        "options": [
+          "A. 18",
+          "B. 22",
+          "C. 15",
+          "D. 13"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "question": "Frames of 1000 bits are sent over a 10 ^ 6 bps duplex link between two hosts. The propagation time is 25ms. Frames are to be transmitted into this link to maximally pack them in transit (within the link). What is the minimum number of bits (I) that will be required to represent the sequence numbers distinctly? Assume that no time gap needs to be given between transmission of two frames.",
+        "options": [
+          "A. l = 2",
+          "B. l = 3",
+          "C. l = 4",
+          "D. l = 5"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "question": "The message 11001001 is to be transmitted using the CRC polynomial x3 + 1 to protect it from errors. The message that should be transmitted is:",
+        "options": [
+          "A. 11001001000",
+          "B. 11001001011",
+          "C. 11001010",
+          "D. 110010010011"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "question": "In a token ring network the transmission speed is 107 bps and the propagation speed is 200 meters/ μs. The 1-bit delay in this network is equivalent to:",
+        "options": [
+          "A. 500 meters of cable.",
+          "B. 200 meters of cable.",
+          "C. 20 meters of cable.",
+          "D. 50 meters of cable."
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "question": "In Ethernet CSMA/CD, the special bit sequence transmitted by media access management to handle collision is called",
+        "options": [
+          "A. Preamble",
+          "B. Postamble",
+          "C. Jam",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "question": "What is the output of this C code?\n\n#include\nvoid main()\n{\nint k=5;\nint *p=&k;\nint **m=&p;\nprintf(\"%d %d %d\",k,*p,**m);\n}",
+        "options": [
+          "A. 5 5 5",
+          "B. 5 5 junk",
+          "C. 5 junk junk",
+          "D. Compile time error"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 7,
+        "question": "A CPU generates 32-bit virtual addresses. The page size is 4 KB. The processor has a translation look-aside buffer (TLB) which can hold a total of 128 page table entries and is 4-way set associative. The minimum size of the TLB tag is:",
+        "options": [
+          "A. 11 bits",
+          "B. 13 bits",
+          "C. 15 bits",
+          "D. 20 bits"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "question": "In which one of the following page replacement policies, Belady's anomaly may occur?",
+        "options": [
+          "A. FIFO",
+          "B. Optimal",
+          "C. LRU",
+          "D. MRU"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "question": "Consider a disk pack with 16 surfaces, 128 tracks per surface and 256 sectors per track. 512 bytes of data are stored in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively:",
+        "options": [
+          "A. 256 Mbyte, 19 bits",
+          "B. 256 Mbyte, 21 bits",
+          "C. 512 Mbyte, 20 bits",
+          "D. 64 GB, 28 bits"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "question": "The necessary condition for using binary search in an array is :-",
+        "options": [
+          "A. The array should not be too long",
+          "B. The array should of more size",
+          "C. The array should be sorted",
+          "D. None of these"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "question": "Consider the following recurrence: T(n) = 2T(n1/2) + 1 T(1) = 1 Which of the following is true?",
+        "options": [
+          "A. T(n)= O(log log n)",
+          "B. T(n) = O(log n)",
+          "C. T(n) = O(n1/2)",
+          "D. T(n)= O(n)"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 12,
+        "question": "What will be output of the following program? Assume that you are running this program in little-endian processor.\n\n#include<stdio.h>\n\nint main() {\n    short a = 320;\n    char * ptr;\n    ptr = (char * ) & a;\n    printf(\"%d\", * ptr);\n    return 0;\n}",
+        "options": [
+          "A. 1",
+          "B. 320",
+          "C. 64",
+          "D. Compilation error"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 13,
+        "question": "Given the relations employee (name, salary, dept-no), and department (dept-no, dept-name,address) Which of the following queries cannot be expressed using the basic relational algebra operations (σ, π, x, -, ∪, p)",
+        "options": [
+          "A. Department address of every employee",
+          "B. Employees whose name is the same as their department name",
+          "C. The sum of all employees' salaries",
+          "D. All employees of a given department"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 14,
+        "question": "Consider the join of a relation R , with a relation S . If R has m number of tuples and S has n number of tuples then the maximum and minimum sizes of the join respectively are:",
+        "options": [
+          "A. m + n & 0",
+          "B. mn & 0",
+          "C. m + n & | m - n |",
+          "D. mn & m + n"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "question": "Goals for the design of the logical scheme include",
+        "options": [
+          "A. avoiding data inconsistency",
+          "B. being able to construct query easily",
+          "C. being able to access data efficiently",
+          "D. All of the above"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 16,
+        "question": "Let R(a, b, c) and S(d, e, f) be two relations in which d is the foreign key of S that refers to the primary key of R. Consider the following four operations R and S. I. Insert into R II. Insert into S III. Delete from R IV. Delete from S Which of the following can cause violation of the referential integrity constraint above?",
+        "options": [
+          "A. Both I and IV",
+          "B. Both II and III",
+          "C. All of these",
+          "D. None of these"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 17,
+        "question": "The relation book (title,price) contains the titles and prices of different books. Assuming that no two books have the same price, what does the following SQL query list?\nselect title\nfrom book as B\nwhere (select count(*)\nfrom book as T\nwhere T.price>B.price)<5",
+        "options": [
+          "A. Titles of the four most expensive books",
+          "B. Title of the fifth most inexpensive book",
+          "C. Title of the fifth most expensive book",
+          "D. Titles of the five most expensive books"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 18,
+        "question": "A clustering index is defined on the fields which are of type",
+        "options": [
+          "A. non-key and ordering",
+          "B. non-key and non-ordering",
+          "C. key and ordering",
+          "D. key and non-ordering"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "question": "The order of a leaf node in a B+ tree is the maximum number of (value, data record pointer) pairs it can hold. Given that the block size is 1K bytes, data record pointer is 7 bytes long, the value field is 9 bytes long and a block pointer is 6 bytes long, what is the order of the leaf node?",
+        "options": [
+          "A. 63",
+          "B. 64",
+          "C. 67",
+          "D. 68"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "question": "Trigger is",
+        "options": [
+          "A. Statement that enables to start any DBMS",
+          "B. Statement that is executed by the user when debugging an application program",
+          "C. The condition that the system tests for the validity of the database user",
+          "D. Statement that is executed automatically by the system as a side effect of a modification of the database"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 21,
+        "question": "The simplified SOP (Sum of Product) form the Boolean expression (P + Q' + R')(P + Q + R)(P + Q + R')",
+        "options": [
+          "A. (P'Q + R)",
+          "B. (P + QR')",
+          "C. (P Q' + R )",
+          "D. (PQ + R)"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 22,
+        "question": "The dynamic hazard problem occurs in",
+        "options": [
+          "A. combinational circuit alone",
+          "B. sequential circuit only",
+          "C. Both (a) and (b)",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 23,
+        "question": "The circuit given below in the figure below is",
+        "options": [
+          "A. An oscillating circuit and its output is square wave",
+          "B. The one whose output remains stable in '1' state",
+          "C. The one having output remains stable in '0' state",
+          "D. has a single pulse of three times propagation delay"
+        ],
+        "answer": "A",
+        "image": "circuit_q23.png"
+      },
+      {
+        "id": 24,
+        "question": "The functional difference between SR flip-flop and JK flip-flop is that",
+        "options": [
+          "A. JK Flip-flop is faster than SR flip-flop",
+          "B. JK flip-flop has a feedback path",
+          "C. JK flip-flop accepts both inputs 1",
+          "D. none of them"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 25,
+        "question": "Which of the following binary number is the same as its 2's complement?",
+        "options": [
+          "A. 1010",
+          "B. 0101",
+          "C. 1000",
+          "D. 1001"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 26,
+        "question": "The Excess-3 code is also called",
+        "options": [
+          "A. Cyclic Redundancy Code",
+          "B. Weighted Code",
+          "C. Self-Complementing Code",
+          "D. Algebraic Code"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 27,
+        "question": "A FSM(finite state machine) can be considered to be a Turing machine of finite tape length",
+        "options": [
+          "A. without rewinding capability and unidirectional tape movement",
+          "B. rewinding capability and unidirectional tape movement",
+          "C. without rewinding capability and bidirectional tape movement",
+          "D. rewinding capability and bidirectional tape movement"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 28,
+        "question": "Consider the following statements about the context free grammar G = {S-->SS , S-->ab , S-->ba , S-->^} I. G is ambiguous II. G produces all strings with equal number of a’s and b’s III. G can be accepted by a deterministic PDA. Which combination below expresses all the true statements about ?",
+        "options": [
+          "A. I only",
+          "B. I and III only",
+          "C. II and III only",
+          "D. I, II and III"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 29,
+        "question": "What is the highest type number that can be assigned to the following grammar?\n\nS → Aa\nA → Ba\nB → abc",
+        "options": [
+          "A. Type 0",
+          "B. Type 1",
+          "C. Type 2",
+          "D. Type 3"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 30,
+        "question": "A given connected graph is a Euler Graph if and only if all vertices of are of",
+        "options": [
+          "A. same degree",
+          "B. even degree",
+          "C. odd degree",
+          "D. different degree"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 31,
+        "question": "The maximum number of edges in a n-node undirected graph without self loops is",
+        "options": [
+          "A. n2",
+          "B. n(n-1)/2",
+          "C. n-1",
+          "D. n(n+1)/2"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 32,
+        "question": "Consider a non-pipelined processor with a clock rate of 2.5 gigahertz and average cycles per instruction of four. The same processor is upgraded to a pipelined processor with five stages; but due to the internal pipeline delay, the clock speed is reduced to 2 gigahertz. Assume that there are no stalls in the pipeline. The speedup achieved in this pipelined processor is",
+        "options": [
+          "A. 3.2",
+          "B. 3.0",
+          "C. 2.2",
+          "D. 2.0"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 33,
+        "question": "Relative mode of addressing is most relevant to writing",
+        "options": [
+          "A. Co-routines",
+          "B. Position – independent code",
+          "C. Shareable code",
+          "D. Interrupt Handlers"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 34,
+        "question": "Dynamic routing protocol enable routers to",
+        "options": [
+          "A. Dynamically discover and maintain routes",
+          "B. Distribute routing updates to other routers",
+          "C. Reach agreement with other routers about the network topology",
+          "D. All of the above"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 35,
+        "question": "The address of a class B host is to be split into subnets with a 6-bit subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet?",
+        "options": [
+          "A. 62 subnets and 262142 hosts.",
+          "B. 64 subnets and 262142 hosts.",
+          "C. 62 subnets and 1022 hosts.",
+          "D. 64 subnets and 1024 hosts."
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 36,
+        "question": "What is the maximum size of data that the application layer can pass on to the TCP layer below?",
+        "options": [
+          "A. Any size",
+          "B. 216 bytes - size of TCP header",
+          "C. 216 bytes",
+          "D. 1500"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 37,
+        "question": "Bit stuffing refers to",
+        "options": [
+          "A. inserting a '0' in user stream to differentiate it with a flag",
+          "B. inserting a '0' in flag stream to avoid ambiguity",
+          "C. appending a nibble to the flag sequence",
+          "D. appending a nibble to the use data stream"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 38,
+        "question": "The extent to which the s/w can continue to operate correctly despite the introduction of invalid inputs is called as",
+        "options": [
+          "A. Reliability",
+          "B. Robustness",
+          "C. Fault tolerance",
+          "D. Portability"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 39,
+        "question": "In the Spiral model of software development, the primary determinant in selecting activities in each iteration is",
+        "options": [
+          "A. Iteration size",
+          "B. Cost",
+          "C. Adopted process such as Rational Unified Process or Extreme Programming",
+          "D. Risk"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 40,
+        "question": "A company needs to develop digital signal processing software for one of its newest inventions. The software is expected to have 20000 lines of code. The company needs to determine the effort in person-months needed to develop this software using the basic COCOMO model. The multiplicative factor for this model is given as 2.2 for the software development on embedded systems, while the exponentiation factor is given as 1.50. What is the estimated effort in person-months?",
+        "options": [
+          "A. 196.77",
+          "B. 206.56",
+          "C. 199.56",
+          "D. 210.68"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 41,
+        "question": "A company needs to develop a strategy for software product development for which it has a choice of two programming languages L1 and L2. The number of lines of code (LOC) developed using L2 is estimated to be twice the LOC developed with Ll. The product will have to be maintained for five years. Various parameters for the company are given in the table below.\n\nParameter\tLanguage L1\tLanguage L2\nMan years needed for development\tLOC/10000\tLOC/10000\nDevelopment cost per man year\tRs. 10,00,000\tRs. 7,50,000\nMaintenance time\t5 years\t5 years\nCost of maintenance per year\tRs. 1,00,000\tRs. 50,000\nTotal cost of the project includes cost of development and maintenance. What is the LOC for L1 for which the cost of the project using L1 is equal to the cost of the project using L2?",
+        "options": [
+          "A. 10,000",
+          "B. 5,000",
+          "C. 7,500",
+          "D. 75,000"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 42,
+        "question": "Configuration management is not concerned with",
+        "options": [
+          "A. controlling changes to the source code",
+          "B. choice of hardware configuration for an application",
+          "C. controlling documentation changes",
+          "D. maintaining versions of software"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 43,
+        "question": "Which one of the following is a functional requirement",
+        "options": [
+          "A. Maintainability",
+          "B. Portability",
+          "C. Robustness",
+          "D. None of the mentioned"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 44,
+        "question": "With single resource, deadlock occurs",
+        "options": [
+          "A. if there are more than two processes competing for that resources",
+          "B. if there are only two processes competing for that resources",
+          "C. if there is a single process competing for that resources",
+          "D. none of these"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 45,
+        "question": "Let L = {w = (0+1)* | w has even number of 1's}, i.e. L is the set of all bit strings with even number of 1's. Which one of the regular expression below represents L ?",
+        "options": [
+          "A. (0*10*1)*",
+          "B. 0*(10*10*)*",
+          "C. 0*(10*1*)*0*",
+          "D. 0*1(10*1)10*"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 46,
+        "question": "The minimum number of NAND gates required to implement the Boolean function A + AB'+ AB'C is equal to",
+        "options": [
+          "A. 0",
+          "B. 1",
+          "C. 4",
+          "D. 7"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 47,
+        "question": "The logic circuit given below converts a binary code Y1 , Y2 and Y3 into",
+        "options": [
+          "A. Excess-3 code",
+          "B. Gray code",
+          "C. BCD code",
+          "D. Hamming Code"
+        ],
+        "answer": "B",
+        "image": "isro_cs_2016_q9.png"
+      },
+      {
+        "id": 48,
+        "question": "Consider the following gate network",
+        "options": [
+          "A. Gate No. 1",
+          "B. Gate No. 2",
+          "C. Gate No. 3",
+          "D. Gate No. 4"
+        ],
+        "answer": "C",
+        "image": "isro_cs_2016_q7.png"
+      },
+      {
+        "id": 49,
+        "question": "Which of the following is true?",
+        "options": [
+          "A. √3 + √7 = √10",
+          "B. √3 + √7 ⩽ √10",
+          "C. √3 + √7 < √10",
+          "D. √3 + √7 > √10"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 50,
+        "question": "For a binary half-subtractor having two inputs A and B, the correct set of logical expressions for the outputs D (= A minus B) and X (=borrow) are",
+        "options": [
+          "A. D = AB + A'B , X = A'B",
+          "B. D = A'B + AB' , X = AB'",
+          "C. D = A'B + AB' , X = A'B",
+          "D. D = AB + A'B , X = AB'"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 51,
+        "question": "Which network protocol allows hosts to dynamically get a unique IP number on each bootup",
+        "options": [
+          "A. DHCP",
+          "B. BOOTP",
+          "C. RARP",
+          "D. ARP"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 52,
+        "question": "The minimum Boolean expression for the following circuit is:",
+        "options": [
+          "A. AB + AC + BC",
+          "B. A + BC",
+          "C. A + B",
+          "D. A + B + C"
+        ],
+        "answer": "B",
+        "image": "isro_combinational.png"
+      },
+      {
+        "id": 53,
+        "question": "A system has 3 processes sharing 4 resources. If each process needs a maximum of 2 units, then",
+        "options": [
+          "A. Deadlock can never occur",
+          "B. Deadlock may occur",
+          "C. Deadlock has to occur",
+          "D. None of these"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 54,
+        "question": "If L and L' are recursively enumerable then L is,",
+        "options": [
+          "A. Regular",
+          "B. Context free",
+          "C. Context Sensitive",
+          "D. Recursive"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 55,
+        "question": "S → aSa ∣ bSb ∣ a ∣ b The language generated by the above grammar over the alphabet is the set of",
+        "options": [
+          "A. all palindromes",
+          "B. all odd length palindromes",
+          "C. strings that begin and end with the same symbol",
+          "D. all even length palindromes"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 56,
+        "question": "Algorithm design technique used in quicksort algorithm is?",
+        "options": [
+          "A. Dynamic programming",
+          "B. Backtracking",
+          "C. Divide and conquer",
+          "D. Greedy method"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 57,
+        "question": "Recursive descent parsing is an example of",
+        "options": [
+          "A. Top-down parsers",
+          "B. Bottom-up parsers",
+          "C. Predictive parsers",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 58,
+        "question": "A top-down parser generates",
+        "options": [
+          "A. Rightmost Derivation",
+          "B. Rightmost derivation in reverse",
+          "C. Leftmost derivation",
+          "D. Leftmost derivation in reverse"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 59,
+        "question": "If 12A7C16 = X8, then the value of X is",
+        "options": [
+          "A. 224174",
+          "B. 425174",
+          "C. 6173",
+          "D. 225174"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 60,
+        "question": "Determine the number of page faults when references to pages occur in the following order: 1, 2, 4, 5, 2, 1, 2, 4 Assume that the main memory can accommodate 3 pages and the main memory already has the pages 1 and 2, with page one having brought earlier than page 2. (LRU page replacement algorithm is used)",
+        "options": [
+          "A. 3",
+          "B. 5",
+          "C. 4",
+          "D. None of these"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 61,
+        "question": "Working Set at an instant of time is",
+        "options": [
+          "A. the set of future references that the OS will make",
+          "B. the set of future references that the OS will make in next unit of time",
+          "C. the set of references with high frequency",
+          "D. the set of pages that have been referenced in the last time units"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 62,
+        "question": "A Hash Function f is defined as f(key) = key mod 7. With linear probing, while inserting the keys 37, 38, 72, 48, 98, 11, 56 into a table indexed from 0, in which location the key 11 will be stored (Count table index 0 as 0th location)?",
+        "options": [
+          "A. 3",
+          "B. 4",
+          "C. 5",
+          "D. 6"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 63,
+        "question": "For the real time operating system, which of the following is the most suitable scheduling scheme?",
+        "options": [
+          "A. Round robin",
+          "B. Pre-emptive",
+          "C. First come first serve",
+          "D. Random scheduling"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 64,
+        "question": "The following postfix expression with single digit operands is evaluated using a stack: 8 2 3 ^ / 2 3 * + 5 1 * - Note that ^ is the exponentiation operator. The top two elements of the stack after the first * is evaluated are",
+        "options": [
+          "A. 6,1",
+          "B. 5,7",
+          "C. 3,2",
+          "D. 1,5"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 65,
+        "question": "Consider the following segment of C-code:\n\nint j, n;\nj = 1;\nwhile (j <= n)\n       j = j * 2;\nThe number of comparisons made in the execution of the loop for any n > 0 is:",
+        "options": [
+          "A. |_ log 2n _| * n",
+          "B. n",
+          "C. |_ log2n _|",
+          "D. |_ log2n _| + 1"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 66,
+        "question": "In which class of Flynn's taxanomy, Von Neumann architecture belongs to?",
+        "options": [
+          "A. SISD",
+          "B. SIMD",
+          "C. MIMD",
+          "D. MISD"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 67,
+        "question": "Register renaming is done in pipelined processors",
+        "options": [
+          "A. as an alternative to register allocation at compile time",
+          "B. for efficient access to function parameters and local variables",
+          "C. to handle certain kinds of hazards",
+          "D. as part of address translation"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 68,
+        "question": "Let the page fault service time be 10 ms in a computer with average memory access time being 20 ns. If one page fault is generated for every 106 memory accesses, what is the effective access time for the memory?",
+        "options": [
+          "A. 21.4 ns",
+          "B. 29.9 ns",
+          "C. 23.5 ns",
+          "D. 35.1 ns"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 69,
+        "question": "A complete binary tree with n non-leaf nodes contains",
+        "options": [
+          "A. log2 n nodes",
+          "B. n+1 nodes",
+          "C. 2n nodes",
+          "D. 2n+1 nodes"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 70,
+        "question": "Access time of the symbol table will be logarithmic if it is implemented by",
+        "options": [
+          "A. Linear list",
+          "B. Search tree",
+          "C. Hash table",
+          "D. Self organization list"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 71,
+        "question": "Peephole optimization is form of",
+        "options": [
+          "A. Loop optimization",
+          "B. Local optimization",
+          "C. Constant folding",
+          "D. Data flow analysis"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 72,
+        "question": "Which of the following is TRUE only for XML but NOT HTML?",
+        "options": [
+          "A. It is derived from SGML",
+          "B. It describes content and layout",
+          "C. It allows user defined tags",
+          "D. It is restricted only to be used with web browsers"
+        ],
+        "answer": "C"
+      }
+    ]
+  }

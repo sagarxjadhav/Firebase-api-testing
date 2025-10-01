@@ -1,0 +1,865 @@
+{
+    "exam": "ISRO Previous Year Questions",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What does the following program do when the input is unsigned 16-bit integer?\n\n#include \nmain( )\n{\nunsigned int num;\nint i;\nscanf (\"%u\", &num);\nfor ( i = 0; i<16; i++)\n{\nprintf (\"%d\", (num << i & 1 << 15 ) ? 1:0);\n}\n}",
+        "options": [
+          "A. It prints all even bits from num",
+          "B. It prints all odd bits from num",
+          "C. It prints binary equivalent of num",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "question": "What is the output of the following program?\n\nmain( )\n{\nint a = 10;\nif ((fork ( ) == 0))\na++;\nprintf (\"%d\\n\", a );\n}",
+        "options": [
+          "A. 10 and 11",
+          "B. 10",
+          "C. 11",
+          "D. 11 and 11"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "question": "Mutual exclusion problem occurs",
+        "options": [
+          "A. Between two disjoint processes that do not interact",
+          "B. Among processes that share resources",
+          "C. Among processes that do not use the same resource",
+          "D. Between two processes that uses different resources of different machine"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "question": "A critical region",
+        "options": [
+          "A. is a piece of code which only one process executes at a time",
+          "B. is a region prone to deadlock",
+          "C. is a piece of code which only a finite number of processes execute",
+          "D. is found only in windows NT operating system"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "question": "At particular time, the value of a counting semaphore is 10, it will become 7 after: (a) 3 V operations (b) 3 P operations (c) 5 V operations and 2 P operations (d) 2 V operations and 5 P operations Which of the following option is correct?",
+        "options": [
+          "A. Only (b)",
+          "B. Only(d)",
+          "C. Both (b) and (d)",
+          "D. None of these"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "question": "An Ethernet frame that is less than the IEEE 802.3 minimum length of 64 octets is called",
+        "options": [
+          "A. Short frame",
+          "B. Small frame",
+          "C. Mini frame",
+          "D. Runt frame"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 7,
+        "question": "The best data structure to check whether an arithmetic expression has balanced parenthesis is a",
+        "options": [
+          "A. Queue",
+          "B. Stack",
+          "C. Tree",
+          "D. List"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "question": "The time complexity of computing the transitive closure of a binary relation on a set of n elements is known to be",
+        "options": [
+          "A. O(n*log(n))",
+          "B. O(n3/2)",
+          "C. O(n3)",
+          "D. O(n)"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "question": "What does the following C-statement declare? int (*f) (int*);",
+        "options": [
+          "A. A function that takes an integer pointer as argument and returns an integer",
+          "B. A function that takes an integer as argument and returns an integer pointer",
+          "C. A pointer to a function that takes an integer pointer as argument and returns an integer",
+          "D. A function that takes an integer pointer as argument and returns a function pointer"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 10,
+        "question": "Consider the following C function\n\nvoid swap ( int x, int y )\n{\nint tmp;\ntmp = x;\nx= y;\ny = tmp;\n}\nIn order to exchange the values of two variables a and b:",
+        "options": [
+          "A. Call swap (a, b)",
+          "B. Call swap (&a, &b)",
+          "C. swap(a, b) cannot be used as it does not return any value",
+          "D. swap(a, b) cannot be used as the parameters passed by value"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 11,
+        "question": "What is the output of the following program? \n\n#include \nint tmp=20;\nmain( )\n{\nprintf(\"%d \",tmp);\nfunc( );\nprintf(\"%d \",tmp);\n}\nfunc( )\n{\nstatic int tmp=10;\nprintf(\"%d \",tmp);\n}",
+        "options": [
+          "A. 20 10 10",
+          "B. 20 10 20",
+          "C. 20 20 20",
+          "D. 10 10 10"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "question": "We use malloc and calloc for",
+        "options": [
+          "A. Dynamic memory allocation",
+          "B. Static memory allocation",
+          "C. Both dynamic and static memory allocation",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 13,
+        "question": "Consider a disk system with 100 cylinders. The request to access the cylinders occur in the following sequences 4, 37, 10, 7, 19, 73, 2, 15, 6, 20 Assuming the head is currently at cylinder 50, what is the time taken to satisfy all requests if it takes 1 ms to move from one cylinder to adjacent one and shortest seek time first algorithm is used.",
+        "options": [
+          "A. 95 msec",
+          "B. 119 msec",
+          "C. 233 msec",
+          "D. 276 msec"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "question": "The problems 3-SAT and 2-SAT are",
+        "options": [
+          "A. Both NP-complete",
+          "B. Both in P",
+          "C. NP-complete and in P, respectively",
+          "D. Undecidable and NP-complete, respectively"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 15,
+        "question": "Given the following statements: S1 : Every context-sensitive language L is recursive S2 : There exists a recursive language that is not context-sensitive Which statements are true?",
+        "options": [
+          "A. Only S1 is correct",
+          "B. Only S2 is correct",
+          "C. Both S1 and S2 are not correct",
+          "D. Both S1 and S2 are correct"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 16,
+        "question": "Which of the following operator(s) cannot be overloaded?",
+        "options": [
+          "A. . (Member Access or Dot operator)",
+          "B. ?: (Ternary or Conditional Operator )",
+          "C. :: (Scope Resolution Operator)",
+          "D. All of the above"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 17,
+        "question": "What is the output of this C++ program?\n\n#include \nusing namespace std;\nvoid square (int *x)\n{\n*x = (*x)++ * (*x);\n}\nvoid square (int *x, int *y)\n{\n*x = (*x) * --(*y);\n}\nint main ( )\n{\nint number = 30;\nsquare(&number, &number);\ncout << number;\nreturn 0;\n}",
+        "options": [
+          "A. 910",
+          "B. 920",
+          "C. 870",
+          "D. 900"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 18,
+        "question": "Which of the following algorithm solves the all-pair shortest path problem?",
+        "options": [
+          "A. Prim’s algorithm",
+          "B. Dijikstra’s algorithm",
+          "C. Bellman-Ford’s algorithm",
+          "D. Floyd-Warshall’s algorithm"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 19,
+        "question": "What happens when finalize() is called on an object?",
+        "options": [
+          "A. The object is immediately garbage collected.",
+          "B. The garbage collector calls it before collecting the object.",
+          "C. The object gets permanently deleted from memory.",
+          "D. It prevents an object from being collected."
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 20,
+        "question": "Which symbol denote derived attributes in ER Model?",
+        "options": [
+          "A. Double ellipse",
+          "B. Dashed ellipse",
+          "C. Squared ellipse",
+          "D. Ellipse with attribute name underlined"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 21,
+        "question": "What is the output of the following SQL query?\n\nselect count(*) from ((select Employee, Department from Overtime_allowance) as S\nnatural join (select Department, OT_allowance from Overtime_allowance) as T);",
+        "options": [
+          "A. 16",
+          "B. 4",
+          "C. 8",
+          "D. None of the above",
+          "E. none"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 22,
+        "question": "Which of the following concurrency control protocol ensures both conflict serializability and free from deadlock?",
+        "options": [
+          "A. Time stamp ordering",
+          "B. 2 Phase locking",
+          "C. Both (a) and (b)",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 23,
+        "question": "Which one of these is characteristic of RAID 5?",
+        "options": [
+          "A. Dedicated parity",
+          "B. Double parity",
+          "C. Hamming code parity",
+          "D. Distributed parity"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 24,
+        "question": "ACID properties of a transactions are",
+        "options": [
+          "A. Atomicity, consistency, isolation, database",
+          "B. Atomicity, consistency, isolation, durability",
+          "C. Atomicity, consistency, integrity, durability",
+          "D. Atomicity, consistency, integrity, database"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 25,
+        "question": "The symmetric difference of sets A = {1, 2, 3, 4, 5, 6, 7, 8} and B = {1, 3, 5, 6, 7, 8, 9} is",
+        "options": [
+          "A. {1, 3, 5, 6, 7, 8}",
+          "B. {2, 4, 9}",
+          "C. {2, 4}",
+          "D. {1, 2, 3, 4, 5, 6, 7, 8, 9}"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 26,
+        "question": "If A is a skew symmetric matrix, then At",
+        "options": [
+          "A. diagonal matrix",
+          "B. A",
+          "C. -A",
+          "D. 0"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 27,
+        "question": "What is the minimum number of two-input NAND gates used to perform the function of two input OR gate",
+        "options": [
+          "A. One",
+          "B. Two",
+          "C. Three",
+          "D. Four"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 28,
+        "question": "When two n-bit binary numbers are added the sum will contain at the most",
+        "options": [
+          "A. n bits",
+          "B. (n + 3) bits",
+          "C. (n + 2) bits",
+          "D. (n + 1) bits"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 29,
+        "question": "The 2-input XOR has a high output only when the input values are",
+        "options": [
+          "A. low",
+          "B. high",
+          "C. same",
+          "D. different"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 30,
+        "question": "Which one of the following is FALSE?",
+        "options": [
+          "A. There is a unique minimal DFA for every regular language",
+          "B. Every NFA can be converted to an equivalent PDA",
+          "C. Complement of every context-free language is recursive",
+          "D. Every non-deterministic PDA can be converted to an equivalent deterministic PDA"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 31,
+        "question": "In some programming languages, an identifier is permitted to be a letter followed by any number of letters or digits. If L and D denotes the set of letters and digit respectively. Which of the following expression defines an identifier?",
+        "options": [
+          "A. (L + D) *",
+          "B. (L.D) *",
+          "C. L(L + D) *",
+          "D. L(L.D) *"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 32,
+        "question": "If L and P are two recursively enumerable languages, then they are not closed under",
+        "options": [
+          "A. Kleene Star L * of L",
+          "B. Intersection L ∩ P",
+          "C. Union L ∪ P",
+          "D. Set Difference"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 33,
+        "question": "Using Newton-Raphson method, a root correct to 3 decimal places of the equation x3 - 3x - 5 = 0",
+        "options": [
+          "A. 2.222",
+          "B. 2.275",
+          "C. 2.279",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 34,
+        "question": "How many 128 × 8 bit RAMs are required to design 32 K × 32 bit RAM?",
+        "options": [
+          "A. 512",
+          "B. 1024",
+          "C. 128",
+          "D. 32"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 35,
+        "question": "The most appropriate matching for the following pairs :\n\nX : Indirect Addressing          1. Loop\nY : Immediate Addressing         2. Pointers\nZ : Auto Decrement Addressing    3. Constants",
+        "options": [
+          "A. X − 3, Y − 2, Z −1",
+          "B. X − 2, Y − 3, Z −1",
+          "C. X − 3, Y −1, Z − 2",
+          "D. X − 2, Y −1, Z − 3"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 36,
+        "question": "Which interrupt in 8085 Microprocessor is unmaskable?",
+        "options": [
+          "A. RST 5.5",
+          "B. RST 7.5",
+          "C. TRAP",
+          "D. Both (a) and (b)"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 37,
+        "question": "A cache memory needs an access time of 30 ns and main memory 150 ns, what is the average access time of CPU (assume hit ratio = 80%)?",
+        "options": [
+          "A. 60",
+          "B. 30",
+          "C. 150",
+          "D. 70"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 38,
+        "question": "Match with the suitable one:\n\nList-I                                      List-II\n(A) Multicast group membership              1. Distance vector routing\n(B) Interior gateway protocol               2. IGMP\n(C) Exterior gateway protocol               3. OSPF\n(D) RIP                                     4. BGP",
+        "options": [
+          "A. A-2, B-3, C-4, D-1",
+          "B. A-2, B-4, C-3, D-1",
+          "C. A-3, B-4, C-1, D-2",
+          "D. A-3, B-1, C-4, D-2"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 39,
+        "question": "If there are n devices (nodes) in a network, what is the number of cable links required for a fully connected mesh and a star topology respectively",
+        "options": [
+          "A. n(n −1) / 2, n",
+          "B. n, n −1",
+          "C. n −1, n",
+          "D. n −1, n(n −1) / 2"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 40,
+        "question": "SATA is the abbreviation of",
+        "options": [
+          "A. Serial Advanced Technology Attachment",
+          "B. Serial Advanced Technology Architecture",
+          "C. Serial Advanced Technology Adapter",
+          "D. Serial Advanced Technology Array"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 41,
+        "question": "Physical topology of FDDI is?",
+        "options": [
+          "A. Bus",
+          "B. Ring",
+          "C. Star",
+          "D. None of the above"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 42,
+        "question": "What is WPA?",
+        "options": [
+          "A. wired protected access",
+          "B. wi-fi protected access",
+          "C. wired process access",
+          "D. wi-fi process access"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 43,
+        "question": "In networking terminology UTP means",
+        "options": [
+          "A. Ubiquitous teflon port",
+          "B. Uniformly terminating port",
+          "C. Unshielded twisted pair",
+          "D. Unshielded T-connector port"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 44,
+        "question": "Which of the following protocol is used for transferring electronic mail messages from one machine to another?",
+        "options": [
+          "A. TELNET",
+          "B. FTP",
+          "C. SNMP",
+          "D. SMTP"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 45,
+        "question": "Capability Maturity Model (CMM) is a methodology to",
+        "options": [
+          "A. develop and refine an organization's software development process",
+          "B. develop the software",
+          "C. test the software",
+          "D. All of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 46,
+        "question": "In the context of modular software design, which one of the following combinations is desirable?",
+        "options": [
+          "A. High cohesion and high coupling",
+          "B. High cohesion and low coupling",
+          "C. Low cohesion and high coupling",
+          "D. Low cohesion and low coupling"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 47,
+        "question": "Which product metric gives the measure of the average length of words and sentence in documents?",
+        "options": [
+          "A. SCI number",
+          "B. Cyclomatic complexity",
+          "C. LOC",
+          "D. Fog index"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 48,
+        "question": "In software maintenance tackling the changes in the hardware or software environment where the software works, is",
+        "options": [
+          "A. Corrective maintenance",
+          "B. Perfective maintenance",
+          "C. Adaptive maintenance",
+          "D. Preventive maintenance"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 49,
+        "question": "The cyclomatic complexity of each of the modules X and Y shown below is 10. What is the cyclomatic complexity of the sequential integration shown on the right hand side?",
+        "options": [
+          "A. 21",
+          "B. 19",
+          "C. 20",
+          "D. 10"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 50,
+        "question": "Estimation of software development effort for organic software in basic COCOMO is",
+        "options": [
+          "A. E = 2.0(KLOC)1.05PM",
+          "B. E = 3.4(KLOC)1.06PM",
+          "C. E = 2.4(KLOC)1.05PM",
+          "D. E = 2.4(KLOC)1.07PM"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 51,
+        "question": "Which of the following is not a life cycle model?",
+        "options": [
+          "A. Spiral model",
+          "B. Prototyping model",
+          "C. Waterfall model",
+          "D. Capability maturity model"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 52,
+        "question": "What does the data dictionary identify?",
+        "options": [
+          "A. Field names",
+          "B. Field formats",
+          "C. Field Types",
+          "D. All of these"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 53,
+        "question": "Which of the following UML 2.0 diagrams capture behavioural aspects of a system?",
+        "options": [
+          "A. Use Case Diagram, Object Diagram, Activity Diagram, and State Machine Diagram",
+          "B. Use Case Diagram, Activity Diagram, and State Machine Diagram",
+          "C. Object Diagram, Communication Diagram, Timing Diagram, and Interaction diagram",
+          "D. Object Diagram, Composite Structure Diagram, Package Diagram, and Deployment Diagram"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 54,
+        "question": "Which one of the following Boolean expressions is NOT a tautology?",
+        "options": [
+          "A. ((a → b) ∧ (b → c)) → (a → c)",
+          "B. (a ↔ c) →( ¬b → (a ∧ c))",
+          "C. (a ∧ b ∧ c) → (c ∨ a)",
+          "D. a → (b → a)"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 55,
+        "question": "Pretty Good Privacy (PGP) is used in",
+        "options": [
+          "A. Browser security",
+          "B. FTP security",
+          "C. Email security",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 56,
+        "question": "MD5 is a widely used hash function for producing hash value of",
+        "options": [
+          "A. 64 bits",
+          "B. 128 bits",
+          "C. 512 bits",
+          "D. 1024 bits"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 57,
+        "question": "The linux command “mknod myfifo b 4 16”",
+        "options": [
+          "A. Will create a character device if the user is root",
+          "B. Will create a named pipe FIFO if the user is root",
+          "C. Will create a block device if the user is root",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 58,
+        "question": "Which of the following is associated with objects?",
+        "options": [
+          "A. State",
+          "B. Behaviour",
+          "C. Identity",
+          "D. All of the above"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 59,
+        "question": "Which of the following statement is true?",
+        "options": [
+          "A. Hard real time OS has less jitter than soft real time OS",
+          "B. Hard real time OS has more jitter than soft real time OS",
+          "C. Hard real time OS has equal jitter as soft real time OS",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 60,
+        "question": "What problem is solved by Dijkstra banker’s algorithm?",
+        "options": [
+          "A. Cache coherence",
+          "B. Mutual exclusion",
+          "C. Deadlock recovery",
+          "D. Deadlock avoidance"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 61,
+        "question": "The default subnet mask for a class B network can be",
+        "options": [
+          "A. 255.255.255.0",
+          "B. 255.0.0.0",
+          "C. 255.255.192.0",
+          "D. 255.255.0.0"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 62,
+        "question": "Which one of the following in-place sorting algorithms needs the minimum number of swaps?",
+        "options": [
+          "A. Insertion Sort",
+          "B. Quick Sort",
+          "C. Heap Sort",
+          "D. Selection Sort"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 63,
+        "question": "The number of swappings needed to sort the numbers 8, 22, 7, 9, 31, 5, 13 in ascending order, using bubble sort is",
+        "options": [
+          "A. 11",
+          "B. 12",
+          "C. 13",
+          "D. 10"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 64,
+        "question": "If A and B be two arbitrary events, then",
+        "options": [
+          "A. P(A ∩ B) = P(A)P(B)",
+          "B. P(A ∪ B) = P(A) + P(B)",
+          "C. P(A / B) = P(A ∩ B) + P(B)",
+          "D. P(A ∪ B) <= P(A) + P(B)"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 65,
+        "question": "Given reference to the following pages by a program 0, 9, 0, 1, 8, 1, 8, 7, 8, 7, 1, 2, 8, 2, 7, 8, 2, 3, 8, 3 How many page faults will occur if the program has three page frames available to it and uses an optimal replacement?",
+        "options": [
+          "A. 7",
+          "B. 8",
+          "C. 9",
+          "D. None of these"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 66,
+        "question": "Which protocol suite designed by IETF to provide security for a packet at the Internet layer?",
+        "options": [
+          "A. IPsec",
+          "B. NetSec",
+          "C. PacketSec",
+          "D. SSL"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 67,
+        "question": "(1217)8 is equivalent to",
+        "options": [
+          "A. (1217)16",
+          "B. (028F)16",
+          "C. (2297)10",
+          "D. (0B17)16"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 68,
+        "question": "Which media access control protocol is used by IEEE 802.11 wireless LAN?",
+        "options": [
+          "A. CDMA",
+          "B. CSMA/CA",
+          "C. ALOHA",
+          "D. None of the above"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 69,
+        "question": "Given two statements: (i) Insertion of an element should be done at the last node in a circular list (ii) Deletion of an element should be done at the last node of the circular list",
+        "options": [
+          "A. Both are true",
+          "B. Both are false",
+          "C. First is false and second is true",
+          "D. None of the above"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 70,
+        "question": "In a doubly linked list, the number of pointers affected for an insertion operation will be",
+        "options": [
+          "A. 5",
+          "B. 0",
+          "C. 1",
+          "D. None of these"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 71,
+        "question": "The recurrence relation that arises in relation with the complexity of binary search is:",
+        "options": [
+          "A. T(n) = 2T(n/ 2) + k , where k is constant",
+          "B. T(n) = T(n / 2) + k , where k is constant",
+          "C. T(n) = T(n / 2) + log n",
+          "D. T(n) = T(n / 2) + n"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 72,
+        "question": "Which of the following data structure is useful in traversing a given graph by breadth first search?",
+        "options": [
+          "A. Stack",
+          "B. List",
+          "C. Queue",
+          "D. None of the above."
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 73,
+        "question": "The output of a lexical analyzer is",
+        "options": [
+          "A. A parse tree",
+          "B. Intermediate code",
+          "C. Machine code",
+          "D. A stream of tokens"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 74,
+        "question": "A B-Tree used as an index for a large database table has four levels including the root node. If a new key is inserted in this index, then the maximum number of nodes that could be newly created in the process are",
+        "options": [
+          "A. 5",
+          "B. 4",
+          "C. 1",
+          "D. 2"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 75,
+        "question": "Choose the equivalent prefix form of the following expression (a + (b − c))* ((d − e)/(f + g − h))",
+        "options": [
+          "A. * +a − bc /− de − +fgh",
+          "B. * +a −bc − /de − +fgh",
+          "C. * +a − bc /− ed + −fgh",
+          "D. * +ab − c /− ed + −fgh"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 76,
+        "question": "Consider the following tree\n\nIf the post order traversal gives ab-cd*+ then the label of the nodes 1,2,3,… will be",
+        "options": [
+          "A. +,-,*,a,b,c,d",
+          "B. a,-,b,+,c,*,d",
+          "C. a,b,c,d,-,*,+",
+          "D. -,a,b,+,*,c,d"
+        ],
+        "answer": "A",
+        "image": "tree_q76.png"
+      },
+      {
+        "id": 77,
+        "question": "XPath is used to navigate through elements and attributes in",
+        "options": [
+          "A. XSL document",
+          "B. XML document",
+          "C. XHTML document",
+          "D. XQuery document"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 78,
+        "question": "Choose the most appropriate HTML tag in the following to create a numbered lists.",
+        "options": [
+          "A. < dl >",
+          "B. < ul >",
+          "C. < li >",
+          "D. < ol >"
+        ],
+        "answer": "D"
+      }
+    ]
+  }

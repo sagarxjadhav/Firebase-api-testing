@@ -1,0 +1,864 @@
+{
+    "exam": "ISRO CS 2013",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the right way to declare a copy constructor of a class if the name of the class is MyClass?",
+        "options": [
+          "MyClass (constant MyClass *arg)",
+          "MyClass (constant MyClass &arg)",
+          "MyClass (MyClass arg)",
+          "MyClass (MyClass *arg)"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following strategy is employed for overcoming the priority inversion problem?",
+        "options": [
+          "Temporarily raise the priority of lower priority level process",
+          "Have a fixed priority level scheme",
+          "Implement kernel pre-emption scheme",
+          "Allow lower priority process to complete its job"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "question": "The state of a process after it encounters an I/O instruction is",
+        "options": [
+          "ready",
+          "blocked",
+          "idle",
+          "running"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "question": "A starvation free job scheduling policy guarantees that no job indefinitely waits for a service. Which of the following job scheduling policies is starvation free?",
+        "options": [
+          "Priority queuing",
+          "Shortest Job First",
+          "Youngest Job First",
+          "Round robin"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 5,
+        "question": "A CPU scheduling algorithm determines an order for the execution of its scheduled processes. Given 'n' processes to be scheduled on one processor, how many possible different schedules are there?",
+        "options": [
+          "n",
+          "n^2",
+          "n!",
+          "2^n"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "question": "Consider the following set of processes, with arrival times and the required CPU-burst times given in milliseconds.\n\nProcess  Arrival Time  Burst Time\n   P1        0             4\n   P2        2             2\n   P3        3             1\nWhat is the sequence in which the processes are completed? Assume round robin scheduling with a time quantum of 2 milliseconds",
+        "options": [
+          "P1, P2, P3",
+          "P2, P1, P3",
+          "P3, P2, P1",
+          "P2, P3, P1"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 7,
+        "question": "In the Ethernet, which field is actually added at the physical layer and is not part of the frame",
+        "options": [
+          "preamble",
+          "CRC",
+          "address",
+          "location"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "question": "What will be the efficiency of a Stop and Wait protocol, if the transmission time for a frame is 20ns and the propagation time is 30ns?",
+        "options": [
+          "20%",
+          "25%",
+          "40%",
+          "66%"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "question": "If the frame to be transmitted is 1101011011 and the CRC polynomial to be used for generating checksum is x^4 + x + 1, then what is the transmitted frame?",
+        "options": [
+          "11010110111011",
+          "11010110111101",
+          "11010110111110",
+          "11010110111001"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "question": "Ethernet layer-2 switch is a network element type which gives",
+        "options": [
+          "different collision domain and same broadcast domain",
+          "different collision domain and different broadcast domain",
+          "same collision domain and same broadcast domain",
+          "same collision domain and different broadcast domain"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 11,
+        "question": "How many check bits are required for 16 bit data word to detect 2 bit errors and single bit correction using hamming code?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "question": "Let A(1:8, -5:5, -10:5) be a three dimensional array. How many elements are there in the array A?",
+        "options": [
+          "1200",
+          "1408",
+          "33",
+          "1050"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 13,
+        "question": "In an array of 2N elements that is both 2-ordered and 3-ordered, what is the maximum number of positions that an element can be from its position if the array were 1-ordered?",
+        "options": [
+          "1",
+          "2",
+          "N/2",
+          "2N-1"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "question": "Consider the list of page references in the time line as below: 9 6 2 3 4 4 4 4 3 4 4 2 5 8 6 8 5 5 3 2 3 3 9 6 2 7 What is the working set at the penultimate page reference if ∆ is 5?",
+        "options": [
+          "{8,5,3,2,9,6}",
+          "{4,3,6,2,5}",
+          "{3,9,6,2,7}",
+          "{3,9,6,2,7}"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 15,
+        "question": "In a 64-bit machine, with 2 GB RAM, and 8 KB page size, how many entries will be there in the page table if it is inverted?",
+        "options": [
+          "2^18",
+          "2^20",
+          "2^33",
+          "2^51"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "question": "Consider a logical address space of 8 pages of 1024 words each, mapped onto a physical memory of 32 frames. How many bits are there in the physical address and logical address respectively?",
+        "options": [
+          "5, 3",
+          "10, 10",
+          "15, 13",
+          "15, 15"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 17,
+        "question": "Consider the following C code.\n#include <stdio.h>\n#include <math.h>\nvoid main()\n{\n double pi = 3.1415926535;\n int a = 1;\n int i;\n for(i=0; i < 3; i++)\n if(a = cos(pi * i/2) )\n printf(\"%d \",1);\n else printf(\"%d \", 0);\n}",
+        "options": [
+          "000",
+          "010",
+          "101",
+          "111"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 18,
+        "question": "Consider the following pseudocode:\n\nx : integer := 1\ny : integer := 2\nprocedure add\n  x := x + y\n\nprocedure second (P: procedure)\n  x : integer := 2\n  P()\n\nprocedure first\n  y : integer := 3\n  second(add)\n\nfirst()\nwrite_integer (x)\n\nWhat does it print if the language uses dynamic scoping with deep binding?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 19,
+        "question": "In case of a DVD, the speed of data transfer is mentioned in multiples of?",
+        "options": [
+          "150 KB/s",
+          "1.38 MB/s",
+          "300 KB/s",
+          "2.40 MB/s"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 20,
+        "question": "Suppose we have variable logical records of lengths of 5 bytes, 10 bytes, and 25 bytes while the physical block size in disk is 15 bytes. What is the maximum and minimum fragmentation seen in bytes?",
+        "options": [
+          "25 and 5",
+          "15 and 5",
+          "15 and 0",
+          "10 and 5"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 21,
+        "question": "What will be the output of the following program?\n\nclass CustomException extends Exception {\n    public CustomException(String message) {\n        super(message);\n    }\n}\n\npublic class Geeks {\n    public static void main(String[] args) {\n        try {\n            throw new CustomException(\"Custom error occurred\");\n        } catch (CustomException e) {\n            System.out.println(e.getMessage());\n        }\n    }\n}",
+        "options": [
+          "Custom error occurred",
+          "Runtime Exception",
+          "Compilation Error",
+          "No Output"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 22,
+        "question": "Consider the following dependencies and the BOOK table in a relational database design. Determine the normal form of the given relation.\n\nISBN → Title\nISBN → Publisher\nPublisher → Address",
+        "options": [
+          "First Normal Form",
+          "Second Normal Form",
+          "Third Normal Form",
+          "BCNF"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 23,
+        "question": "Consider the following relational schema:\n\nSuppliers (sid:integer, sname:string, saddress:string)\nParts (pid:integer, pname:string, pcolor:string)\nCatalog (sid:integer, pid:integer, pcost:real)\n\nWhat is the result of the following query?\n\n(SELECT Catalog.pid from Suppliers, Catalog\nWHERE Suppliers.sid = Catalog.pid)\nMINUS\n(SELECT Catalog.pid from Suppliers, Catalog\nWHERE Suppliers.sname <> 'sachin' and Suppliers.sid = Catalog.sid)",
+        "options": [
+          "pid of Parts supplied by all except sachin",
+          "pid of Parts supplied only by sachin",
+          "pid of Parts available in catalog supplied by sachin",
+          "pid of Parts available in catalogs supplied by all except sachin"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 24,
+        "question": "Which of the following is the highest isolation level in transaction management?",
+        "options": [
+          "Serializable",
+          "Repeated Read",
+          "Committed Read",
+          "Uncommitted Read"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 25,
+        "question": "Embedded pointer provides",
+        "options": [
+          "a secondary access path",
+          "a physical record key",
+          "an inverted index",
+          "a prime key"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 26,
+        "question": "The physical location of a record determined by a formula that transforms a file key into a record location is",
+        "options": [
+          "Hashed file",
+          "B-Tree file",
+          "Indexed file",
+          "Sequential file"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 27,
+        "question": "Calculate the order of leaf(p_leaf) and non leaf(p) nodes of a B+ tree based on the information given below\nSearch key field = 12 bytes\nRecord pointer = 10 bytes\nBlock pointer = 8 bytes\nBlock size = 1 KB",
+        "options": [
+          "p_leaf = 51 & p = 46",
+          "p_leaf = 47 & p = 52",
+          "p_leaf = 46 & p = 50",
+          "p_leaf = 52 & p = 47"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 28,
+        "question": "Let P(E) denote the probability of the occurrence of event E. If P(A) = 0.5 and P(B) = 1, then the values of P(A/B) and P(B/A) respectively are",
+        "options": [
+          "0.5, 0.25",
+          "0.25, 0.5",
+          "0.5, 1",
+          "1, 0.5"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 29,
+        "question": "The number of elements in the power set of the set {{A,B},C} is",
+        "options": [
+          "7",
+          "8",
+          "3",
+          "4"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 30,
+        "question": "The Gauss-Seidel iterative method can be used to solve which of the following sets?",
+        "options": [
+          "Linear algebraic equations",
+          "Linear and non-linear algebraic equations",
+          "Linear differential equations",
+          "Linear and non-linear differential equations"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 31,
+        "question": "Which logic gate is used to detect overflow in 2's complement arithmetic? ISRO 2013",
+        "options": [
+          "OR gate",
+          "AND gate",
+          "NAND gate",
+          "XOR gate"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 32,
+        "question": "When two BCD numbers 0x14 and 0x08 are added what is the binary representation of the resultant number? ISRO 2013",
+        "options": [
+          "0x22",
+          "0x1c",
+          "0x16",
+          "results in overflow"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 33,
+        "question": "The number 1102 in base 3 is equivalent to 123 in which base system? ISRO 2013",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 34,
+        "question": "The voltage ranges for a logic high and a logic low in RS-232 C standard is",
+        "options": [
+          "Low is 0.0V to 1.8V, High is 2.0V to 5.0V",
+          "Low is -15.0V to -3.0V, High is 3.0V to 15.0V",
+          "Low is 3.0V to 15.0V, High is -3.0V to -15.0V",
+          "Low is 2.0V to 5.0V, High is 0.0V to 1.8V"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 35,
+        "question": "The binary equivalent of the decimal number 42.75 is, ISRO 2013",
+        "options": [
+          "101010.110",
+          "100110.101",
+          "101010.101",
+          "100110.110"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 36,
+        "question": "In a three stage counter, using RS flip flops what will be the value of the counter after giving 9 pulses to its input? Assume that the value of counter before giving any pulses is 1.",
+        "options": [
+          "1",
+          "2",
+          "9",
+          "10"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 37,
+        "question": "How many programmable fuses are required in a PLA which takes 16 inputs and gives 8 outputs? It has to use 8 OR gates and 32 AND gates.",
+        "options": [
+          "1032",
+          "776",
+          "1284",
+          "1536"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 38,
+        "question": "The most simplified form of the boolean function, x (A,B,C,D) = Σ (7,8,9,10,11,12,13,14,15) (expressed in sum of minterms) is? ISRO 2013",
+        "options": [
+          "A + A'BCD",
+          "AB + CD",
+          "A + BCD",
+          "ABC + D"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 39,
+        "question": "Any set of boolean operators that is sufficient to represent all boolean expressions is said to be complete. Which of the following is not complete? ISRO 2013",
+        "options": [
+          "{NOT, OR}",
+          "{NOR}",
+          "{AND, OR}",
+          "{AND, NOT}"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 40,
+        "question": "What are the final states of the DFA generated from the following NFA? , ISRO 2013",
+        "options": [
+          "q0, q1, q2",
+          "[q0, q1], [q0, q2], [ ]",
+          "q0, [q1, q2]",
+          "[q0, q1], q2"
+        ],
+        "answer": "B",
+        "image": "image1.png"
+      },
+      {
+        "id": 41,
+        "question": "What is the least value of the function f(x) = 2x^2 - 8x - 3 in the interval [ 0 , 5] ?",
+        "options": [
+          "-15",
+          "7",
+          "-11",
+          "-3"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 42,
+        "question": "The number of edges in a 'n' vertex complete graph is ?",
+        "options": [
+          "n * (n-1) / 2",
+          "n * (n+1) / 2",
+          "n^2",
+          "n * (n+1)"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 43,
+        "question": "How many diagonals can be drawn by joining the angular points of an octagon?",
+        "options": [
+          "14",
+          "20",
+          "21",
+          "28"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 44,
+        "question": "A particular parallel program computation requires 100 seconds when executed on a single CPU. If 20% of this computation is strictly sequential, then theoretically the best possible elapsed times for this program running on 2 CPUs and 4 CPUs respectively are",
+        "options": [
+          "55 and 45 seconds",
+          "80 and 20 seconds",
+          "75 and 25 seconds",
+          "60 and 40 seconds"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 45,
+        "question": "A processor is fetching instructions at the rate of 1 MIPS. A DMA module is used to transfer characters to RAM from a device transmitting at 9600 bps. How much time will the processor be slowed down due to DMA activity?",
+        "options": [
+          "9.6 ms",
+          "4.8 ms",
+          "2.4 ms",
+          "1.2 ms"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 46,
+        "question": "A pipeline P operating at 400 MHz has a speedup factor of 6 and operating at 70% efficiency. How many stages are there in the pipeline?",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 47,
+        "question": "How much speed do we gain by using the cache, when cache is used 80% of the time? Assume cache is faster than main memory",
+        "options": [
+          "5.27",
+          "2.00",
+          "4.16",
+          "6.09"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 48,
+        "question": "Two eight bit bytes 1100 0011 and 0100 1100 are added. What are the values of the overflow, carry and zero flags respectively, if the arithmetic unit of the CPU uses 2's complement form? ISRO 2013",
+        "options": [
+          "0, 1, 1",
+          "1, 1, 0",
+          "1, 0, 1",
+          "0, 1, 0"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 49,
+        "question": "What is IP class and number of sub-networks if the subnet mask is 255.224.0.0?",
+        "options": [
+          "Class A, 3",
+          "Class A, 8",
+          "Class B, 3",
+          "Class B, 32"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 50,
+        "question": "IPv6 does not support which of the following addressing modes?",
+        "options": [
+          "unicast addressing",
+          "multicast addressing",
+          "broadcast addressing",
+          "anycast addressing"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 51,
+        "question": "The protocol data unit for the transport layer in the internet stack is",
+        "options": [
+          "segment",
+          "message",
+          "datagram",
+          "frame"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 52,
+        "question": "Which algorithm is used to shape the bursty traffic into a fixed rate traffic by averaging the data rate?",
+        "options": [
+          "solid bucket algorithm",
+          "spanning tree algorithm",
+          "hocken helm algorithm",
+          "leaky bucket algorithm"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 53,
+        "question": "If the frame buffer has 8 bits per pixel and 8 bits are allocated for each of the R, G, B components, what would be the size of the lookup table?",
+        "options": [
+          "24 bytes",
+          "1024 bytes",
+          "768 bytes",
+          "256 bytes"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 54,
+        "question": "What is the maximum number of characters (7 bits + parity ) that can be transmitted in a second on a 19.2 kbps line. This asynchronous transmission requires 1 start bit and 1 stop bit.",
+        "options": [
+          "192",
+          "240",
+          "1920",
+          "1966"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 55,
+        "question": "Which of the following is not provided as a service in cloud computing?",
+        "options": [
+          "Infrastructure as a service",
+          "Architecture as a service",
+          "Software as a service",
+          "Platform as a service"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 56,
+        "question": "A packet filtering firewall can",
+        "options": [
+          "deny certain users from accessing a service",
+          "block worms and viruses from entering the network",
+          "disallow some files from being accessed through FTP",
+          "block some hosts from accessing the network"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 57,
+        "question": "If a program P calls two subprograms P1 and P2 and P1 can fail 50% of the time and P2 can fail 40% of the time, what is the failure rate of program P",
+        "options": [
+          "50%",
+          "60%",
+          "70%",
+          "10%"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 58,
+        "question": "Which of the following testing methods uses fault simulation technique?",
+        "options": [
+          "unit testing",
+          "beta testing",
+          "stress testing",
+          "mutation testing"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 59,
+        "question": "What is the cyclomatic complexity of a module which has seventeen edges and thirteen nodes?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 60,
+        "question": "Which of the following types of coupling has the weakest coupling?",
+        "options": [
+          "Pathological coupling",
+          "Control coupling",
+          "Data coupling",
+          "Message coupling"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 61,
+        "question": "Which of the following encryption algorithms is based on the Feistel structure?",
+        "options": [
+          "Advanced Encryption Standard",
+          "RSA public key cryptographic algorithm",
+          "Data Encryption Standard",
+          "RC4"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 62,
+        "question": "What is the output of the following Java program?\n\nClass Test\n{\n public static void main (String [] args)\n {\n int x = 0;\n int y = 0;\n for (int z = 0; z < 5; z++)\n {\n if((++x > 2) || (++y > 2))\n {\n x++;\n }\n }\n System.out.println( x + \" \" + y);\n }\n}",
+        "options": [
+          "8 2",
+          "8 5",
+          "8 3",
+          "5 3"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 63,
+        "question": "In 8086, the jump condition for the instruction JNBE is?",
+        "options": [
+          "CF = 0 or ZF = 0",
+          "ZF = 0 and SF = 1",
+          "CF = 0 and ZF = 0",
+          "CF = 0"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 64,
+        "question": "How many number of times the instruction sequence below will loop before coming out of the loop?\n\nA1:  MOV AL, 00H\n     INC AL\n     JNZ A1",
+        "options": [
+          "1",
+          "255",
+          "256",
+          "Will not come out of the loop"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 65,
+        "question": "IEEE 1394 is related to",
+        "options": [
+          "RS-232",
+          "USB",
+          "Firewire",
+          "PCI"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 66,
+        "question": "In 8085 microprocessor, the ISR for handling trap interrupt is at which location?",
+        "options": [
+          "3CH",
+          "34H",
+          "74H",
+          "24H"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 67,
+        "question": "Consider the following process and resource requirement of each process.\n\n                 Type 1        Type 2\nProcess         Used  Max      Used  Max\n   P1            1     2         1    3\n   P2            1     3         1    2\n   P3            2     4         1    4 \nPredict the state of this system, assuming that there are a total of 5 instances of resource type 1 and 4 instances of resource type 2.",
+        "options": [
+          "Can go to safe or unsafe state based on sequence",
+          "Safe state",
+          "Unsafe state",
+          "Deadlock state"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 68,
+        "question": "Which of the following is not a necessary condition for deadlock?",
+        "options": [
+          "Mutual exclusion",
+          "Reentrancy",
+          "Hold and wait",
+          "No pre-emption"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 69,
+        "question": "Opportunistic reasoning is addressed by which of the following knowledge representation",
+        "options": [
+          "Script",
+          "Blackboard",
+          "Production Rules",
+          "Fuzzy Logic"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 70,
+        "question": "Which of the following sorting algorithms has the minimum running time complexity in the best and average case?",
+        "options": [
+          "Insertion sort, Quick sort",
+          "Quick sort, Quick sort",
+          "Quick sort, Insertion sort",
+          "Insertion sort, Insertion sort"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 71,
+        "question": "In which of the following shading models of polygons, the interpolation of intensity values is done along the scan line?",
+        "options": [
+          "Gouraud shading",
+          "Phong shading",
+          "Constant shading",
+          "Flat shading"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 72,
+        "question": "In graphics, the number of vanishing points depends on",
+        "options": [
+          "the number of axes cut by the projection plane",
+          "the centre of projection",
+          "the number of axes which are parallel to the projection plane",
+          "the perspective projections of any set of parallel lines that are not parallel to the projection plane"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 73,
+        "question": "The following steps in a linked list\n\np = getnode()\ninfo (p) = 10\nnext (p) = list\nlist = p\n\nresult in which type of operation?",
+        "options": [
+          "pop operation in stack",
+          "removal of a node",
+          "inserting a node at beginning",
+          "modifying an existing node"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 74,
+        "question": "Which of the following number of nodes can form a full binary tree?",
+        "options": [
+          "8",
+          "15",
+          "14",
+          "13"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 75,
+        "question": "What will be the cipher text produced by the following cipher function for the plain text ISRO with key k =7. [Consider 'A' = 0, 'B' = 1, .......'Z' = 25]. Ck(M) = (kM + 13) mod 26",
+        "options": [
+          "RJCH",
+          "QIBG",
+          "GQPM",
+          "XPIN"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 76,
+        "question": "Which of the following productions eliminate left recursion in the productions given below: S → Aa | b   A → Ac | Sd | ε",
+        "options": [
+          "S → Aa | b   A → bdA'   A' → A'c | A'ba | A | ε",
+          "S → Aa | b   A → A' | bdA',   A' → cA' | adA' | ε",
+          "S → Aa | b   A → A'c | A'd   A' → bdA' | cA | ε",
+          "S → Aa | b   A → cA' | adA' | bdA'   A' → A | ε"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 77,
+        "question": "Shift reduce parsing belongs to a class of",
+        "options": [
+          "bottom up parsing",
+          "top down parsing",
+          "recursive parsing",
+          "predictive parsing"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 78,
+        "question": "The number of rotations required to insert a sequence of elements 9,6,5,8,7,10 into an empty AVL tree is?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "C"
+      }
+    ]
+  }

@@ -1,0 +1,480 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1d2634;
+  color: #9e9ea4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 20px;
+}
+.icon_header {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 26px;
+}
+.icon, .icon_header {
+  margin-right: 5px;
+}
+
+.close_icon {
+  color: red;
+  margin-left: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+    'sidebar header header header'
+    'sidebar main main main';
+  height: 100vh;
+}
+
+/* Header  */
+.header {
+  grid-area: header;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+}
+
+
+.menu-icon {
+  display: none;
+}
+/* End Header  */
+
+/* Sidebar  */
+#sidebar {
+  grid-area: sidebar;
+  height: 100%;
+  background-color: #263043;
+  overflow-y: auto;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.sidebar-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px 0px 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar-title > span {
+  display: none;
+}
+
+.sidebar-brand {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sidebar-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidebar-list-item {
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+}
+
+.sidebar-list-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.sidebar-list-item > a {
+  text-decoration: none;
+  color: #9e9ea4;
+}
+
+.sidebar-responsive {
+  display: inline !important;
+  position: absolute;
+  /*
+    we want the z-index of the sidebar higher so that
+    the charts are not showing over the sidebar 
+    on small screens
+  */
+  z-index: 12 !important;
+}
+
+/* End Sidebar  */
+
+
+/* Main  */  
+.main-container {
+  grid-area: main;
+  overflow-y: auto;
+  padding: 20px 20px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.card:first-child {
+  background-color: #2962ff;
+}
+
+.card:nth-child(2) {
+  background-color: #ff6d00;
+}
+
+.card:nth-child(3) {
+  background-color: #2e7d32;
+}
+
+.card:nth-child(4) {
+  background-color: #d50000;
+}
+
+.card-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-inner > .card_icon {
+  font-size: 25px;
+}
+
+.charts {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 60px;
+  height: 300px;
+}
+
+.chartsShow{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+
+
+.rowData{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+/* End Main  */
+
+
+/* Medium <= 992px */
+  
+@media screen and (max-width: 992px) {
+  .charts{
+    width: 100%;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+      'header'
+      'main';
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline;
+  }
+
+  .sidebar-title > span {
+    display: inline;
+  }
+}
+/* Small <= 768px */
+  
+@media screen and (max-width: 768px) {
+  .main-cards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .charts {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+}
+
+/* Extra Small <= 576px */
+
+@media screen and (max-width: 576px) {
+  .hedaer-left {
+    display: none;
+  }
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ EmployeeTables +++++++++++++++++++++++++++++++++++++++++++++++ */
+.employee-table-container {
+  grid-area: main;
+  overflow-y: auto;
+  padding: 20px 20px;
+  color: rgba(255, 255, 255, 0.95);
+  background-color: black;
+}
+
+/* Heading */
+.employee-table-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff; /* Blue color for the heading */
+}
+
+/* Add Employee Button */
+.add-employee-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-employee-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styling */
+table {
+  width: 100%; /* Table takes up 100% width on desktop */
+  border-collapse: collapse;
+  background-color: #333; /* Dark gray background for the table */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+  border: 1px solid #555; /* Darker border color */
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #444; /* Darker background for headers */
+  color: #fff; /* White text for headers */
+}
+
+tr:nth-child(even) {
+  background-color: #222; /* Alternate row color */
+}
+
+tr:hover {
+  background-color: #444; /* Hover effect for rows */
+}
+
+/* Action Buttons */
+.edit-btn, .delete-btn {
+  padding: 8px 16px; /* Adjusted padding for consistency */
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80px; /* Fixed width for both buttons */
+  text-align: center; /* Center text inside buttons */
+}
+
+.edit-btn {
+  background-color: #28a745; /* Green color for Edit button */
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #dc3545; /* Red color for Delete button */
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.delete-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  table {
+
+    display: inline;
+    overflow-x: auto;
+    max-width: 90%; /* Limit table width on small screens */
+    margin: 0 auto; /* Center the table horizontally */
+  }
+
+
+
+  thead {
+    display: none; /* Hide headers on small screens */
+  }
+
+  tr {
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #555; /* Darker border color */
+    border-radius: 5px;
+  }
+
+  td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: right;
+    border-bottom: 1px solid #555; /* Darker border color */
+  }
+
+  td::before {
+    content: attr(data-label); /* Show column name as label */
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: left;
+    color: #fff; /* White text for labels */
+  }
+
+  td:last-child {
+    border-bottom: none;
+  }
+
+  .edit-btn, .delete-btn {
+    width: 100%; /* Full width on mobile */
+    margin: 5px 0; /* Stack buttons vertically */
+  }
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++ AddEmployee +++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+/* Container for the form */
+.add-employee-container, .update-employee-container {
+  grid-area: main;
+  overflow-y: auto;
+  padding: 20px 20px;
+  color: rgba(255, 255, 255, 0.95);
+  background-color: black;
+}
+
+/* Heading */
+.add-employee-container h1, .update-employee-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff; /* Blue color for the heading */
+}
+
+/* Form styling */
+.add-employee-form, .update-employee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333; /* Dark gray background for the form */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Input fields */
+.add-employee-form input, .update-employee-form input {
+  padding: 10px;
+  border: 1px solid #555; /* Darker border color */
+  border-radius: 5px;
+  background-color: #222; /* Dark background for inputs */
+  color: #fff; /* White text */
+  font-size: 16px;
+}
+
+.add-employee-form input::placeholder, .update-employee-form input::placeholder {
+  color: #888; /* Light gray placeholder text */
+}
+
+/* Error message */
+.error-message {
+  color: #dc3545; /* Red color for error messages */
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Submit button */
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color for the button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Toastify notifications */
+.Toastify__toast {
+  font-family: Arial, sans-serif;
+}
+
+.Toastify__toast--success {
+  background-color: #28a745; /* Green for success messages */
+}
+
+.Toastify__toast--error {
+  background-color: #dc3545; /* Red for error messages */
+}

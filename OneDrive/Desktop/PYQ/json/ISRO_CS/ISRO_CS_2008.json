@@ -1,0 +1,889 @@
+{
+    "exam": "ISRO CS 2008",
+    "questions": [
+      {
+        "id": 1,
+        "question": "With Round-Robin CPU scheduling in a time shared system",
+        "options": [
+          "using very large time slices (quantas) degenerates into FirstCome First served (FCFS) algorithm.",
+          "using extremely small time slices improves performance",
+          "using very small time slices degenerates into Last-In First-Out (LIFO) algorithm.",
+          "using medium sized times slices leads to shortest Request time First (SRTF) algorithm"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following need not necessarily be saved on a context switch between processes?",
+        "options": [
+          "General purpose registers",
+          "Translation look-aside buffer",
+          "Program counter",
+          "All of the above"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "question": "What is the name of the operating system that reads and reacts in terms of operating system?",
+        "options": [
+          "Batch system",
+          "Quick response time",
+          "real time system",
+          "Time sharing system"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following need not necessarily be saved on a Context Switch between processes?",
+        "options": [
+          "General purpose registers",
+          "Translation look-aside buffer",
+          "Program counter",
+          "Stack pointer"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "question": "The performance of Round Robin algorithm depends heavily on",
+        "options": [
+          "size of the process",
+          "the I/O bursts of the process",
+          "the CPU bursts of the process",
+          "the size of the time quantum"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 6,
+        "question": "Fork is",
+        "options": [
+          "the creation of a new job",
+          "the dispatching of a task",
+          "increasing the priority of a task",
+          "the creation of a new process"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 7,
+        "question": "Four jobs to be executed on a single processor system arrive at time 0 in the order A, B, C, D . Their burst CPU time requirements are 4, 1, 8, 1 time units respectively. The completion time of A under round robin scheduling with time slice of one time unit is",
+        "options": [
+          "10",
+          "4",
+          "8",
+          "9"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 8,
+        "question": "Which of the following transmission media is not readily suitable to CSMA operation?",
+        "options": [
+          "Radio",
+          "Optical fibers",
+          "Coaxial cable",
+          "Twisted pair"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "question": "In Ethernet, the source address field in the MAC frame is the _______ address.",
+        "options": [
+          "original sender's physical",
+          "previous station's physical",
+          "next destination's physical",
+          "original sender's service port"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "question": "Which Project 802 standard provides for a collision-free protocol?",
+        "options": [
+          "802.2",
+          "802.3",
+          "802.5",
+          "802.6"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "question": "Assume that each character code consists of 8 bits. The number of characters that can be transmitted per second through an asynchronous serial line at 2400 baud rate, and with two stop bits, is:",
+        "options": [
+          "109",
+          "216",
+          "218",
+          "219"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "question": "Stack A has the entries a, b, c (with a on top). Stack B is empty. An entry popped out of stack A can be printed immediately or pushed to stack B. An entry popped out of the stack B can be only be printed. In this arrangement, which of the following permutations of a, b, c are not possible?",
+        "options": [
+          "b a c",
+          "b c a",
+          "c a b",
+          "a b c"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 13,
+        "question": "Consider a logical address space of 8 pages of 1024 words mapped into memory of 32 frames. How many bits are there in the logical address?",
+        "options": [
+          "13 bits",
+          "15 bits",
+          "14 bits",
+          "12 bits"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 14,
+        "question": "Dynamic address translation",
+        "options": [
+          "is part of the operating system paging algorithm",
+          "is useless when swapping is used",
+          "is the hardware necessary to implement paging",
+          "storage pages at a specific location on disk"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 15,
+        "question": "A critical section is a program segment",
+        "options": [
+          "which should run in a certain amount of time",
+          "which avoids deadlocks",
+          "where shared resources are accessed",
+          "which must be enclosed by a pair of semaphore operations P and V"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 16,
+        "question": "Overlaying",
+        "options": [
+          "requires use of a loader",
+          "allows larger programs, but requires more effort",
+          "is most used on large computers",
+          "is transparent to the user"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 17,
+        "question": "Checkpointing a job",
+        "options": [
+          "allows it to be completed successfully",
+          "allows it to continue executing later",
+          "prepares it for finishing",
+          "occurs only when there is an error in it"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 18,
+        "question": "Dirty bit for a page in a page table",
+        "options": [
+          "helps avoid unnecessary writes on a paging device",
+          "helps maintain LRU information",
+          "allows only read on a page",
+          "None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "question": "Thrashing",
+        "options": [
+          "always occurs on large computers",
+          "is a natural consequence of virtual memory systems",
+          "can always be avoided by swapping",
+          "can be caused by poor paging algorithms"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 20,
+        "question": "The page replacement algorithm which gives the lowest page fault rate is",
+        "options": [
+          "LRU",
+          "FIFO",
+          "Optimal page replacement",
+          "Second chance algorithm"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 21,
+        "question": "Consider the following C function:\n\nint f(int n)\n{\n  static int i = 1;\n  if(n >= 5) return n;\n  n = n+i;\n  i++;\n  return f(n);\n}\nThe value returned by f(1) is",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 22,
+        "question": "Feedback queues",
+        "options": [
+          "are very simple to implement",
+          "dispatch tasks according to execution characteristics",
+          "are used to favour real time tasks",
+          "require manual intervention to implement properly"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 23,
+        "question": "The total time to prepare a disk drive mechanism for a block of data to be read from it is",
+        "options": [
+          "seek time",
+          "latency",
+          "latency plus seek time",
+          "transmission time"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 24,
+        "question": "Which of the following is an example of spooled device?",
+        "options": [
+          "A line printer used to print the output of a number of jobs",
+          "A terminal used to enter input data to a running program",
+          "A secondary storage device in a virtual memory system",
+          "A graphic display device"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 25,
+        "question": "In C, what is the effect of a negative number in a field width specifier?",
+        "options": [
+          "the values are displayed right justified",
+          "the values are displayed centered",
+          "the values are displayed left justified",
+          "the values are displayed as negative numbers"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 26,
+        "question": "Which one of the following algorithm design techniques is used in finding all pairs of shortest distances in a graph?",
+        "options": [
+          "Dynamic programming",
+          "Backtracking",
+          "Greedy",
+          "Divide and Conquer"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 27,
+        "question": "In Java, we can make a class abstract by",
+        "options": [
+          "Declaring it abstract using the abstract keyword.",
+          "Making at least one method final.",
+          "Declaring all methods as static.",
+          "Declaring at least one method as abstract."
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 28,
+        "question": "The join operation can be defined as",
+        "options": [
+          "a cartesian product of two relations followed by a selection",
+          "a cartesian product of two relations",
+          "a union of two relations followed by cartesian product of the two relations",
+          "a union of two relations"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 29,
+        "question": "Raid configurations of the disks are used to provide",
+        "options": [
+          "Fault-tolerance",
+          "High speed",
+          "High data density",
+          "A & B"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 30,
+        "question": "Embedded pointer provides",
+        "options": [
+          "A secondary access path",
+          "A physical record key",
+          "An inverted index",
+          "A primary key"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 31,
+        "question": "If the two matrices\n[1 0 x]\n[0 x 1]\n[0 1 x]\nand\n[x 1 0]\n[x 0 1]\n[0 x 1]\nhave the same determinant, then the value of x is",
+        "options": [
+          "1/2",
+          "√2",
+          "± 1/2",
+          "± 1/√2"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 32,
+        "question": "If a square matrix A satisfies A^T = I, then the matrix, A is",
+        "options": [
+          "Idempotent",
+          "Symmetric",
+          "Orthogonal",
+          "Hermitian"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 33,
+        "question": "The Boolean theorem AB + A'C + BC = AB + A'C corresponds to",
+        "options": [
+          "(A + B) ∙ (A' + C) ∙ (B + C) = (A + B) ∙ (A' + C)",
+          "AB + A'C + BC = AB + BC",
+          "AB + A'C + BC = (A + B) ∙ ( A '+ C) ∙ (B + C)",
+          "(A + B) ∙ (A' + C) ∙ (B + C) = AB + A'C"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 34,
+        "question": "A computer uses 8 digit mantissa and 2 digit exponent. If a = 0.052 and b = 28E + 11 then b + a - b will",
+        "options": [
+          "result in an overflow error",
+          "result in an underflow error",
+          "be 0",
+          "be 5.28 E + 11"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 35,
+        "question": "What is the bandwidth of the signal that ranges from 40 kHz to 4 MHz",
+        "options": [
+          "36 MHz",
+          "360 kHz",
+          "3.96 MHz",
+          "396 kHz"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 36,
+        "question": "Which of the following is termed as minimum error code",
+        "options": [
+          "Binary code",
+          "Gray code",
+          "Excess 3 code",
+          "Octal code"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 37,
+        "question": "In the given network of AND and OR gates, f can be written as",
+        "options": [
+          "X0X1X2…Xn + X1X2…Xn + X2X3…Xn + ⋯ + Xn",
+          "X0X1 + X2X3 + … Xn−1Xn",
+          "X0 + X1 + X2 + ⋯ + Xn",
+          "X0X1 + X3…Xn−1 + X2X3 + X5…Xn−1 + ⋯ + Xn−2Xn−1 + Xn"
+        ],
+        "answer": "A",
+        "image": "image1.png"
+      },
+      {
+        "id": 38,
+        "question": "If N^2 = (7601)_8 where N is a positive integer, then the value of N is",
+        "options": [
+          "(241)_5",
+          "(143)_6",
+          "(165)_7",
+          "(39)_16"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 39,
+        "question": "If (12x)_3 = (123)_x, then the value of x is",
+        "options": [
+          "3",
+          "3 or 4",
+          "2",
+          "None of these"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 40,
+        "question": "The advantage of MOS devices over bipolar devices is that",
+        "options": [
+          "it allows higher bit densities and also cost effective",
+          "it is easy to fabricate",
+          "it is higher-impedance and operational speed",
+          "all of these"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 41,
+        "question": "Which of the following is not a valid rule of XOR?",
+        "options": [
+          "0 XOR 0 = 0",
+          "1 XOR 1 = 1",
+          "1 XOR 0 = 1",
+          "B XOR B = 0"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 42,
+        "question": "The output Y of the given circuit",
+        "options": [
+          "1",
+          "0",
+          "X",
+          "X'"
+        ],
+        "answer": "D",
+        "image": "image2.png"
+      },
+      {
+        "id": 43,
+        "question": "The logic operations of two combinational circuits in Figure-I and Figure-II are",
+        "options": [
+          "entirely different",
+          "identical",
+          "complementary",
+          "dual"
+        ],
+        "answer": "B",
+        "image": "image3.png"
+      },
+      {
+        "id": 44,
+        "question": "In the expression A'(A' + B') by writing the first term A as A + 0, the expression is best simplified as",
+        "options": [
+          "A + AB",
+          "AB",
+          "A'",
+          "A + B"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 45,
+        "question": "The Boolean expression ( A + C')(B'+ C') simplifies to",
+        "options": [
+          "C' + AB'",
+          "C' (A' + B)",
+          "B'C' + AB'",
+          "None of these."
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 46,
+        "question": "How many 2-input multiplexers are required to construct a 2^10 input multiplexer?",
+        "options": [
+          "1023",
+          "31",
+          "10",
+          "127"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 47,
+        "question": "Consider the graph shown in the figure below:",
+        "options": [
+          "a, c, d",
+          "a, b, d",
+          "b, c, d",
+          "a, b, c"
+        ],
+        "answer": "A",
+        "image": "image4.png"
+      },
+      {
+        "id": 48,
+        "question": "The number of distinct simple graphs with up to three nodes is",
+        "options": [
+          "15",
+          "10",
+          "7",
+          "9"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 49,
+        "question": "The maximum number of edges in a n-node undirected graph without self loops is",
+        "options": [
+          "n^2",
+          "n * (n-1)/2",
+          "n - 1",
+          "(n + 1) * n/2"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 50,
+        "question": "The device which is used to connect a peripheral to bus is known as",
+        "options": [
+          "control register",
+          "interface",
+          "communication protocol",
+          "none of these"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 51,
+        "question": "More than one word are put in one cache block to",
+        "options": [
+          "exploit the temporal locality of reference in a program",
+          "exploit the spatial locality of reference in a program",
+          "reduce the miss penalty",
+          "none of these"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 52,
+        "question": "The performance of a pipelined processor suffers if",
+        "options": [
+          "the pipeline stages have different delays",
+          "consecutive instructions are dependent on each other",
+          "the pipeline stages share hardware resources",
+          "All of the above"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 53,
+        "question": "An interrupt in which the external device supplies its address as well as the interrupt requests is known as",
+        "options": [
+          "vectored interrupt",
+          "maskable interrupt",
+          "non-maskable interrupt",
+          "designated interrupt"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 54,
+        "question": "Consider the following Assembly language program\n\nMVIA   30 H\nACI    30 H\nXRA    A\nPOP    H\nAfter the execution of the above program, the contents of the accumulator will be",
+        "options": [
+          "30 H",
+          "60 H",
+          "00 H",
+          "contents of stack"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 55,
+        "question": "Which of the following architecture is/are not suitable for realising SIMD?",
+        "options": [
+          "Vector processor",
+          "Array processor",
+          "Von Neumann",
+          "All of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 56,
+        "question": "The Memory Address Register",
+        "options": [
+          "is a hardware memory device which denotes the location of the current instruction being executed.",
+          "is a group of electrical circuit, that performs the intent of instructions fetched from memory",
+          "contains the address of the memory location that is to be read from or stored into",
+          "contains a copy of the designated memory location specified by the MAR after a \"read\" or the new contents of the memory prior to a \"write\""
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 57,
+        "question": "On a LAN ,where are IP datagrams transported?",
+        "options": [
+          "In the LAN header",
+          "In the application field",
+          "In the information field of the LAN frame",
+          "After the TCP header"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 58,
+        "question": "The TCP sliding window",
+        "options": [
+          "can be used to control the flow of information",
+          "always occurs when the field value is 0",
+          "always occurs when the field value is 1",
+          "occurs horizontally"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 59,
+        "question": "A public key encryption system",
+        "options": [
+          "allows anyone to decode the transmissions",
+          "allows only the correct sender to decode the data",
+          "allows only the correct receiver to decode the data",
+          "does not encode the data before transmitting it"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 60,
+        "question": "What is the value of F(4) using the following procedure:\n\nfunction F(K : integer)\ninteger;\nbegin\nif (k<3) then F:=k \nelse F:=F(k-1)*F(k-2)+F(k-3)\nend;",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 61,
+        "question": "Repeated execution of simple computation may cause compounding of",
+        "options": [
+          "round-off errors",
+          "syntax errors",
+          "run-time errors",
+          "logic errors"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 62,
+        "question": "Consider the following code segment\n\nfor (int k=0; k<20; k=k+2)\n{\n  if (k % 3 == 1)\n    system.out.print(k+ \" \")\n}\nWhat is printed as a result of executing the code segment?",
+        "options": [
+          "4 16",
+          "4 10 16",
+          "0 6 12 18",
+          "1 4 7 10 13 16 19"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 63,
+        "question": "The address space of 8086 CPU is",
+        "options": [
+          "one Megabyte",
+          "256 Kilobytes",
+          "1 K Megabytes",
+          "64 Kilobytes"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 64,
+        "question": "The TRAP is one of the interrupts available in INTEL 8085. Which one of the following statements is true of TRAP ?",
+        "options": [
+          "it is level triggered",
+          "it is negative edge triggered",
+          "it is +ve edge triggered",
+          "it is both +ve and -ve edges triggered"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 65,
+        "question": "In which of the following four necessary conditions for deadlock processes claim exclusive control of the resources they require?",
+        "options": [
+          "no preemption",
+          "mutual exclusion",
+          "circular wait",
+          "hold and wait"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 66,
+        "question": "The network 198.78.41.0 is a",
+        "options": [
+          "Class A network",
+          "Class B network",
+          "Class C network",
+          "Class D network"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 67,
+        "question": "The subnet mask 255.255.255.192",
+        "options": [
+          "extends the network portion to 16 bits",
+          "extends the network portion to 26 bits",
+          "extends the network portion to 36 bits",
+          "has no effect on the network portion of an IP address"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 68,
+        "question": "How many comparisons are needed to sort an array of length 5 if a straight selection sort is used and array is already in the opposite order?",
+        "options": [
+          "1",
+          "5",
+          "10",
+          "20"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 69,
+        "question": "The term Phong associated with",
+        "options": [
+          "Ray tracing",
+          "shading",
+          "Hiddenline removal",
+          "a game"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 70,
+        "question": "Consider the grammar\n\nS → ABc ∣ bc\nBb → bb\nAb → ab\nAa → aa\n\nWhich of the following sentences can be derived by this grammar? , ISRO 2008",
+        "options": [
+          "abc",
+          "aab",
+          "abcc",
+          "abbc"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 71,
+        "question": "The minimum number of fields with each node of doubly linked list is",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 72,
+        "question": "The time required to search an element in a linked list of length n is",
+        "options": [
+          "O (log n)",
+          "O (n)",
+          "O (1)",
+          "O (n^2)"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 73,
+        "question": "Which of the following operations is performed more efficiently by doubly linked list than by linear linked list?",
+        "options": [
+          "Deleting a node whose location is given",
+          "Searching an unsorted list for a given item",
+          "Inserting a node after the node with a given location",
+          "Traversing the list to process each node"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 74,
+        "question": "In DNA sequence alignment, which string-matching algorithm is commonly used to identify similarities between two DNA sequences efficiently?",
+        "options": [
+          "Rabin-Karp algorithm",
+          "Knuth-Morris-Pratt algorithm",
+          "Z function",
+          "None of the above"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 75,
+        "question": "A complete binary tree with the property that the value at each node is as least as large as the values at its children is known as",
+        "options": [
+          "Binary search tree",
+          "AVL tree",
+          "Completely balanced tree",
+          "Heap"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 76,
+        "question": "Which of the following correctly declares an array?",
+        "options": [
+          "int geeks[20];",
+          "int geeks;",
+          "geeks{20};",
+          "array geeks[20];"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 77,
+        "question": "Which of the following class of statement usually produces no executable code when compiled?",
+        "options": [
+          "declaration",
+          "assignment statements",
+          "input and output statements",
+          "structural statements"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 78,
+        "question": "In a resident OS computer, which of the following systems must reside in the main memory under all situations?",
+        "options": [
+          "Assembler",
+          "Linker",
+          "Loader",
+          "Compiler"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 79,
+        "question": "Relative to the program translated by a compiler, the same program when interpreted runs",
+        "options": [
+          "Faster",
+          "Slower",
+          "At the same speed",
+          "May be faster or slower"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 80,
+        "question": "The ability to temporarily halt the CPU and use this time to send information on buses is called",
+        "options": [
+          "direct memory access",
+          "vectoring the interrupt",
+          "polling",
+          "cycle stealing"
+        ],
+        "answer": "D"
+      }
+    ]
+  }

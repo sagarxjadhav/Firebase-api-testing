@@ -1,0 +1,874 @@
+{
+    "exam": "ISRO Previous Year Questions",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Consider three CPU intensive processes, which require 10, 20, 30 units and arrive at times 0, 2, 6 respectively. How many context switches are needed if shortest remaining time first is implemented? Context switch at 0 is included but context switch at end is ignored",
+        "options": [
+          "A. 1",
+          "B. 2",
+          "C. 3",
+          "D. 4"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 2,
+        "question": "A process executes the following code\n\nfor (i = 0; i < n; i++) fork( ); \nThe total number of child processes created are",
+        "options": [
+          "A. n2",
+          "B. 2n+1 -1",
+          "C. 2n",
+          "D. 2n -1"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "question": "Which of the following is false?",
+        "options": [
+          "A. User level threads are not scheduled by the kernel",
+          "B. Context switching between user level threads is faster than context switching between kernel level threads",
+          "C. When a user thread is blocked all other threads of its processes are blocked",
+          "D. Kernel level threads cannot utilize multiprocessor systems by splitting threads on different processors or cores"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 4,
+        "question": "Assume that Source S and Destination D are connected through an intermediate router R. How many times a packet has to visit the network layer and data link layer during a transmission from S to D?",
+        "options": [
+          "A. Network layer – 4 times, Data link layer – 4 times",
+          "B. Network layer – 4 times, Data link layer – 6 times",
+          "C. Network layer – 2 times, Data link layer – 4 times",
+          "D. Network layer – 3 times, Data link layer – 4 times"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 5,
+        "question": "Which of the following permutation can be obtained in the same order using a stack assuming that input is the sequence 5, 6, 7, 8, 9 in that order?",
+        "options": [
+          "A. 7, 8, 9, 5, 6",
+          "B. 5, 9, 6, 7, 8",
+          "C. 7, 8, 9, 6, 5",
+          "D. 9, 8, 7, 5, 6"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "question": "The minimum number of stacks needed to implement a queue is",
+        "options": [
+          "A. 3",
+          "B. 1",
+          "C. 2",
+          "D. 4"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 7,
+        "question": "Consider the program\n\nvoid function(int n) {\nint i, j, count=0;\nfor (i=n/2; i <= n; i++)\nfor (j = 1; j <= n; j = j*2)\ncount++;}\nThe complexity of the program is",
+        "options": [
+          "A. O(log n)",
+          "B. O(n2)",
+          "C. O(n2 log n)",
+          "D. O(n log n)"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 8,
+        "question": "Consider the recurrence equation\n\nT(n) = 2T(n-1), if n>0\n     = 1, otherwise\nThen T(n) is (in big O order)",
+        "options": [
+          "A. O(n)",
+          "B. O(2n)",
+          "C. O(1)",
+          "D. O(log n)"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "question": "A sorting technique is called stable if",
+        "options": [
+          "A. If it takes O(n log n) time",
+          "B. It uses divide and conquer technique",
+          "C. Relative order of occurrence of non-distinct elements is maintained",
+          "D. It takes O(n) space"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 10,
+        "question": "Quick sort is run on 2 inputs shown below to sort in ascending order\n\nA. 1, 2, 3……n\nB. n, n – 1, n – 2 …… 1\nLet C1 and C2 be the number of comparisons made for A and B respectively. Then",
+        "options": [
+          "A. C1 > C2",
+          "B. C1 = C2",
+          "C. C1 < C2",
+          "D. Cannot say anything for arbitrary n"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 11,
+        "question": "Consider the following table\n\nA. Activation record\tp. Linking loader\nB. Location counter\tq. Garbage collection\nC. Reference counts\tr. Subroutine call\nD. Address relocation\ts. Assembler\nMatching A, B, C, D in the same order gives :",
+        "options": [
+          "A. p, q, r, s",
+          "B. q, r, s, p",
+          "C. r, s, q, p",
+          "D. r, s, p, q"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 12,
+        "question": "In designing a computer’s cache system, the cache block (or cache line) size is an important parameter. Which one of the following statements is correct in this context?",
+        "options": [
+          "A. Smaller block size incurs lower cache miss penalty",
+          "B. Smaller block size implies better spatial locality",
+          "C. Smaller block size implies smaller cache tag",
+          "D. Smaller block size implies lower cache hit time"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 13,
+        "question": "A counting semaphore was initialized to 7. Then 20 P (wait) operations and x V (signal) operations were completed on this semaphore. If the final value of semaphore is 5, then the value x will be",
+        "options": [
+          "A. 0",
+          "B. 13",
+          "C. 18",
+          "D. 5"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 14,
+        "question": "Consider the function\n\nint fun(x: integer)\n{\nIf x > 100 then fun = x – 10;\nelse\nfun = fun(fun(x + 11));\n}\nFor the input x = 95, the function will return",
+        "options": [
+          "A. 89",
+          "B. 90",
+          "C. 91",
+          "D. 92"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 15,
+        "question": "Consider the function\n\nint func(int num) {\nint count = 0;\nwhile(num) {\ncount++;\nnum >>= 1;\n}\nreturn(count) ;\n}\nFor func(435) the value returned is",
+        "options": [
+          "A. 9",
+          "B. 8",
+          "C. 0",
+          "D. 10"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "question": "Which languages necessarily need heap allocation in the run time environment?",
+        "options": [
+          "A. Those that support recursion",
+          "B. Those that use dynamic scoping",
+          "C. Those that use global variables",
+          "D. Those that allow dynamic data structures"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 17,
+        "question": "Consider a disk sequence with 100 cylinders. The request to access the cylinder occur in the following sequence : 4, 34, 10, 7, 19, 73, 2, 15, 6, 20 Assuming that the head is currently at cylinder 50, what is the time taken to satisfy all requests if it takes 2 ms to move from one cylinder to adjacent one and shortest seek time first policy is used?",
+        "options": [
+          "A. 190",
+          "B. 238",
+          "C. 233",
+          "D. 276"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 18,
+        "question": "A system uses FIFO policy for page replacement. It has 4 page frames with no pages loaded to begin with. The system first accesses 50 distinct pages in some order and then accesses the same 50 pages in reverse order. How many page faults will occur?",
+        "options": [
+          "A. 96",
+          "B. 100",
+          "C. 97",
+          "D. 92"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 19,
+        "question": "A virtual memory system uses FIFO page replacement policy and allocates a fixed number of frames to the process. Consider the following statements M : Increasing the number of page frames allocated to a process sometimes increases the page fault rate N : Some programs do not exhibit locality of reference Which one of the following is true?",
+        "options": [
+          "A. Both M and N are true and N is the reason for M",
+          "B. Both M and N are true and N is not the reason for M",
+          "C. Both M and N are false",
+          "D. M is false, but N is true"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "question": "Match the following and choose the correct answer for the order A, B, C, D\n\nA. Strassen matrix multiplication\tp. Decrease and Conquer\nB. Insertion sort\tq. Dynamic Programming\nC. Guassian Elimination\tr. Divide and Conquer\nD. Floyd shortest path algorithm\ts. Transform and Conquer",
+        "options": [
+          "A. r, s, p, q",
+          "B. r, p, s, q",
+          "C. q, s, p, r",
+          "D. s, p, q, r"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 21,
+        "question": "Match the following and choose the correct answer in the order A, B, C\n\nA. Heap Construction\tp. O(n log n)\nB. Hash table construction with linear probing\tq. O(n2)\nC. AVL Tree construction\tr. O(n)\n(Bounds given may or may not be asymptotically tight)",
+        "options": [
+          "A. q, r, p",
+          "B. p, q, r",
+          "C. q, p, r",
+          "D. r, q, p"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 22,
+        "question": "Consider the following C function\n\n#include <stdio.h>\nint main(void)\n   {\n    char c[ ] = \"ICRBCSIT17\";\n    char *p=c;\n    printf(\"%s\", c+2[p] – 6[p] – 1);\n    return 0;\n   }\nThe output of the program is",
+        "options": [
+          "A. SI",
+          "B. IT",
+          "C. TI",
+          "D. 17"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 23,
+        "question": "Type IV JDBC driver is a driver",
+        "options": [
+          "A. which is written in C++",
+          "B. which requires an intermediate layer",
+          "C. which communicates through Java sockets",
+          "D. which translates JDBC function calls into API not native to DBMS"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 24,
+        "question": "Consider the following schema :\n\nSailors (sid, sname, rating, age)\nBoats (bid, bname, colour)\nReserves (sid, bid, day)\nTwo boats can have the same name but the colour differentiates them. The two relations\n\nρ (Tempsids, (Ⲡ  sid, bid  Reserves)/(Ⲡ bid ( σ bname ='Ganga' Boats))),\n<tool_call> sname (Tempsids ⋈ Sailors)\nIf / is division operation, the above set of relations represents the query",
+        "options": [
+          "A. Names of sailors who have reserved all boats called Ganga",
+          "B. Names of sailors who have not reserved any Gangaboat",
+          "C. Names of sailors who have reserved at least one Gangaboat",
+          "D. Names of sailors who have reserved at most one Ganga boat"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 25,
+        "question": "Consider the following table : Faculty (facName, dept, office, rank, dateHired)\n\nfacName\tdept\toffice\trank\tdateHired\nRavi\tArt\tA101\tProfessor\t1975\nMurali\tMath\tM201\tAssistant\t2000\nNarayanan\tArt\tA101\tAssociate\t1992\nLakshmi\tMath\tM201\tProfessor\t1982\nMohan\tCSC\tC101\tProfessor\t1980\nLakshmi\tMath\tM201\tProfessor\t1982\nSreeni\tMath\tM203\tAssociate\t1990\nTanuja\tCSC\tC101\tInstructor\t2001\nGanesh\tCSC\tC105\tAssociate\t1995\n(Assume that no faculty member within a single department has same name. Each faculty member has only one office identified in\n\noffice\n). 3NF refers to third normal form and BCNF refers to Boyee-Codd Normal Form Then Faculty is",
+        "options": [
+          "A. Not in 3NF, in BCNF",
+          "B. In 3NF, not in BCNF",
+          "C. In 3NF, in BCNF",
+          "D. Not in 3NF, not in BCNF"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 26,
+        "question": "Consider the schema Sailors(sid, sname, rating, age) with the following data\n\nsid\tsname\trating\tage\n22\tDustin\t7\t45\n29\tBorg\t1\t33\n31\tPathy\t8\t55\n32\tRobert\t8\t25\n58\tRaghu\t10\t17\n64\tHerald\t7\t35\n71\tVishnu\t10\t16\n74\tKing\t9\t35\n85\tArcher\t3\t26\n84\tBob\t3\t64\n96\tFlinch\t3\t17\nFor the query\n\nSELECT S.rating, AVG(S.age) AS avgage FROM Sailors S\nWhere S.age >= 18\nGROUP BY S.rating\nHAVING 1 < (SELECT COUNT(*) FROM Sailors S2 where S.rating = S2.rating)\nThe number of rows returned is",
+        "options": [
+          "A. 6",
+          "B. 5",
+          "C. 4",
+          "D. 3"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 27,
+        "question": "Which of the following related to snowflake schema is true?",
+        "options": [
+          "A. Each dimension is represented by a single dimensional table",
+          "B. Maintenance efforts are less",
+          "C. Dimension tables are normalised",
+          "D. It is not an extension of star schema"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 28,
+        "question": "Consider a table that describes the customers :\n\nCustomers(custid, name, gender, rating)\nThe\n\nrating\n\nvalue is an integer in the range 1 to 5 and only two values (male and female) are recorded for gender. Consider the query “how many male customers have a rating of 5”? The best indexing mechanism appropriate for the query is",
+        "options": [
+          "A. Linear hashing",
+          "B. Extendible hashing",
+          "C. B+ Tree",
+          "D. Bit-mapped hashing"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 29,
+        "question": "Consider the following query :\n\nSELECT E.eno, COUNT(*)\nFROM Employees E\nGROUP BY E.eno\nIf an index on\n\neno\n\nis available, the query can be answered by scanning only the index if",
+        "options": [
+          "A. the index is only hash and clustered",
+          "B. the index is only B+tree and clustered",
+          "C. index can be hash or B+ tree and clustered or non-clustered",
+          "D. index can be hash or B+ tree and clustered"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 30,
+        "question": "A bag contains 19 red balls and 19 black balls. Two balls are removed at a time repeatedly and discarded if they are of the same colour, but if they are different, black ball is discarded and red ball is returned to the bag. The probability that this process will terminate with one red ball is",
+        "options": [
+          "A. 1",
+          "B. 1/21",
+          "C. 0",
+          "D. 0.5"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 31,
+        "question": "Suppose A is a finite set with n elements. The number of elements and the rank of the largest equivalence relation on A are",
+        "options": [
+          "A. {n,1}",
+          "B. {n, n}",
+          "C. {n2, 1}",
+          "D. {1, n2}"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 32,
+        "question": "The function f: [0,3]→[1,29] defined by f(x) = 2x3 - 15x2 + 36x + 1 is",
+        "options": [
+          "A. injective and surjective",
+          "B. surjective but not injective",
+          "C. injective but not surjective",
+          "D. neither injective nor surjective"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 33,
+        "question": "The number of elements in the power set of { {1, 2}, {2, 1, 1}, {2, 1, 1, 2} } is",
+        "options": [
+          "A. 3",
+          "B. 8",
+          "C. 4",
+          "D. 2"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 34,
+        "question": "Let f(x) = log|x| and g(x) = sin x . If A is the range of f(g(x)) and B is the range of g(f(x)) then A ∩ B is",
+        "options": [
+          "A. [-1, 0]",
+          "B. [-1, 0)",
+          "C. [-∞, 0]",
+          "D. [-∞,1]"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 35,
+        "question": "Consider the set of integers I. Let D denote “divides with an integer quotient” (e.g. 4D8 but 4D7). Then D is",
+        "options": [
+          "A. Reflexive, not symmetric, transitive",
+          "B. Not reflexive, not antisymmetric, transitive",
+          "C. Reflexive, antisymmetric, transitive",
+          "D. Not reflexive, not antisymmetric, not transitive"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 36,
+        "question": "If log(base a) 2 = x and log(base a) 8 = y, what is the value of log(base a) 16?",
+        "options": [
+          "A. 2x + y",
+          "B. 2x - y",
+          "C. x + y",
+          "D. 4x"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 37,
+        "question": "In a compact one-dimensional array representation for a lower triangular matrix (all elements above the diagonal are zero) of size n x n, non-zero elements of each row are stored one after another, starting from the first row, the index of (i, j)th element in this new representation is",
+        "options": [
+          "A. i + j",
+          "B. (j - 1) + i(i - 1)/2",
+          "C. i + j - 1",
+          "D. i + j(j - 1)/2"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 38,
+        "question": "If C is a skew-symmetric matrix of order n and X is n x 1 column matrix, then XTCX is a",
+        "options": [
+          "A. scalar matrix",
+          "B. null matrix",
+          "C. unit matrix",
+          "D. matrix will all elements 1"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 39,
+        "question": "A computer with 32 bit word size uses 2s complement to represent numbers. The range of integers that can be represented by this computer is",
+        "options": [
+          "A. –232 to 232",
+          "B. –231 to 232-1",
+          "C. –231 to 231-1",
+          "D. –231-1 to 232-1"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 40,
+        "question": "Let M = 11111010 and N = 00001010 be two 8 bit two’s complement number. Their product in two’s complement is",
+        "options": [
+          "A. 11000100",
+          "B. 10011100",
+          "C. 10100101",
+          "D. 11010101"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 41,
+        "question": "Which of the following set of components is sufficient to implement any arbitrary Boolean function? a) XOR gates, NOT gates b) 2 to 1 multiplexers c) AND gates, XOR gates, 1 d) Three-input gates that output (A.B)+C for the inputs A, B and C.",
+        "options": [
+          "A. a and d",
+          "B. b and c",
+          "C. c",
+          "D. All a, b, c and d"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 42,
+        "question": "A 32 bit adder is formed by cascading 4 bit CLA adder. The gate delays (latency) for getting the sum bits is",
+        "options": [
+          "A. 16",
+          "B. 18",
+          "C. 17",
+          "D. 19"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 43,
+        "question": "For Σ={a,b} the regular expression r = (aa)*(bb)*b denotes",
+        "options": [
+          "A. Set of strings with 2 a’s and 2 b’s",
+          "B. Set of strings with 2 a’s 2 b’s followed by b",
+          "C. Set of strings with 2 a’s followed by b’s which is a multiple of 3",
+          "D. Set of strings with even number of a’s followed by odd number of b’s"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 44,
+        "question": "Let L1 be regular language, L2 be a deterministic context free language and L3 a recursively enumerable language, but not recursive. Which one of the following statements is false?",
+        "options": [
+          "A. L3 ∩ L1 is recursive",
+          "B. L1 ∩ L2 ∩ L3 is recursively enumerable",
+          "C. L1 ∪ L2 is context free",
+          "D. L1 ∩ L2 is context free"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 45,
+        "question": "Identify the language generated by the following grammar\n\nS -> AB\n A -> aAb|ϵ\n B -> bB| b",
+        "options": [
+          "A. {ambn | n>=m, m>0}",
+          "B. {ambn | n>=m, m>=0}",
+          "C. {ambn | n>m, m>0}",
+          "D. {ambn | n>m, m>=0}"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 46,
+        "question": "Consider the grammar with productions\n\nS → aSb | SS | ϵ\nThis grammar is",
+        "options": [
+          "A. not context-free, not linear",
+          "B. not context-free, linear",
+          "C. context-free, not linear",
+          "D. context free, linear"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 47,
+        "question": "Which of the following are context free?\n\nA = {anbnambm | m, n>=0}\nB = {ambnambn | m, n>=0}\nC = {ambn | m≠2n,m, n>=0}",
+        "options": [
+          "A. A and B only",
+          "B. A and C only",
+          "C. B and C only",
+          "D. C only"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 48,
+        "question": "Let L = {ap | p is a prime}. Then which of the following is true?",
+        "options": [
+          "A. It is not accepted by a Turing Machine",
+          "B. It is regular but not context free",
+          "C. It is context free but not regular",
+          "D. It is neither regular nor context free, but accepted by a Turing Machine"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 49,
+        "question": "Let S be an NP-complete problem. Q and R are other two problems not known to be NP. Q is polynomial time reducible to S and S is polynomial time reducible to R. Which of the following statements is true?",
+        "options": [
+          "A. R is NP-complete",
+          "B. R is NP-hard",
+          "C. Q is NP-complete",
+          "D. Q is NP-hard"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 50,
+        "question": "If x = -1 and x = 2 are extreme points of f(x) = α log |x| + β x2 + x then",
+        "options": [
+          "A. α = -6, β = -1/2",
+          "B. α = 2, β = -1/2",
+          "C. α = 2, β = 1/2",
+          "D. α = -6, β =1/2"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 51,
+        "question": "A two way set associative cache memory unit with a capacity of 16 KB is built using a block size of 8 words. The word length is 32 bits. The physical address space is 4 GB. The number of bits in the TAG, SET fields are",
+        "options": [
+          "A. 20, 7",
+          "B. 19, 8",
+          "C. 20, 8",
+          "D. 21, 9"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 52,
+        "question": "A CPU has a 32 KB direct mapped cache with 128 byte block size. Suppose A is a 2 dimensional array of size 512×512 with elements that occupy 8 bytes each. Consider the code segment\n\nfor (i =0; i < 512; i++) {\n  for (j =0; j < 512; j++) {\n    x += A[i][j];\n  }\n} \nAssuming that array is stored in order A[0][0], A[0][1], A[0][2]……, the number of cache misses is",
+        "options": [
+          "A. 16384",
+          "B. 512",
+          "C. 2048",
+          "D. 1024"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 53,
+        "question": "For a pipelines CPU with a single ALU, consider the following: A. The j + 1st instruction uses the result of jth instruction as an operand B. Conditional jump instruction C. jth and j + 1st instructions require ALU at the same time Which one of the above causes a hazard?",
+        "options": [
+          "A. A and B only",
+          "B. B and C only",
+          "C. B only",
+          "D. A , B and C"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 54,
+        "question": "Consider an instruction of the type LW R1, 20(R2) which during execution reads a 32 bit word from memory and stores it in a 32 bit register R1. The effective address of the memory location is obtained by adding a constant 20 and contents of R2. Which of the following best reflects the addressing mode implemented by this instruction for operand in memory?",
+        "options": [
+          "A. Immediate addressing",
+          "B. Register addressing",
+          "C. Register Indirect addressing",
+          "D. Indexed addressing"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 55,
+        "question": "Generally TCP is reliable and UDP is not reliable. DNS which has to be reliable uses UDP because",
+        "options": [
+          "A. UDP is slower",
+          "B. DNS servers has to keep connections",
+          "C. DNS requests are generally very small and fit well within UDP segments",
+          "D. None of these"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 56,
+        "question": "Station A uses 32 byte packets to transmit messages to Station B using a sliding window protocol. The round trip time delay between A and B is 40 ms and the bottleneck bandwidth on the path A and B is 64 kbps. What is the optimal window size that A should use?",
+        "options": [
+          "A. 5",
+          "B. 10",
+          "C. 40",
+          "D. 80"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 57,
+        "question": "Consider the set of activities related to e-mail A : Send an e-mail from a mail client to mail server B : Download e-mail headers from mail box and retrieve mails from server to a cache C : Checking e-mail through a web browser The application level protocol used for each activity in the same sequence is",
+        "options": [
+          "A. SMTP, HTTPS, IMAP",
+          "B. SMTP, POP, IMAP",
+          "C. SMTP, IMAP, HTTPS",
+          "D. SMTP, IMAP, POP"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 58,
+        "question": "Consider the following :\n\nA. Condition Coverage\tp. Black box testing\nB. Equivalence Class partitioning\tq. System testing\nC. Volume Testing\tr. White box testing\nD. Beta Testing\ts. Performance testing\nMatching A, B, C, D in the same order gives.",
+        "options": [
+          "A. r, p, s, q",
+          "B. p, r, q, s",
+          "C. s, r, q, p",
+          "D. q, r, s, p"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 59,
+        "question": "If T(x) denotes x is a trigonometric function, P(x) denotes x is a periodic function and C(x) denotes x is a continuous function then the statement “It is not the case that some trigonometric functions are not periodic” can be logically represented as",
+        "options": [
+          "A. ¬∃(x) [ T(x) ⋀ ¬P(x) ]",
+          "B. ¬∃(x) [ T(x) ⋁ ¬P(x) ]",
+          "C. ¬∃(x) [ ¬T(x) ⋀ ¬P(x) ]",
+          "D. ¬∃(x) [ T(x) ⋀ P(x) ]"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 60,
+        "question": "The proposition (P⇒Q)⋀(Q⇒P) is a",
+        "options": [
+          "A. tautology",
+          "B. contradiction",
+          "C. contingency",
+          "D. absurdity"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 61,
+        "question": "Using public key cryptography, X adds a digital signature σ to a message M, encrypts (M,σ) and sends it to Y, where it is decrypted. Which one of the following sequence of keys is used for operations?",
+        "options": [
+          "A. Encryption : X’s private key followed by Y’s private key. Decryption : X’s public key followed by Y’s public key.",
+          "B. Encryption : X’s private key followed by Y’s public key; Decryption : X’s public key followed by Y’s private key",
+          "C. Encryption : X’s private key followed by Y’s public key; Decryption : Y’s private key followed by X’s public key.",
+          "D. Encryption : X’s public key followed by Y’s private key; Decryption : Y’s public key followed by X’s private key."
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 62,
+        "question": "Which of the following are used to generate a message digest by the network security protocols? (P) SHA-256 (Q) AES (R) DES (S) MD5",
+        "options": [
+          "A. P and S only",
+          "B. P and Q only",
+          "C. R and S only",
+          "D. P and R only"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 63,
+        "question": "Which one of the following are essential features of object oriented language? A. Abstraction and encapsulation B. Strictly-typed C. Type-safe property coupled with sub-type rule D. Polymorphism in the presence of inheritance",
+        "options": [
+          "A. A and B only",
+          "B. A, D and B only",
+          "C. A and D only",
+          "D. A, C and D only"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 64,
+        "question": "We consider the addition of two 2’s complement numbers bn-1bn-2...b0 and an-1an-2...a0. A binary adder for adding unsigned binary numbers is used to add the two numbers. The sum is denoted by cn-1cn-2...c0 and the carry-out by cout. Which one of the following options correctly identifies the overflow condition?",
+        "options": [
+          "A. A",
+          "B. B",
+          "C. C",
+          "D. D"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 65,
+        "question": "In IEEE floating point representation, the hexadecimal number 0xC0000000 corresponds to",
+        "options": [
+          "A. -3.0",
+          "B. -1.0",
+          "C. -4.0",
+          "D. -2.0"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 66,
+        "question": "Consider the following scheduling\n\nA. Gang scheduling\ts. Guaranteed scheduling\nB. Rate Monotonic scheduling\tt. Thread scheduling\nC. Fair share scheduling\tu. Real time scheduling\nMatching the table in the order A, B, C gives",
+        "options": [
+          "A. t, u, s",
+          "B. s, t, u",
+          "C. u, s, t",
+          "D. u, t, s"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 67,
+        "question": "Which of the following is not true with respect to deadlock prevention and deadlock avoidance schemes?",
+        "options": [
+          "A. In deadlock prevention, the request for resources is always granted if resulting state is safe",
+          "B. In deadlock avoidance, the request for resources is always granted, if the resulting state is safe",
+          "C. Deadlock avoidance requires knowledge of resource requirements a priori",
+          "D. Deadlock prevention is more restrictive than deadlock avoidance"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 68,
+        "question": "In the IPv4 addressing format, the number of networks allowed under Class C addresses is",
+        "options": [
+          "A. 220",
+          "B. 224",
+          "C. 214",
+          "D. 221"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 69,
+        "question": "An Internet Service Provider (ISP) has the following chunk of CIDR-based IP addresses available with it: 245.248.128.0/20. The ISP wants to give half of this chunk of addresses to Organization A, and a quarter to Organization B, while retaining the remaining with itself. Which of the following is a valid allocation of addresses to A and B?",
+        "options": [
+          "A. 245.248.136.0/21 and 245.248.128.0/22",
+          "B. 245.248.128.0/21 and 245.248.128.0/22",
+          "C. 245.248.132.0/22 and 245.248.132.0/21",
+          "D. 245.248.136.0/24 and 245.248.132.0/21"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 70,
+        "question": "Consider the results of a medical experiment that aims to predict whether someone is going to develop myopia based on some physical measurements and heredity. In this case, the input dataset consists of the person’s medical characteristics and the target variable is binary: 1 for those who are likely to develop myopia and 0 for those who aren’t. This can be best classified as",
+        "options": [
+          "A. Regression",
+          "B. Decision Tree",
+          "C. Clustering",
+          "D. Association Rules"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 71,
+        "question": "Which one of the following property is correct for a red-black tree?",
+        "options": [
+          "A. Every simple path from a node to a descendant leaf contains the same number of black nodes",
+          "B. If a node is red, then one children is red and another is black",
+          "C. If a node is red, then both its children are red",
+          "D. Every leaf node (sentinel node) is red"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 72,
+        "question": "What is the maximum height of any AVL tree with 7 nodes? Assume that height of tree with single node is 0.",
+        "options": [
+          "A. 2",
+          "B. 3",
+          "C. 4",
+          "D. 5"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 73,
+        "question": "The in-order and pre-order traversal of a binary tree are d b e a f c g and a b d e c f g respectively. The post order traversal of a binary tree is",
+        "options": [
+          "A. e d b g f c a",
+          "B. e d b f g c a",
+          "C. d e b f g c a",
+          "D. d e f g b c a"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 74,
+        "question": "A strictly binary tree with 10 leaves",
+        "options": [
+          "A. cannot have more than 19 nodes",
+          "B. has exactly 19 nodes",
+          "C. has exactly 17 nodes",
+          "D. has exactly 20 nodes"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 75,
+        "question": "The number of structurally different possible binary trees with 4 nodes is",
+        "options": [
+          "A. 14",
+          "B. 12",
+          "C. 336",
+          "D. 168"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 76,
+        "question": "Suppose the numbers 7, 5, 1, 8, 3, 6, 0, 9, 4, 2 are inserted in that order into an initially empty binary search tree. The binary search tree uses the reversal ordering on natural numbers i.e. 9 is assumed to be smallest and 0 is assumed to be largest. The in-order traversal of the resultant binary search tree is",
+        "options": [
+          "A. 9, 8, 6, 4, 2, 3, 0, 1, 5, 7",
+          "B. 0, 1, 2, 3, 4, 5, 6, 7, 8, 9",
+          "C. 0, 2, 4, 3, 1, 6, 5, 9, 8, 7",
+          "D. 9, 8, 7, 6, 5, 4, 3, 2, 1, 0"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 77,
+        "question": "A binary search tree is used to locate the number 43. Which one of the following probe sequence is not possible?",
+        "options": [
+          "A. 61, 52, 14, 17, 40, 43",
+          "B. 10, 65, 31, 48, 37, 43",
+          "C. 81, 61, 52, 14, 41, 43",
+          "D. 17, 77, 27, 66, 18, 43"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 78,
+        "question": "What is the space used by programs when we use Hashmap in our program?",
+        "options": [
+          "A. O(1)",
+          "B. O(LogN)",
+          "C. O(N)",
+          "D. None"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 79,
+        "question": "Consider the code segment\n\nint i, j, x, y, m, n;\n n=20;\n for (i = 0, i < n; i++)\n  {\n    for (j = 0; j < n; j++)\n     {\n        if (i % 2)\n        {\n         x + = ((4*j) + 5*i);\n         y += (7 + 4*j);\n        }\n     }\n  }\n  m = x + y;\nWhich one of the following is false",
+        "options": [
+          "A. The code contains loop invariant computation",
+          "B. There is scope of common sub-expression elimination in this code",
+          "C. There is scope of strength reduction in this code",
+          "D. There is scope of dead code elimination in this code"
+        ],
+        "answer": "D"
+      }
+    ]
+  }

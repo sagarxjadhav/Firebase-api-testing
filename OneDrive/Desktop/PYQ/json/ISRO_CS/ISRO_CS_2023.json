@@ -1,0 +1,1018 @@
+{
+  "exam": "ISRO CS 2023",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Find the minimum spanning distance and the corresponding number of edges for the following graph",
+      "options": [
+        "10, 3",
+        "11, 4",
+        "15, 4",
+        "28, 7"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "Match the following:\n(A) Floyd Warshall  (i) shortest path between two vertices\n(B) Dijkstra        (ii) single source shortest path\n(C) Kruskal’s       (iii) Minimum spanning tree\n(D) Bellman ford    (iv) solving all pair shortest path",
+      "options": [
+        "(A)-(iii),(B)-(ii),(C)-(iv),(D)-(i)",
+        "(A)-(iv),(B)-(i),(C)-(iii),(D)-(ii)",
+        "(A)-(i),(B)-(ii),(C)-(iii),(D)-(iv)",
+        "(A)-(ii),(B)-(iii),(C)-(i),(D)-(iv)"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Time complexity to find the diameter of a binary tree having n nodes is",
+      "options": [
+        "O(n^2)",
+        "O(n)",
+        "O(1)",
+        "O(log n)"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "The preorder traversal of a binary search tree is (10, 5, 1, 7, 40, 50). The postorder traversal is",
+      "options": [
+        "(1, 5, 7, 10, 40, 50)",
+        "(50, 40, 10, 7, 5, 1)",
+        "(1, 7, 5, 10, 40, 50)",
+        "(1, 5, 7, 50, 40, 10)"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "The minimum number of arithmetic operations required to evaluate the expression f(z) = z^3 + 8z + 12",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "Maximum number of Simple graphs possible with n vertices",
+      "options": [
+        "2^(n(n–1)/2)",
+        "2^((n–1)/2)",
+        "2^(n(n+1)/2)",
+        "2^(n(n+1))"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "Consider the NFA with epsilon-transitions below, which is meant to accept strings corresponding to a lexical token id. Here the token digit corresponds to the extended regular expression [0-9] and letter corresponds to [a-z A-Z]. In the diagram, a small incoming edge indicates a start state while a double circle indicates a final state.\nWhich of the following extended regular expressions corresponds to the token id?",
+      "options": [
+        "letter(letter | digit)*",
+        "(letter | digit)* letter",
+        "(letter | digit)*",
+        "letter(letter* | digit*)"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "question": "Consider the context-free grammar G below for arithmetic expressions:\nE → E + E | E × E | id\nWhich of the following statements is TRUE:",
+      "options": [
+        "The string “id+ id × id” has no parse tree according to G",
+        "The string “id+ id × id” has only one parse tree according to G",
+        "The string “id+ id × id” has exactly two parse trees according to G",
+        "The string “id+ id × id” has more than two parse trees according to G"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following heap memory allocation strategies is likely to exploit spatial locality of memory accesses in a program, the most?",
+      "options": [
+        "Best Fit",
+        "First Fit",
+        "Next Fit",
+        "Last Fit"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "Which sequence below best describes the order in which the phases of a compiler typically work?",
+      "options": [
+        "Syntax analysis, lexical analysis, semantic analysis, code optimization, intermediate code generation",
+        "Lexical analysis, syntax analysis, semantic analysis, code optimization, intermediate code generation",
+        "Syntax analysis, lexical analysis, syntax analysis, semantic analysis, intermediate code generation, code optimization",
+        "Lexical analysis, syntax analysis, semantic analysis, intermediate code generation, code optimization"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 11,
+      "question": "In the context of parsing techniques, LL(1) refers to:",
+      "options": [
+        "Grammars that parse the input from left to right, produce a rightmost derivation, with a lookahead of 1 symbol.",
+        "Grammars that parse the input from left to right, produce a leftmost derivation, with a lookahead of 1 symbol.",
+        "Grammars that parse the input from left to right, and backtrack at most once.",
+        "Grammars that parse the input from right to left, produce a leftmost derivation, and backtrack at most once."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "A host in one organisation is connected to another host in other organisation using 1 Gbps link with 25m sec RTT. Network administrator of this network tuned the packet size to 1000 bytes to transfer large files optimally over this network. In order to have channel utilisation > 96%, how big window size (in terms of packets) should be (assuming ACK packets have no impact)?",
+      "options": [
+        "2000 packets",
+        "2400 packets",
+        "3000 packets",
+        "4000 packets"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "In a computer network using CSMA/CD, the minimum frame size for data transfer is 1500 bytes. What will be the data transfer speed in this network over 1 Km cable, if the signal speed in the cable is 250000 Km/sec and no repeaters are used in this network?",
+      "options": [
+        "1 Gbps",
+        "100 Mbps",
+        "500 Mbps",
+        "1.5 Gbps"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "question": "For internal data communication through computer network, a 5 layer protocol hierarchy is proposed. Applications to be used in this network generate 270 bytes long messages. At each of the layers, a 6-byte header is added. What fraction of network bandwidth (in%) is wasted due to headers?",
+      "options": [
+        "5%",
+        "20%",
+        "10%",
+        "15%"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "question": "Match the following:\nVersions of 802.11        Speed of Wireless LAN\n(i) 802.11ac                (P) 7 Gbps\n(ii) 802.11 a/g             (Q) 11 Mbps\n(iii) 802.11 ad              (R) 54 Mbps\n(iv) 802.11 b                (S) 3.5 Gbps",
+      "options": [
+        "(i) –(S),(ii) –(R),(iii) –(P),(iv) –(Q)",
+        "(i) –(S),(ii) –(R),(iii) –(Q),(iv) –(P)",
+        "(i) –(R),(ii) –(S),(iii) –(P),(iv) –(Q)",
+        "(i) –(R),(ii) –(Q),(iii) –(P),(iv) –(S)"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is true?",
+      "options": [
+        "Both Parity and Cyclic Redundancy Check are error correcting codes",
+        "Both Parity and Low Density Parity Check Code are error correcting codes",
+        "Both Reed-Solomon code and Low Density Parity Check Code are error correcting codes",
+        "Both Cyclic Redundancy Check and Low Density Parity Check Code are error correcting codes"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "In Reverse Polish notation, expression A*B+C*D is written as",
+      "options": [
+        "AB*CD*+",
+        "A*BCD*+",
+        "AB*CD+*",
+        "A*B*CD+"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 18,
+      "question": "In a vectored interrupt",
+      "options": [
+        "The branch address is assigned to a fixed location in memory",
+        "The interrupting source supplies the branch information to the processor",
+        "The branch address is obtained from a register in the processor",
+        "None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "For a given finite number of instructions to be executed, which architecture of the processor provides fastest execution?",
+      "options": [
+        "ANSA – Advanced Network Systems Architecture",
+        "Super-scalar",
+        "ISA – Instruction Set Architecture",
+        "All of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "An instruction pipeline can be implemented by means of",
+      "options": [
+        "LIFO buffer",
+        "FIFO buffer",
+        "Stack",
+        "None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 21,
+      "question": "The operation executed on data stored in registers is called",
+      "options": [
+        "Macro-operation",
+        "Micro-operation",
+        "Bit-operation",
+        "Byte-operation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "Which of the following methods is used to detect double errors?",
+      "options": [
+        "Odd Parity",
+        "Even Parity",
+        "Checksum (CRC)",
+        "Checksum (XOR)"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "The prefix expression is –+abc+d*ef.\nEvaluate the expression for a= 10, b= 2, c= 5, d= 3, e= 4, f= 1",
+      "options": [
+        "3",
+        "4",
+        "10",
+        "6"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 24,
+      "question": "The asymptotic complexity of 4 functions f1, f2, f3, f4 are\nf1(n)= 2^n\nf2(n)= n^(3/2)\nf3(n)= n log n\nf4(n)= n^(log n)\nArrange them in increasing order of complexity",
+      "options": [
+        "f2, f3, f4, f1",
+        "f1, f2, f3, f4",
+        "f3, f2, f4, f1",
+        "f3, f1, f2, f4"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "question": "What is the maximum number of comparisons needed to sort 6 items using radix sort, if each number is a 3-digit decimal number?",
+      "options": [
+        "120",
+        "180",
+        "210",
+        "360"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "question": "What is the Inorder predecessor of 15 in the Binary Search Tree shown below",
+      "options": [
+        "18",
+        "7",
+        "9",
+        "13"
+      ],
+      "answer": "D",
+      "image": "image1.png"
+    },
+    {
+      "id": 27,
+      "question": "Pointer p to an array of integers (of size 2 Bytes) is initialised to 200. What is the value of p+3?",
+      "options": [
+        "206",
+        "203",
+        "212",
+        "204"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "In a priority queue, insertion and deletion can be done at",
+      "options": [
+        "Front",
+        "Back",
+        "Middle",
+        "Any position"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 29,
+      "question": "Worst case time complexity of heap sort for n elements",
+      "options": [
+        "O(n log n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(n)"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 30,
+      "question": "Consider a database table T containing two columns X and Y each of type Integer.\nAfter the creation of the table, one record (X=1, Y=1) is inserted in the table. Let MX and MY denote the respective maximum values of X and Y among all records in the table at any point in time. Using MX and MY, new records are inserted in the table 128 times with X and Y values being MX+1, 2 × MY+1 respectively. It may be noted that each time after the insertion, values of MX and MY change. What will be the output of the following SQL query after the steps mentioned above are carried out?\nSELECT Y FROM T WHERE X=7;",
+      "options": [
+        "127",
+        "15",
+        "129",
+        "257"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "question": "In SQL the statement select* from R, S is equivalent to",
+      "options": [
+        "Select* from R natural join S",
+        "Select* from R cross join S",
+        "Select* from R outer join S",
+        "Select* from R inner join S"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "Which of the following SQL query deletes all tuples in the teacher relation for those teachers associated with a department located in the building with name CSE and which is in department relation:",
+      "options": [
+        "DELETE FROM teacher WHERE dept_name IN 'CSE';",
+        "DELETE FROM department WHERE building='CSE';",
+        "DELETE FROM teacher WHERE dept_name IN (SELECT dept_name FROM department WHERE building = ’CSE’);",
+        "None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 33,
+      "question": "Amongst the ACID properties of a transaction, the 'Durability' property requires that the changes made to the database by a successful transaction persist",
+      "options": [
+        "Except in case of an operating system crash",
+        "Except in case of a disk crash",
+        "Except in case of a power failure",
+        "Always, even if there is a failure of any kind"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 34,
+      "question": "Fifth Normal form is concerned with",
+      "options": [
+        "Join dependency",
+        "Domain-key",
+        "Multivalued dependency",
+        "Functional dependency"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 35,
+      "question": "Which of the following definitions is true\n(i) A digital multiplexer takes one input from many inputs and outputs the selected one\n(ii) Four select lines are required for 1-16 demultiplexer\n(iii) Eight OR gates are required to implement an octal to binary encoder",
+      "options": [
+        "(i) and (ii)",
+        "(ii) and (iii)",
+        "(i) alone",
+        "none of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "The time delay obtained through an 8 bit serial register with 400 MHz clock is:",
+      "options": [
+        "20 ns",
+        "2.5 µs",
+        "20 µs",
+        "2.5 ns"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "A full adder circuit requires",
+      "options": [
+        "two inputs and two outputs",
+        "two inputs and three outputs",
+        "three inputs and two outputs",
+        "three inputs and one output"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "The logical operation of the following circuit is",
+      "options": [
+        "XOR",
+        "NAND",
+        "AND",
+        "OR"
+      ],
+      "answer": "A",
+      "image": "image2.png"
+    },
+    {
+      "id": 39,
+      "question": "A logic circuit that provides a LOW output when both inputs are HIGH or both inputs are LOW is",
+      "options": [
+        "AND",
+        "NAND",
+        "XNOR",
+        "XOR"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 40,
+      "question": "The resulting logic circuit obtained when both inputs of NOR and NAND gates are connected together is:",
+      "options": [
+        "AND",
+        "XOR",
+        "OR",
+        "NOT"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 41,
+      "question": "Given P is a matrix=\n[3 1 5 2]\n[8 2 4 6]\n[1 3 0 4]\n[4 1 2 3]\nIf det|P| denotes the determinant of matrix P, then which of the following is true:",
+      "options": [
+        "det|P| is indeterminate",
+        "det|P| is negative",
+        "det|P| = 0",
+        "None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 42,
+      "question": "Which of the following are true?\n(i) In a graph G with ‘n’ vertices and ‘e’ edges, sum of degrees of vertices = 2*e\n(ii) Eccentricity of a connected graph can never be equal to radius of the graph\n(iii) Girth of a graph is the total number of edges in the shortest cycle of the graph\n(iv) Graph with equal degree for all vertices is multigraph",
+      "options": [
+        "(i),(ii),(iii)",
+        "(ii),(iii),(iv)",
+        "(i),(iii),(iv)",
+        "None of the above"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 43,
+      "question": "If there are five faces and nine vertices in an undirected planar graph, then number of edges is",
+      "options": [
+        "14",
+        "16",
+        "12",
+        "None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 44,
+      "question": "If a bag contains 6 blue balls, 5 white balls and 4 yellow balls and if a ball is drawn out at random, probability of not getting a white ball is",
+      "options": [
+        "2/3",
+        "1/3",
+        "1/5",
+        "None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "The complexity of matrix multiplication of two matrices A and B whose orders are m×n and n×p is",
+      "options": [
+        "O(m × p)",
+        "O(m × n^2 × p)",
+        "O(m × n × p^2)",
+        "O(m × n × p)"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 46,
+      "question": "From a character string of length m, the number of sub-strings of all lengths that can be formed are:",
+      "options": [
+        "m^2",
+        "m",
+        "m(m+1)/2",
+        "m(log m)"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 47,
+      "question": "A truth table will need how many rows if there are n variables.",
+      "options": [
+        "2*n",
+        "n",
+        "2^n",
+        "None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "Which of the following multithreading model is followed in Linux OS?",
+      "options": [
+        "One User Thread mapping to One Kernel Thread",
+        "Many User Threads mapping to One Kernel Thread",
+        "One User Thread mapping to Many Kernel Threads",
+        "Many User Threads mapping to Many Kernel Threads"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 49,
+      "question": "Purpose of priority inheritance protocol in synchronization mechanisms is",
+      "options": [
+        "To prevent priority inversion in systems having two or lesser priorities for a resource",
+        "To provide mutual exclusion between threads and prevent data corruption",
+        "To prevent priority inversion and ensure fairness in resource allocation",
+        "To allow multiple threads to access any resource simultaneously"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 50,
+      "question": "As part of segmentation memory allocation strategy, which of the following assigns segment numbers for various segments of a program like code segment and data segment?",
+      "options": [
+        "Compiler",
+        "Assembler",
+        "Loader",
+        "Linker"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 51,
+      "question": "Which of the following is false about interrupts?",
+      "options": [
+        "Interrupts can be triggered by a hardware or by a software",
+        "Hardware interrupts may be triggered by sending a signal to CPU through a system bus",
+        "Software interrupts may be triggered by executing system calls",
+        "Trap is a hardware generated interrupt"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 52,
+      "question": "With respect to Process Schedulers of an operating system mentioned above in the table, which of the following statements is correct?\n(i) Long term scheduler   (P) executes much faster to reduce wastage of CPU time\n(ii) Medium term scheduler (Q) controls degree of multiprogramming\n(iii) Short Term Scheduler (R) is associated with swapping",
+      "options": [
+        "(i)-(R),(ii)-(P),(iii)-(Q)",
+        "(i)-(Q),(ii)-(R),(iii)-(P)",
+        "(i)-(P),(ii)-(R),(iii)-(Q)",
+        "(i)-(R),(ii)-(Q),(iii)-(P)"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "In a producer-consumer scenario also known as Bounded-Buffer Problem, what would be the most appropriate synchronization primitive to ensure that the consumer waits when the buffer is empty?",
+      "options": [
+        "Spinlock",
+        "Mutex lock",
+        "Semaphore",
+        "Monitors"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 54,
+      "question": "Any attempt by a process to access memory allocated to OS or process of other user results into",
+      "options": [
+        "Trap to OS",
+        "Context Switching",
+        "Page fault",
+        "Invocation to Scheduler Despatch"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "Consider the deterministic finite-state automaton (DFA) below. The alphabet is {a, b}. The state with a small incoming arrow is the initial state, while the double circle state denotes a final state.\nWhich of the following regular expressions defines the language accepted by the DFA?",
+      "options": [
+        "ab*",
+        "b*a*",
+        "(ab)*",
+        "ba*"
+      ],
+      "answer": "A",
+      "image": "image3.png"
+    },
+    {
+      "id": 56,
+      "question": "Consider the Nondeterministic Finite-State Automaton (NFA) below. States with a small incoming arrow are initial states, while a double circle state denotes a final state.\nThe number of states in the MINIMAL Deterministic Finite-State Automaton (DFA) for this language is:",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "B",
+      "image": "image4.png"
+    },
+    {
+      "id": 57,
+      "question": "Consider the context-free grammar G below. Here S is the starting non-terminal symbol, while a and b are terminal symbols.\nS → aSb | T\nT → bT | b\nThe language generated by G is:",
+      "options": [
+        "{a^n b^m : 0 ≤ n < m}",
+        "{a^n b^m : 0 < n < m}",
+        "{a^n b^m : 0 ≤ m < n}",
+        "{a^n b^n : n ≤ 0}"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 58,
+      "question": "Which of the following statements is NOT true?",
+      "options": [
+        "If a language is recursive its complement is recursive",
+        "If a language is recursive its complement is recursively enumerable",
+        "If a language and its complement are recursively enumerable it is recursive",
+        "If a language is recursively enumerable its complement is also recursively enumerable"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 59,
+      "question": "Which of the following statements is FALSE:",
+      "options": [
+        "The intersection of a regular language and a context-free language is context-free",
+        "The intersection of a regular language and context-free language is regular",
+        "The union of two context-free languages is context-free",
+        "The union of two regular languages is regular"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 60,
+      "question": "Consider the context-free grammar G below. Here S is the starting non-terminal symbol, while a and b are terminal symbols.\nS → aaSb | T\nT → aTb | a\nWhich of the following statements is true about the language L(G) generated by G?",
+      "options": [
+        "aabbaabb belongs to L(G) but aabb does not",
+        "aaaaabbb belongs to L(G) but aaaabb does not",
+        "aaaabb belongs to L(G) but aabbaabb does not",
+        "aaabb belongs to L(G) but aaaaabbb does not"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 61,
+      "question": "Which of the following is not a connective of First Order Logic with reference to AI (Artificial Intelligence)?",
+      "options": [
+        "∧",
+        "∨",
+        "<>",
+        "¬"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 62,
+      "question": "A hybrid Bayesian network contains",
+      "options": [
+        "Only continuous variables",
+        "Only discrete variables",
+        "Both discrete and discontinuous variables",
+        "Both continuous and discrete variables"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 63,
+      "question": "Which of the following scenario may not be a good fit for HDFS in Big data paradigm?",
+      "options": [
+        "HDFS is not suitable for scenarios requiring multiple/simultaneous writes to the same file",
+        "HDFS is suitable for storing data related to applications requiring low latency data access",
+        "HDFS is suitable for storing data related to applications requiring high latency data access",
+        "None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "A standard Java API for monitoring and managing applications is",
+      "options": [
+        "JVM",
+        "JVN",
+        "JMX",
+        "JMY"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 65,
+      "question": "Which of the following clustering technique is used by K-Means Algorithm:",
+      "options": [
+        "Hierarchical Technique",
+        "Partitional technique",
+        "Divisive",
+        "Agglomerative"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 66,
+      "question": "Which type of data storage system Cassandra is?",
+      "options": [
+        "Distributed",
+        "Centralized",
+        "Parallel",
+        "Dumb"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 67,
+      "question": "The cloud infrastructure solely for a single organisation within its premises is",
+      "options": [
+        "public cloud",
+        "private cloud",
+        "common cloud",
+        "hybrid cloud"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "question": "Temporarily renting the capacity to handle spikes in load is called",
+      "options": [
+        "Cloud sharing",
+        "Cloud computing",
+        "Cloud bursting",
+        "Cloud loading"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 69,
+      "question": "State whether true or false:\n(i) Virtualisation facilitates multiple OS simultaneously on the same hardware\n(ii) In dual boot, multiple OS can run simultaneously",
+      "options": [
+        "(i) True (ii) False",
+        "(i) False (ii) True",
+        "(i) True (ii) True",
+        "(i) False (ii) False"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "question": "In which of the virtualization techniques, hypervisor modifies the guest OS?",
+      "options": [
+        "Full virtualization",
+        "Para virtualization",
+        "Both (a) and (b)",
+        "None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 71,
+      "question": "Which of the following is the cause of Ping of death issue related to ICMP packets?",
+      "options": [
+        "Buffer overflow",
+        "Divide by ZERO",
+        "Missing input sanitisation",
+        "Privilege escalation"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 72,
+      "question": "Match the following and select the correct option:\n(i) Encryption          (P) Manipulation of identification of a host (through NIC identifier)\n(ii) MAC Cloning        (Q) Determining version and name of OS and OS utilities\n(iii) ARP Spoofing      (R) Protecting the confidentiality\n(iv) Finger printing    (S) Poisoning the IP to MAC address mapping",
+      "options": [
+        "(i)-(R),(ii)-(P),(iii)-(S),(iv)-(Q)",
+        "(i)-(P),(ii)-(R),(iii)-(S),(iv)-(Q)",
+        "(i)-(R),(ii)-(S),(iii)-(P),(iv)-(Q)",
+        "(i)-(R),(ii)-(Q),(iii)-(S),(iv) –(P)"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 73,
+      "question": "Match the following in the context of Information Security which are closely associated\n(i) Ingress filtering    (P) Data leakage prevention\n(ii) Egress filtering   (Q) Hiding identity of systems\n(iii) NAT               (R) Keep track of TCP/IP connections\n(iv) Stateful firewall  (S) Malicious traffic prevention",
+      "options": [
+        "(i) –(S),(ii) –(P),(iii) –(Q),(iv) –(R)",
+        "(i) –(P),(ii) –(R),(iii) –(S),(iv) –(Q)",
+        "(i) –(S),(ii) –(R),(iii) –(P),(iv) –(Q)",
+        "(i) –(R),(ii) –(Q),(iii) –(S),(iv) –(P)"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 74,
+      "question": "Asymmetric encryption is not suitable for",
+      "options": [
+        "Confidentiality",
+        "Authentication",
+        "Key Exchange",
+        "Prevention of Denial of Service"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 75,
+      "question": "CAPTCHA is used to provide protection from",
+      "options": [
+        "Zero day attack",
+        "Buffer overflow",
+        "Automated scripted attack",
+        "Man in the middle attack"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 76,
+      "question": "The MCDC software testing technique stands for",
+      "options": [
+        "Multiple Conditions Decision Coverage",
+        "Multiple Coverage Decision Conditions",
+        "Modified Condition Decision Coverage",
+        "None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 77,
+      "question": "Regression testing focuses on validating",
+      "options": [
+        "module structure",
+        "module interfaces",
+        "software changes",
+        "None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 78,
+      "question": "HIPO chart is also known as",
+      "options": [
+        "UML diagram",
+        "Structure chart",
+        "DFD",
+        "None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 79,
+      "question": "McCabe’s cyclomatic complexity number of a program control graph ‘G’ with e edges, n nodes and p disconnected paths is defined as",
+      "options": [
+        "n – e + 2p",
+        "e – n + 2 + p",
+        "e – n + 2p",
+        "n – e + p"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 80,
+      "question": "Entity Relationship model shows the",
+      "options": [
+        "Static view",
+        "Functional view",
+        "Dynamic view",
+        "All of the above"
+      ],
+      "answer": "A"
+    },
+
+    // Part B: Aptitude
+    {
+      "id": 81,
+      "question": "Which option replaces the question mark?",
+      "options": ["1", "2", "3", "4"],
+      "answer": "C",
+      "image": "image5.png"
+    },
+    {
+      "id": 82,
+      "question": "Which option replaces the question mark?",
+      "options": ["A", "B", "C", "D"],
+      "answer": "B",
+      "image": "image6.png"
+    },
+    {
+      "id": 83,
+      "question": "Which option replaces the question mark?",
+      "options": ["A", "B", "C", "D"],
+      "answer": "A",
+      "image": "image7.png"
+    },
+    {
+      "id": 84,
+      "question": "You are a retail clerk who typically works Monday through Friday. You arrive at work and notice the new schedule is posted, and your manager has given you a Saturday shift. It happens to be your son's birthday on Saturday, and you have a party planned. What is the most appropriate response?",
+      "options": [
+        "Speak with your manager and explain you have a birthday party planned for your son on Saturday and ask if they can find someone else or if you can find someone to cover your shift",
+        "Ask your coworkers if they can cover your shift because you have a birthday party for your son planned",
+        "Pretend like you did not see the schedule since you always work Monday through Friday and do not show up on Saturday",
+        "Do not say anything to anyone, and plan on calling in sick on Saturday"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 85,
+      "question": "Which of the following best completes the passage below?\nIn a survey of job applicants, two-fifths admitted to being at least a little dishonest. However, the survey may underestimate the proportion of job applicants who are dishonest, because –––––––––––.",
+      "options": [
+        "some dishonest people taking the survey might have claimed on the survey to be honest",
+        "some generally honest people taking the survey might have claimed on the survey to be dishonest",
+        "some people who claimed on the survey to be at least a little dishonest may be very dishonest",
+        "some people who claimed on the survey to be dishonest may have been answering honestly"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 86,
+      "question": "Eight friends P, Q, R, S, T, V, W and Y are sitting around a square table...\nHow many people are there between T and Q?",
+      "options": ["1", "2", "3", "None"],
+      "answer": "B"
+    },
+    {
+      "id": 87,
+      "question": "Which option replaces the question mark?",
+      "options": ["1", "2", "3", "4"],
+      "answer": "D",
+      "image": "image8.png"
+    },
+    {
+      "id": 88,
+      "question": "Which one will replace the question mark?",
+      "options": ["45", "8", "38", "48"],
+      "answer": "D",
+      "image": "image9.png"
+    },
+    {
+      "id": 89,
+      "question": "Which option replaces the question mark?",
+      "options": ["A", "B", "C", "D"],
+      "answer": "C",
+      "image": "image10.png"
+    },
+    {
+      "id": 90,
+      "question": "Fact 1: Pictures can tell a story.\nFact 2: All storybooks have pictures.\nFact 3: Some storybooks have words.\nIf the first three statements are facts, which of the following statements must also be a fact?\nI: Pictures can tell a story better than words can.\nII: The stories in storybooks are very simple.\nIII: Some storybooks have both words and pictures.",
+      "options": [
+        "I only",
+        "II only",
+        "III only",
+        "None of the statements is a known fact"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 91,
+      "question": "Statement: Exporters in the capital are alleging that commercial banks are violating a Reserve Bank of India directive...\nCourses of Action:\nI. The officers concerned in the commercial banks are to be suspended.\nII. The RBI should be asked to stop giving such directives to commercial banks.",
+      "options": [
+        "Only I follow",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither I nor II follows"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 92,
+      "question": "Find out the wrong number in the series.\n7, 8, 18, 57, 228, 1165, 6996",
+      "options": ["7", "8", "6996", "228"],
+      "answer": "D"
+    },
+    {
+      "id": 93,
+      "question": "The graph given below represents the variations in earnings in rupees over a week. Study the graph and answer questions given below\nThe difference in earnings was large between",
+      "options": [
+        "Sunday-Monday",
+        "Tuesday-Wednesday",
+        "Thursday-Friday",
+        "None of these"
+      ],
+      "answer": "C",
+      "image": "image11.png"
+    },
+    {
+      "id": 94,
+      "question": "Study the following table carefully and answer the questions given below it:\nWhat was the percentage (approximate) increase in production of D type of toys from 1983 to 1985?",
+      "options": ["10", "20", "19", "76"],
+      "answer": "C"
+    },
+    {
+      "id": 95,
+      "question": "What is the maximum area of the rectangle with perimeter 620 mm?",
+      "options": [
+        "24,025 mm²",
+        "22,725 mm²",
+        "24,000 mm²",
+        "24,075 mm²"
+      ],
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,889 @@
+{
+    "exam": "ISRO CS 2011",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the output of the following C code?\n\n#include <stdio.h>\nint main()\n{\n  int index;\n  for(index=1; index<=5; index++)\n  {\n    printf(\"%d\", index);\n    if (index==3)\n      continue;\n  }\n}",
+        "options": [
+          "1245",
+          "12345",
+          "12245",
+          "12354"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "question": "Consider the following pseudocode: \n\nx:=1;\ni:=1;\nwhile (x <= 500)\nbegin\n  x:=2*x ;\n  i:=i+1;\nend\n\nWhat is the value of i at the end of the pseudocode?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "question": "There are three processes in the ready queue. When the currently running process requests for I/O how many process switches take place?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 4,
+        "question": "The following table shows the processes in the ready queue and time required for each process for completing its job.\n\nProcess    Time\nP1          10\nP2          5\nP3          20\nP4          8\nP5          15\nIf round-robin scheduling with 5 ms is used what is the average waiting time of the processes in the queue?",
+        "options": [
+          "27 ms",
+          "26.2 ms",
+          "27.5 ms",
+          "27.2 ms"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 5,
+        "question": "One SAN switch has 24 ports. All 24 supports 8 Gbps Fiber Channel technology. What is the aggregate bandwidth of that SAN switch?",
+        "options": [
+          "96 Gbps",
+          "192 Mbps",
+          "512 Gbps",
+          "192 Gbps"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 6,
+        "question": "Let T(n) be defined by T(1) = 10 and T(n + 1) = 2n + T(n) and for all integers n ≥ 1 . Which of the following represents the order of growth of T(n) as a function of n?",
+        "options": [
+          "O(n)",
+          "O(n log n)",
+          "O(n^2)",
+          "O(n^3)"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 7,
+        "question": "Which one of the following in place sorting algorithms needs the minimum number of swaps?",
+        "options": [
+          "Quick sort",
+          "Insertion sort",
+          "Selection sort",
+          "Heap sort"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "question": "Which of the following algorithm design technique is used in merge sort?",
+        "options": [
+          "Greedy method",
+          "Backtracking",
+          "Dynamic programming",
+          "Divide and Conquer"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 9,
+        "question": "If the page size in a 32-bit machine is 4K bytes then the size of page table is",
+        "options": [
+          "1 M bytes",
+          "2 M bytes",
+          "4 M bytes",
+          "4 K bytes"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "question": "Consider a 32-bit machine where four-level paging scheme is used. If the hit ratio to TLB is 98%, and it takes 20 nanosecond to search the TLB and 100 nanoseconds to access the main memory what is effective memory access time in nanoseconds?",
+        "options": [
+          "126",
+          "128",
+          "122",
+          "120"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "question": "Belady's anomaly means",
+        "options": [
+          "Page fault rate is constant even on increasing the number of allocated frames",
+          "Page fault rate may increase on increasing the number of allocated frames",
+          "Page fault rate may increase on decreasing the number of allocated frames",
+          "Page fault rate may decrease on increasing the number of allocated frames"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "question": "A fast wide SCSI-II disk drive spins at 7200 RPM, has a sector size of 512 bytes, and holds 160 sectors per track. Estimate the sustained transfer rate of this drive",
+        "options": [
+          "576000 Kilobytes / sec",
+          "9600 Kilobytes / sec",
+          "4800 Kilobytes / sec",
+          "19200 Kilobytes / sec"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 13,
+        "question": "A symbol table of length 152 is processing 25 entries at any instant. What is occupation density?",
+        "options": [
+          "0.164",
+          "127",
+          "8.06",
+          "6.08"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 14,
+        "question": "Number of comparisons required for an unsuccessful search of an element in a sequential search, organized, fixed length, symbol table of length L is",
+        "options": [
+          "L",
+          "L/2",
+          "(L+1)/2",
+          "2L"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "question": "In functional dependency Armstrong inference rules refers to",
+        "options": [
+          "Reflexivity, Augmentation and Decomposition",
+          "Transitivity, Augmentation and Reflexivity",
+          "Augmentation, Transitivity, Reflexivity and Decomposition",
+          "Reflexivity, Transitivity and Decomposition"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 16,
+        "question": "Which normal form is based on the concept of 'full functional dependency'?",
+        "options": [
+          "First Normal Form",
+          "Second Normal Form",
+          "Third Normal Form",
+          "Fourth Normal Form"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 17,
+        "question": "Which type of DBMS provides support for maintaining several versions of the same entity?",
+        "options": [
+          "Relational Database Management System",
+          "Hierarchical",
+          "Object Oriented Database Management System",
+          "Network"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 18,
+        "question": "What is the equivalent serial schedule for the following transactions?\n\nT1          T2          T3\n                       R(Y)\n                       R(Z)\nR(X)\nW(X) \n                       W(Y)\n                       W(Z)\n           W(Z)\nR(Y)\nW(Y) \n           R(Y)\n           W(Y)\n           R(X)\n           W(X)",
+        "options": [
+          "T1 − T2 − T3",
+          "T3 − T1 − T2",
+          "T2 − T1 − T3",
+          "T1 − T3 − T2"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "question": "Which RAID level gives block level striping with double distributed parity?",
+        "options": [
+          "RAID 10",
+          "RAID 2",
+          "RAID 6",
+          "RAID 5"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 20,
+        "question": "Three coins are tossed simultaneously. The probability that they will fall two heads and one tail is",
+        "options": [
+          "5/8",
+          "1/8",
+          "2/3",
+          "3/8"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 21,
+        "question": "Which one of the following is true?",
+        "options": [
+          "R ∩ S = (R ∪ S) − [(R − S) ∪ (S − R)]",
+          "R ∪ S = (R ∩ S) − [(R − S) ∪ (S − R)]",
+          "R ∩ S = (R ∪ S) − [(R − S) ∩ (S − R)]",
+          "R ∩ S = (R ∪ S) ∪ (R − S)"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 22,
+        "question": "If A and B are square matrices with same order and A is symmetric, then B^T A B",
+        "options": [
+          "Skew symmetric",
+          "Symmetric",
+          "Orthogonal",
+          "Idempotent"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 23,
+        "question": "In Boolean algebra, rule (X+Y)(X+Z) =",
+        "options": [
+          "Y+XZ",
+          "X+YZ",
+          "XY+Z",
+          "XZ+Y"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 24,
+        "question": "The output expression of the following gate network is",
+        "options": [
+          "X.Y + X' Y'",
+          "X.Y + X.Y",
+          "X.Y",
+          "X + Y"
+        ],
+        "answer": "A",
+        "image": "image1.png"
+      },
+      {
+        "id": 25,
+        "question": "In an RS flip-flop, if the S line (Set line) is set high (1) and the R line (Reset line) is set low (0), then the state of the flip-flop is",
+        "options": [
+          "Set to 1",
+          "Set to 0",
+          "No change in state",
+          "Forbidden"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 26,
+        "question": "How many 3-to-8 line decoders with an enable input are needed to construct a 6-to-64 line decoder without using any other logic gates?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 27,
+        "question": "When n-type semiconductor is heated?",
+        "options": [
+          "number of electrons increases while that of holes decreases",
+          "number of holes increases while that of electrons decreases",
+          "number of electrons and holes remain the same",
+          "number of electron and holes increases equally"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 28,
+        "question": "Evaluate (X xor Y) xor Y?",
+        "options": [
+          "All 1's",
+          "All 0's",
+          "X",
+          "Y"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 29,
+        "question": "Logic family popular for low power dissipation",
+        "options": [
+          "CMOS",
+          "ECL",
+          "TTL",
+          "DTL"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 30,
+        "question": "What is the decimal value of the floating-point number C1D00000 (hexadecimal notation)? (Assume 32-bit, single precision floating point IEEE representation)",
+        "options": [
+          "28",
+          "-15",
+          "-26",
+          "-28"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 31,
+        "question": "Which of the following sentences can be generated by\n\nS -> aS | bA\nA -> d | cA",
+        "options": [
+          "bccdd",
+          "abbcca",
+          "abcabc",
+          "abcd"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 32,
+        "question": "Which variable does not drive a terminal string in grammar? S -> AB A -> a B -> b B -> C",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "S"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 33,
+        "question": "A problem whose language is recursive is called? , ISRO 2011",
+        "options": [
+          "Unified problem",
+          "Boolean function",
+          "Recursive problem",
+          "Decidable"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 34,
+        "question": "The arithmetic mean of attendance of 49 students of class A is 40% and that of 53 students of class B is 35%. Then the percentage of arithmetic mean of attendance of class A and B is",
+        "options": [
+          "27.2%",
+          "50.25%",
+          "51.13%",
+          "37.4%"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 35,
+        "question": "n-th derivative of x^n is",
+        "options": [
+          "n x^(n-1)",
+          "n^n . n!",
+          "n x^n !",
+          "n!"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 36,
+        "question": "Given X: 0 10 16 Y: 6 16 28 The interpolated value X=4 using piecewise linear interpolation is",
+        "options": [
+          "11",
+          "4",
+          "22",
+          "10"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 37,
+        "question": "How many edges are there in a forest with v vertices and k components?",
+        "options": [
+          "(v + 1) − k",
+          "(v + 1)/2 − k",
+          "v − k",
+          "v + k"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 38,
+        "question": "If node A has three siblings and B is parent of A, what is the degree of A?",
+        "options": [
+          "0",
+          "3",
+          "4",
+          "None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 39,
+        "question": "If a microcomputer operates at 5 MHz with an 8-bit bus and a newer version operates at 20 MHz with a 32-bit bus, the maximum speed-up possible approximately will be",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 40,
+        "question": "Consider a direct mapped cache with 64 blocks and a block size of 16 bytes. To what block number does the byte address 1206 map to",
+        "options": [
+          "does not map",
+          "6",
+          "11",
+          "54"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 41,
+        "question": "MOV [BX], AL type of data addressing is called ?",
+        "options": [
+          "register",
+          "immediate",
+          "register indirect",
+          "register relative"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 42,
+        "question": "In DMA transfer scheme, the transfer scheme other than burst mode is",
+        "options": [
+          "cycle technique",
+          "stealing technique",
+          "cycle stealing technique",
+          "cycle bypass technique"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 43,
+        "question": "A processor takes 12 cycles to complete an instruction I. The corresponding pipelined processor uses 6 stages with the execution times of 3, 2, 5, 4, 6 and 2 cycles respectively. What is the asymptotic speedup assuming that a very large number of instructions are to be executed?",
+        "options": [
+          "1.83",
+          "2",
+          "3",
+          "6"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 44,
+        "question": "Number of chips (128 x 8 RAM) needed to provide a memory capacity of 2048 bytes",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 45,
+        "question": "What is the raw throughput of USB 2.0 technology?",
+        "options": [
+          "480 Mbps",
+          "400 Mbps",
+          "200 Mbps",
+          "12 Mbps"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 46,
+        "question": "The search concept used in associative memory is",
+        "options": [
+          "Parallel search",
+          "Sequential search",
+          "Binary search",
+          "Selection search"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 47,
+        "question": "The hamming distance between the octets of 0xAA and 0x55 is",
+        "options": [
+          "7",
+          "5",
+          "8",
+          "6"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 48,
+        "question": "The IEEE standard for WiMax technology is",
+        "options": [
+          "IEEE 802.16",
+          "IEEE 802.36",
+          "IEEE 812.16",
+          "IEEE 806.16"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 49,
+        "question": "The network protocol which is used to get MAC address of a node by providing IP address is",
+        "options": [
+          "SMTP",
+          "ARP",
+          "RIP",
+          "BOOTP"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 50,
+        "question": "Data is transmitted continuously at 2.048 Mbps rate for 10 hours and received 512 bits errors. What is the bit error rate?",
+        "options": [
+          "6.9 e-9",
+          "6.9 e-6",
+          "69 e-9",
+          "4 e-9"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 51,
+        "question": "In which layer of network architecture, the secured socket layer (SSL) is used?",
+        "options": [
+          "physical layer",
+          "session layer",
+          "application layer",
+          "presentation layer"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 52,
+        "question": "The encoding technique used to transmit the signal in giga ethernet technology over fiber optic medium is",
+        "options": [
+          "Differential Manchester encoding",
+          "Non return to zero",
+          "4B/5B encoding",
+          "8B/10B encoding"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 53,
+        "question": "Lightweight Directory Access protocol is used for",
+        "options": [
+          "Routing the packets",
+          "Authentication",
+          "obtaining IP address",
+          "domain name resolving"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 54,
+        "question": "The Cyclomatic Complexity metric V(G) of the following control flow graph",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "B",
+        "image": "image2.png"
+      },
+      {
+        "id": 55,
+        "question": "A context model of a software system can be shown by drawing a",
+        "options": [
+          "LEVEL-0 DFD",
+          "LEVEL-1 DFD",
+          "LEVEL-2 DFD",
+          "LEVEL-3 DFD"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 56,
+        "question": "Warnier Diagram enables the analyst to represent",
+        "options": [
+          "Class structure",
+          "Information Hierarchy",
+          "Data Flow",
+          "State Transition"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 57,
+        "question": "The above figure represents which one of the following UML diagram for a single send session of an online chat system?",
+        "options": [
+          "Package diagram",
+          "Activity diagram",
+          "Class diagram",
+          "Sequence diagram"
+        ],
+        "answer": "D",
+        "image": "image3.png"
+      },
+      {
+        "id": 58,
+        "question": "Black Box Software Testing method focuses on the",
+        "options": [
+          "Boundary condition of the software",
+          "Control structure of the software",
+          "Functional requirement of the software",
+          "Independent paths of the software"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 59,
+        "question": "An example of poly-alphabetic substitution is",
+        "options": [
+          "P-box",
+          "S-box",
+          "Caesar cipher",
+          "Vigenere cipher"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 60,
+        "question": "Which of the following UNIX command allows scheduling a program to be executed at the specifies time?",
+        "options": [
+          "cron",
+          "nice",
+          "date and time",
+          "schedule"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 61,
+        "question": "Find the output of the following Java code line\n\nSystem.out.println(Math.floor(-7.4))",
+        "options": [
+          "-7",
+          "-8",
+          "-7.4",
+          "-7.0"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 62,
+        "question": "In Java, after executing the following code what are the values of x, y and z? \nint x,y=10, z=12; \nx=y++ + z++;",
+        "options": [
+          "x=22, y=10, z=12",
+          "x=24, y=10, z=12",
+          "x=24, y=11, z=13",
+          "x=22, y=11, z=13"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 63,
+        "question": "Find the memory address of the next instruction executed by the microprocessor (8086), when operated in real mode for CS=1000 and IP=E000",
+        "options": [
+          "10E00",
+          "1E000",
+          "F000",
+          "1000E"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 64,
+        "question": "Two control signals in microprocessor which are related to Direct Memory Access (DMA) are",
+        "options": [
+          "INTR & INTA",
+          "RD & WR",
+          "S0 & S1",
+          "HOLD & HLDA"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 65,
+        "question": "What is the meaning of RD' signal in Intel 8151 A?",
+        "options": [
+          "Read (when it is low)",
+          "Read (when it is high)",
+          "Write (when it is low)",
+          "Read and Write (when it is high)"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 66,
+        "question": "In a system using single processor, a new process arrives at the rate of six processes per minute and each such process requires seven seconds of service time. What is the CPU utilization?",
+        "options": [
+          "70%",
+          "30%",
+          "60%",
+          "64%"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 67,
+        "question": "Below is the precedence graph for a set of tasks to be executed on a parallel processing system S.\n\nWhat is the efficiency of this precedence graph on S if each of the tasks T1, T2, T3,....T8 takes the same time and the system S has five processors?",
+        "options": [
+          "25%",
+          "40%",
+          "50%",
+          "90%"
+        ],
+        "answer": "B",
+        "image": "image4.png"
+      },
+      {
+        "id": 68,
+        "question": "A total of 9 units of a resource type available, and given the safe state shown below, which of the following sequence will be a safe state?\n\nProcess   Used    Max\n  P1        2      7\n  P2        1      6\n  P3        2      5\n  P4        1      4",
+        "options": [
+          "(P4, P1, P3, P2)",
+          "(P4, P2, P1, P3)",
+          "(P4, P2, P3, P1)",
+          "(P3, P1, P2, P4)"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 69,
+        "question": "The broadcast address for IP network 172.16.0.0 with subnet mask 255.255.0.0 is",
+        "options": [
+          "172.16.0.255",
+          "172.16.255.255",
+          "255.255.255.255",
+          "172.255.255.255"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 70,
+        "question": "What is the matrix that represents rotation of an object by θ degree about the origin in 2D?",
+        "options": [
+          "cos θ    −sin θ\nsin θ     cos θ",
+          "sin θ   −cos θ\ncos θ    sin θ",
+          "cos θ   −sin θ\ncos θ    sin θ",
+          "sin θ   −cos θ\ncos θ    sin θ"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 71,
+        "question": "Which of the following is true about z-buffer algorithm?",
+        "options": [
+          "It is a depth sort algorithm",
+          "No limitation on total number of objects",
+          "Comparisons of objects is done",
+          "z-buffer is initialized to background colour at start of algorithm"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 72,
+        "question": "Which of the following is an unsupervised neural network?",
+        "options": [
+          "RBS",
+          "Hopfield",
+          "Back propagation",
+          "Kohonen"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 73,
+        "question": "A system is having 8 M bytes of video memory for bit-mapped graphics with 64-bit colour. What is the maximum resolution it can support?",
+        "options": [
+          "800 x 600",
+          "1024 x 768",
+          "1280 x 1024",
+          "1920 x 1440"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 74,
+        "question": "What is the bit rate of a video terminal unit with 80 characters/line, 8 bits/character and horizontal sweep time of 100 μs (including 20 μs of retrace time)?",
+        "options": [
+          "8 Mbps",
+          "6.4 Mbps",
+          "0.8 Mbps",
+          "0.64 Mbps"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 75,
+        "question": "The average depth of a binary search tree is:",
+        "options": [
+          "O(n^0.5)",
+          "O(n)",
+          "O(log n)",
+          "O(n log n)"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 76,
+        "question": "How many distinct binary search trees can be created out of 4 distinct keys?",
+        "options": [
+          "5",
+          "14",
+          "24",
+          "35"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 77,
+        "question": "The in-order traversal of a tree resulted in FBGADCE. Then the pre-order traversal of that tree would result in",
+        "options": [
+          "FGBDECA",
+          "ABFGCDE",
+          "BFGCDEA",
+          "AFGBDEC"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 78,
+        "question": "Which of the following statements about peephole optimization is False?",
+        "options": [
+          "It is applied to a small part of the code",
+          "It can be used to optimize intermediate code",
+          "To get the best out of this, it has to be applied repeatedly",
+          "It can be applied to the portion of the code that is not contiguous"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 79,
+        "question": "In HTML, which of the following can be considered a container?",
+        "options": [
+          "SELECT",
+          "Value",
+          "INPUT",
+          "BODY"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 80,
+        "question": "In compiler terminology reduction in strength means",
+        "options": [
+          "Replacing run time computation by compile time computation",
+          "Removing loop invariant computation",
+          "Removing common subexpressions",
+          "replacing a costly operation by a relatively cheaper one"
+        ],
+        "answer": "D"
+      }
+    ]
+  }

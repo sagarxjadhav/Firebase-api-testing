@@ -1,0 +1,888 @@
+{
+    "exam": "ISRO CS 2007",
+    "questions": [
+      {
+        "id": 1,
+        "question": "A task in a blocked state",
+        "options": [
+          "is executable",
+          "is running",
+          "must still be placed in the run queues",
+          "is waiting for some temporarily unavailable resources"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 2,
+        "question": "Round Robin schedule is essentially the pre-emptive version of",
+        "options": [
+          "FIFO",
+          "Shortest job first",
+          "Shortest remaining time",
+          "Longest remaining time"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "question": "What is the name of the technique in which the operating system of a computer executes several programs concurrently by switching back and forth between them?",
+        "options": [
+          "Partitioning",
+          "Multi-tasking",
+          "Windowing",
+          "Paging"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "question": "Consider a set of n tasks with known runtimes r1, r2....rn to be run on a uniprocessor machine. Which of the following processor scheduling algorithms will result in the maximum throughput?",
+        "options": [
+          "Round Robin",
+          "Shortest job first",
+          "Highest response ratio next",
+          "first come first served"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "question": "Feedback queues",
+        "options": [
+          "are very simple to implement",
+          "dispatch tasks according to execution characteristics",
+          "are used to favour real time tasks",
+          "require manual intervention to implement properly"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "question": "On a system using non-preemptive scheduling, processes with expected run times of 5, 18, 9 and 12 are in the ready queue. In what order should they be run to minimize wait time?",
+        "options": [
+          "5, 12, 9, 18",
+          "5, 9, 12, 18",
+          "12, 18, 9, 5",
+          "9, 12, 18, 5"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "question": "Bit stuffing refers to",
+        "options": [
+          "inserting a 0 in user stream to differentiate it with a flag",
+          "inserting a 0 in flag stream to avoid ambiguity",
+          "appending a nipple to the flag sequence",
+          "appending a nipple to the use data stream"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "question": "Assume that each character code consists of 8 bits. The number of characters that can be transmitted per second through an synchronous serial line at 2400 baud rate, and with two stop bits is",
+        "options": [
+          "109",
+          "216",
+          "300",
+          "219"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "question": "IEEE 802.11 is standard for",
+        "options": [
+          "Ethernet",
+          "Bluetooth",
+          "Broadband Wireless",
+          "Wireless LANs"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 10,
+        "question": "An Ethernet hub",
+        "options": [
+          "functions as a repeater",
+          "connects to a digital PBX",
+          "connects to a token-ring network",
+          "functions as a gateway"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 11,
+        "question": "The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 12,
+        "question": "Selection sort algorithm design technique is an example of",
+        "options": [
+          "Greedy method",
+          "Divide-and-conquer",
+          "Dynamic Programming",
+          "Backtracking"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 13,
+        "question": "The average case and worst case complexities for Merge sort algorithm are",
+        "options": [
+          "O ( n^2 ), O ( n^2 )",
+          "O ( n^2 ), O ( n log2n )",
+          "O ( n log2n ), O ( n^2)",
+          "O ( n log2n ), O ( n log2n )"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 14,
+        "question": "Consider a job scheduling problem with 4 jobs J1, J2, J3, J4 and with corresponding deadlines: ( d1, d2, d3, d4) = (4, 2, 4, 2). Which of the following is not a feasible schedule without violating any job schedule?",
+        "options": [
+          "J2, J4, J1, J3",
+          "J4, J1, J2, J3",
+          "J4, J2, J1, J3",
+          "J4, J2, J3, J1"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "question": "Virtual memory is",
+        "options": [
+          "Part of Main Memory only used for swapping",
+          "A technique to allow a program, of size more than the size of main memory, to run",
+          "Part of secondary storage used in program execution",
+          "None of these"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 16,
+        "question": "Consider a small 2-way set-associative cache memory, consisting of four blocks. For choosing the block to be replaced, use the least recently (LRU) scheme. The number of cache misses for the following sequence of block addresses is 8, 12, 0, 12, 8",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 17,
+        "question": "The minimum number of page frames that must be allocated to a running process in a virtual memory environment is determined by",
+        "options": [
+          "the instruction set architecture",
+          "page size",
+          "number of processes in memory",
+          "physical memory size"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "question": "Semaphores",
+        "options": [
+          "synchronize critical resources to prevent deadlock",
+          "synchronize critical resources to prevent contention",
+          "are used to do I/O",
+          "are used for memory management"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 19,
+        "question": "The principal of the locality of reference justifies the use of",
+        "options": [
+          "virtual memory",
+          "interrupts",
+          "main memory",
+          "cache memory"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 20,
+        "question": "The term ‘aging’ refers to",
+        "options": [
+          "booting up the priority of the process in multi-level of queue without feedback.",
+          "keeping track of the following a page has been in memory for the purpose of LRU replacement",
+          "letting job reside in memory for a certain amount of time so that the number of pages required can be estimated accurately.",
+          "gradually increasing the priority of jobs that wait in the system for a long time to remedy infinite blocking"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 21,
+        "question": "A read bit can be read",
+        "options": [
+          "and written by CPU",
+          "and written by peripheral",
+          "by peripheral and written by CPU",
+          "by CPU and written by the peripheral"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 22,
+        "question": "Disk requests are received by a disk drive for cylinder 5, 25, 18, 3, 39, 8 and 35 in that order. A seek takes 5 msec per cylinder moved. How much seek time is needed to serve these requests for a Shortest Seek First (SSF) algorithm? Assume that the arm is at cylinder 20 when the last of these requests is made with none of the requests yet served",
+        "options": [
+          "125 msec",
+          "295 msec",
+          "575 msec",
+          "750 msec"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 23,
+        "question": "The time taken by binary search algorithm to search a key in a sorted array of n elements is",
+        "options": [
+          "O ( log2n )",
+          "O ( n )",
+          "O ( n log2n )",
+          "O ( n^2)"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 24,
+        "question": "Study the following program:\n\n// precondition: x>=0\npublic void demo(int x)\n{\n    System.out.print(x % 10);\n    if (x % 10 != 0) {\n        demo(x / 10);\n    }\n    System.out.print(x % 10);\n}\nWhich of the following is printed as a result of the call demo(1234)?",
+        "options": [
+          "1441",
+          "3443",
+          "12344321",
+          "4321001234"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 25,
+        "question": "A view of database that appears to an application program is known as",
+        "options": [
+          "Schema",
+          "Subschema",
+          "Virtual table",
+          "Index Table"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 26,
+        "question": "Which commands are used to control access over objects in relational database?",
+        "options": [
+          "CASCADE & MVD",
+          "GRANT & REVOKE",
+          "QUE & QUIST",
+          "None of these"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 27,
+        "question": "Which operation is used to extract specified columns from a table?",
+        "options": [
+          "Project",
+          "Join",
+          "Extract",
+          "Substitute"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 28,
+        "question": "BCNF is not used for cases where a relation has",
+        "options": [
+          "Two (or more) candidate keys",
+          "Two candidate keys and composite",
+          "The candidate key overlap",
+          "Two mutually exclusive foreign keys"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 29,
+        "question": "Which of the following is aggregate function in SQL?",
+        "options": [
+          "Avg",
+          "Select",
+          "Ordered by",
+          "distinct"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 30,
+        "question": "Which of the following is correct with respect to Two phase commit protocol?",
+        "options": [
+          "Ensures serializability",
+          "Prevents Deadlock",
+          "Detects Deadlock",
+          "Recover from Deadlock"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 31,
+        "question": "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+        "options": [
+          "RAID 1",
+          "RAID 3",
+          "RAID 4",
+          "RAID 5"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 32,
+        "question": "The level of aggregation of information required for operational control is",
+        "options": [
+          "Detailed",
+          "Aggregate",
+          "Qualitative",
+          "None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 33,
+        "question": "Company X shipped 5 computer chips, 1 of which was defective and company Y shipped 4 computer chips, 2 of which were defective. One computer chip is to be chosen uniformly at a random from the 9 chips shipped by the companies. If the chosen chip is found to be defective, what is the probability that the chip came from the company Y?",
+        "options": [
+          "2/9",
+          "4/9",
+          "2/3",
+          "1/2"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 34,
+        "question": "A program consists of two modules executed sequentially. Let f1(t) and f2(t)respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by",
+        "options": [
+          "f1(t) + f2(t)",
+          "∫_0^t f1(x) f2(x) dx",
+          "∫_0^t f1(x) f2(t - x) dx",
+          "max (f1(t), f2(t))"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 35,
+        "question": "The circuit shown in the following figure realizes the function",
+        "options": [
+          "(( A + B )' +C ) ( D'E' )",
+          "(( A + B )' + C ) ( DE' )",
+          "( A + ( B + C )' ) ( D'E )",
+          "( A + B + C' ) ( D'E' )"
+        ],
+        "answer": "A",
+        "image": "image1.png"
+      },
+      {
+        "id": 36,
+        "question": "The Hexadecimal equivalent of 01111100110111100011 is",
+        "options": [
+          "CD73E",
+          "ABD3F",
+          "7CDE3",
+          "FA4CD"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 37,
+        "question": "Consider a computer system that stores a floating-point numbers with 16-bit mantissa and an 8-bit exponent, each in two’s complement. The smallest and largest positive values which can be stored are",
+        "options": [
+          "1 × 10^-128 and 2^15 × 10^15",
+          "1 × 10^-256 and 2^15 × 10^255",
+          "1 × 10^-128 and 2^15 × 10^127",
+          "1 × 10^-128 and (2^15 - 1) × 10^127"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 38,
+        "question": "The output 0 and 1 level for TTL Logic family is approximately",
+        "options": [
+          "0.1 and 5V",
+          "0.6 and 3.5 V",
+          "0.9 and 1.75 V",
+          "-1.75 and 0.9 V"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 39,
+        "question": "Ring counter is analogous to",
+        "options": [
+          "Toggle Switch",
+          "Latch",
+          "Stepping Switch",
+          "S-R flip flop"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 40,
+        "question": "The Boolean expression Y = (A + B' + A'B)C' is given by",
+        "options": [
+          "AC'",
+          "BC'",
+          "C'",
+          "AB"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 41,
+        "question": "The circuit shown in the given figure is a",
+        "options": [
+          "full adder",
+          "full subtracter",
+          "shift register",
+          "decade counter"
+        ],
+        "answer": "A",
+        "image": "image2.png"
+      },
+      {
+        "id": 42,
+        "question": "When two numbers are added in excess-3 code and the sum is less than 9, then in order to get the correct answer it is necessary to",
+        "options": [
+          "subtract 0011 from the sum",
+          "add 0011 to the sum",
+          "subtract 0110 from the sum",
+          "add 0110 to the sum"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 43,
+        "question": "The characteristic equation of an SR flip-flop is given by",
+        "options": [
+          "Q_{n+1} = S + RQ_n",
+          "Q_{n+1}= RQ'_n + SQ_n",
+          "Q_{n+1}= S' + RQ_n",
+          "Q_{n+1} = S + R'Q_n"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 44,
+        "question": "In an SR latch made by cross-coupling two NAND gates, if both S and R inputs are set to 0, then it will result in",
+        "options": [
+          "Q = 0, Q' = 1",
+          "Q = 1, Q' = 0",
+          "Q = 1, Q' = 1",
+          "Indeterminate states"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 45,
+        "question": "0.75 decimal system is equivalent to ____ in octal system",
+        "options": [
+          "0.60",
+          "0.52",
+          "0.54",
+          "0.50"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 46,
+        "question": "The number of digit 1 present in the binary representation of\n\n3 × 512 + 7 × 64 + 5 × 8 + 3",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "12"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 47,
+        "question": "If the bandwidth of a signal is 5 kHz and the lowest frequency is 52 kHz, what is the highest frequency",
+        "options": [
+          "5 kHz",
+          "10 kHz",
+          "47 kHz",
+          "57 kHz"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 48,
+        "question": "A graph with n vertices and n-1 edges that is not a tree, is",
+        "options": [
+          "Connected",
+          "Disconnected",
+          "Euler",
+          "A circuit"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 49,
+        "question": "If a graph requires k different colours for its proper colouring, then the chromatic number of the graph is",
+        "options": [
+          "1",
+          "k",
+          "k-1",
+          "k/2"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 50,
+        "question": "Let X be the adjacency matrix of a graph G with no self loops. The entries along the principal diagonal of X are",
+        "options": [
+          "all zeros",
+          "all ones",
+          "both zeros and ones",
+          "different"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 51,
+        "question": "In comparison with static RAM memory, the dynamic Ram memory has",
+        "options": [
+          "lower bit density and higher power consumption",
+          "higher bit density and higher power consumption",
+          "lower bit density and lower power consumption",
+          "higher bit density and lower power consumption"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 52,
+        "question": "In the Big-Endian system, the computer stores",
+        "options": [
+          "MSB of data in the lowest memory address of data unit",
+          "LSB of data in the lowest memory address of data unit",
+          "MSB of data in the highest memory address of data unit",
+          "LSB of data in the highest memory address of data unit"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 53,
+        "question": "When a host on network A sends a message to a host on network B, which address does the router look at?",
+        "options": [
+          "Port",
+          "IP",
+          "Physical",
+          "Subnet mask"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 54,
+        "question": "If there are five routers and six networks in intranet using link state routing, how many routing tables are there?",
+        "options": [
+          "1",
+          "5",
+          "6",
+          "11"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 55,
+        "question": "Dijkstra’s algorithm is used to",
+        "options": [
+          "Create LSAs",
+          "Flood an internet with information",
+          "Calculate the routing tables",
+          "Create a link state database"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 56,
+        "question": "Silly Window Syndrome is related to",
+        "options": [
+          "Error during transmission",
+          "File transfer protocol",
+          "Degrade in TCP performance",
+          "Interface problem"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 57,
+        "question": "SSL is not responsible for",
+        "options": [
+          "Mutual authentication of client & server",
+          "Secret communication",
+          "Data Integrity protection",
+          "Error detection and correction"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 58,
+        "question": "An email contains a textual birthday greeting, a picture of a cake and a song. The order is not important. What is the content-type?",
+        "options": [
+          "Multipart/mixed",
+          "Multipart/parallel",
+          "Multipart/digest",
+          "Multipart/alternative"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 59,
+        "question": "Phase transition for each bit are used in",
+        "options": [
+          "Amplitude modulation",
+          "Carrier modulation",
+          "Manchester encoding",
+          "NRZ encoding"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 60,
+        "question": "Which of these is not a feature of WAP 2.0",
+        "options": [
+          "Push and Pull Model",
+          "Interface to a storage device",
+          "Multimedia messaging",
+          "Hashing"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 61,
+        "question": "In UML diagram of a class",
+        "options": [
+          "state of object cannot be represented",
+          "state is irrelevant",
+          "state is represented as an attribute",
+          "state is represented as a result of an operation"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 62,
+        "question": "Which of the following models used for software reliability",
+        "options": [
+          "Waterfall",
+          "Musa",
+          "COCOMO",
+          "Rayleigh"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 63,
+        "question": "A physical DFD specifies",
+        "options": [
+          "what processes will be used",
+          "who generates data and who processes it",
+          "what each person in an organization does",
+          "which data will be generated"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 64,
+        "question": "Which of the following is not an approach to Software Process Assessment?",
+        "options": [
+          "SPICE(ISO/IEC15504)",
+          "Standard CMMI Assessment Method for process improvement",
+          "ISO 9001:2000",
+          "IEEE 2000:2001"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 65,
+        "question": "A rule in a limited entry decision table is a",
+        "options": [
+          "row of the table consisting of condition entries",
+          "row of the table consisting of action entries",
+          "column of the table consisting of condition entries and corresponding action entries",
+          "columns of the table consisting of conditions of the stub"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 66,
+        "question": "To execute all loops at their boundaries and within their operational bounds is an example of",
+        "options": [
+          "Black Box Testing",
+          "Alpha Testing",
+          "Recovery Testing",
+          "White Box Testing"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 67,
+        "question": "Which of the following is not a UML DIAGRAM?",
+        "options": [
+          "Use Case",
+          "Class Diagram",
+          "Analysis Diagram",
+          "Swimlane Diagram"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 68,
+        "question": "Identify the correct translation into logical notation of the following assertion. Some boys in the class are taller than all the girls Note: taller (x, y) is true if x is taller than y.",
+        "options": [
+          "(∃x)(boy(x) → (∀y)(girl(y) ∧ taller(x, y)))",
+          "(∃x)(boy(x) ∧ (∀y)(girl(y) ∧ taller(x, y)))",
+          "(∃x)(boy(x) → (∀y)(girl(y) → taller(x, y)))",
+          "(∃x)(boy(x) ∧ (∀y)(girl(y) → taller(x, y)))"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 69,
+        "question": "Hashed message is signed by a sender using his",
+        "options": [
+          "his public key",
+          "his private key",
+          "receiver’s public key",
+          "receiver’s private key"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 70,
+        "question": "The standard for certificates used on internet is",
+        "options": [
+          "X.25",
+          "X.301",
+          "X.409",
+          "X.509"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 71,
+        "question": "Consider the following pseudo-code\n\nx:=1;\ni:=1;\nwhile (x <= 1000)\nbegin\n  x:=2^x;\n  i:=i+1;\nend;\nWhat is the value of i at the end of the pseudo-code?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 72,
+        "question": "Which of the following programming language(s) provides garbage collection automatically",
+        "options": [
+          "Lisp",
+          "C++",
+          "Fortran",
+          "C"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 73,
+        "question": "Consider a system having ‘m’ resources of the same type. The resources are shared by 3 processes A, B, C, which have peak time demands of 3, 4, 6 respectively. The minimum value of ‘m’ that ensures that deadlock will never occur is",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 74,
+        "question": "Range of IP Address from 224.0.0.0 to 239.255.255.255 are",
+        "options": [
+          "Reserved for loopback",
+          "Reserved for broadcast",
+          "Used for multicast packets",
+          "Reserved for future addressing"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 75,
+        "question": "The Fibonacci sequence is the sequence of integers",
+        "options": [
+          "1, 3, 5, 7, 9, 11, 13",
+          "0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55",
+          "0, 1, 3, 4, 7, 11, 18, 29, 47",
+          "0, 1, 3, 7, 15"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 76,
+        "question": "By using an eight bit optical encoder the degree of resolution that can be obtained is (approximately)",
+        "options": [
+          "1.8°",
+          "3.4°",
+          "2.8°",
+          "1.4°"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 77,
+        "question": "The set of all Equivalence Classes of a set A of Cardinality C",
+        "options": [
+          "is of cardinality 2^C",
+          "have the same cardinality as A",
+          "forms a partition of A",
+          "is of cardinality C^2"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 78,
+        "question": "Armstrong’s inference rule does not determine",
+        "options": [
+          "Reflexivity",
+          "Augmentation",
+          "Transitivity",
+          "Mutual dependency"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 79,
+        "question": "One approach to handling fuzzy logic data might be to design a computer using ternary (base-3) logic so that data could be stored as “true,” “false,” and “unknown.” If each ternary logic element is called a flit, how many flits are required to represent at least 256 different values?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 80,
+        "question": "Eigen vectors of",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "B",
+        "image": "image3.png"
+      }
+    ]
+  }

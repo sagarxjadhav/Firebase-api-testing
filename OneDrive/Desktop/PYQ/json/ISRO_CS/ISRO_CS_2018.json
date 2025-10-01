@@ -1,0 +1,900 @@
+{
+    "exam": "ISRO Previous Year Questions",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Consider the following C code segment:\n\n#include \nmain()\n{\n    int i, j , x ;\n    scanf(\"%d\", &x);\n    i = 1 ; j = 1;\n    while ( i< 10 ) {\n          j = j * i;\n          i = i + 1;\n          if (i == x) break ;\n          }\n }\nFor the program fragment above, which of the following statements about the variables i and j must be true after execution of this program? [!(exclamation) sign denotes factorial in the answer]",
+        "options": [
+          "A. ( j = (x - 1 )! ) ? (i >= x)",
+          "B. ( j = 9!) ? (i =10)",
+          "C. (( j = 10!) ? (i = 10 )) V (( j = (x - 1)!) ? (i = x ))",
+          "D. (( j = 9!) ? (i = 10)) V (( j = (x - 1)!) ? (i = x ))"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 2,
+        "question": "Consider the following declaration :\n\nstruct addr {\n     char city[10];\n     char street[30];\n     int pin ;\n};\n\nstruct {\nchar name[30];\nint gender;\nstruct addr locate;\n} person , *kd = &person ;\nThen *(kd -> name +2) can be used instead of",
+        "options": [
+          "A. person.name +2",
+          "B. kd -> (name +2 )",
+          "C. *((*kd).name + 2 )",
+          "D. either (A) or (B), but not (C)"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "question": "The following C program\n\nmain()\n{\n    fork() ; fork() ; printf (\"yes\");\n}\nIf we execute this core segment, how many times the string yes will be printed ?",
+        "options": [
+          "A. Only once",
+          "B. 2 times",
+          "C. 4 times",
+          "D. 8 times"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "question": "_______ can detect burst error of length less than or equal to degree of the polynomial and detects burst errors that affect odd number of bits.",
+        "options": [
+          "A. Hamming Code",
+          "B. CRC",
+          "C. VRC",
+          "D. None of the above"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "question": "Station A uses 32 byte packets to transmit messages to Station B using a sliding window protocol. The round trip delay between A and B is 80 ms and the bottleneck bandwidth on the path between A and B is 128 kbps. What is the optimal window size that A should use?",
+        "options": [
+          "A. 20",
+          "B. 40",
+          "C. 160",
+          "D. 320"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "question": "Assume A and B are non-zero positive integers. The following code segment:\n\nwhile ( A != B){\n     if ( A > B ) A -= B ;\n     else B -= A ; \n} \ncout << A; // printing the value of A",
+        "options": [
+          "A. Computes the LCM of two numbers",
+          "B. Divides the larger number by the smaller number",
+          "C. Computes the GCD of two numbers",
+          "D. Finds the smaller of two numbers"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 7,
+        "question": "The time complexity of computing the transitive closure of binary relation on a set of n elements is known to be",
+        "options": [
+          "A. O(n)",
+          "B. O(n log n)",
+          "C. O(n 3/2)",
+          "D. O(n 3)"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 8,
+        "question": "The following paradigm can be used to find the solution of the problem in minimum time: Given a set of non-negative integer, and a value K, determine if there is a subset of the given set with sum equal to K:",
+        "options": [
+          "A. Divide and Conquer",
+          "B. Dynamic Programming",
+          "C. Greedy Algorithm",
+          "D. Branch and Bound"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "question": "Determine the number of page faults when references to pages occur in order - 1, 2, 4, 5, 2, 1, 2, 4. Assume that the main memory can accommodate 3 pages and the main memory already has the pages 1 and 2, with page 1 having brought earlier than page 2.(assume LRU algorithm is used)",
+        "options": [
+          "A. 3",
+          "B. 4",
+          "C. 5",
+          "D. None of these"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "question": "Processes P1 and P2 have a producer-consumer relationship, communicating by the use of a set of shared buffers.\n\nP1: repeat\n    Obtain an empty buffer\n    Fill it\n    Return a full buffer\n    forever\nP2: repeat\n    Obtain a full buffer\n    Empty it\n    Return an empty buffer\n    forever\nIncreasing the number of buffers is likely to do which of the following?\n\nI. Increase the rate at which requests are satisfied (throughput)\n\nII. Decrease the likelihood of deadlock\n\nIII. Increase the ease of achieving a correct implementation",
+        "options": [
+          "A. Ill only",
+          "B. II only",
+          "C. I only",
+          "D. II and III only"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "question": "A language with string manipulation facilities uses the following operations. \n\nhead(s)- returns the first character of the string s \ntail(s)- returns all but the first character of the string s \nconcat(sl, s2)- concatenates string s1 with s2. \n\nThe output of concat(head(s), head(tail(tail(s)))), where s is acbc is",
+        "options": [
+          "A. ab",
+          "B. ba",
+          "C. ac",
+          "D. as"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 12,
+        "question": "Consider the following program\n\nmain()\n{\nint x = 1;\nprintf (\"%d\", (*char(char *)&x)) ;\n}\nAssuming required header files are included and if the machine in which this program is executed is little-endian, then the output will be",
+        "options": [
+          "A. 0",
+          "B. 99999999",
+          "C. 1",
+          "D. unpredictable"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 13,
+        "question": "Consider the following C program\n\n#include \nmain()\n{\nfloat sum = 0.0, j =1.0, i = 2.0; \nwhile(i/j > 0.001) {\n    j = j + 1;\n    sum = sum + i/j;\n    printf ( \"%f\\n\", sum );\n    }\n}\nHow many lines of output does this program produce?",
+        "options": [
+          "A. 0-9 lines of output",
+          "B. 10-19 lines of output",
+          "C. 20-29 lines of output",
+          "D. More than 29 lines of output"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 14,
+        "question": "What is the output of the following program ?\n\nmain (){\nint x = 2, y = 5;\nif(x < y) return (x = x + y);\nelse printf (\"z1\");\nprintf(\"z2\");",
+        "options": [
+          "A. z2",
+          "B. z1z2",
+          "C. Compilation error",
+          "D. None of these"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 15,
+        "question": "Consider the following C++ program'\n\nint a (int m)\n{return ++m;}\nint b(int&m)\n{return ++m;}\nint c(char &m)\n{return ++m;} \n\nvoid main 0\n{\n      int p = 0, q = 0, r = 0; \n      p += a(b(p));\n      q += b(a(q));\n      r += a(c(r));\n      cout<<p<<q<<r;\n}\n\nAssuming the required header files are already included, the above program:",
+        "options": [
+          "A. results in compilation error",
+          "B. print 123",
+          "C. print 111",
+          "D. print 322"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "question": "A particular disk unit uses a bit string to record the occupancy or vacancy of its tracks, with 0 denoting vacant and 1 for occupied. A 32-bit segment of this string has hexadecimal value D4FE2003. The percentage of occupied tracks for the corresponding part of the disk, to the nearest percentage is",
+        "options": [
+          "A. 12",
+          "B. 25",
+          "C. 38",
+          "D. 44"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 17,
+        "question": "A computer has 1000 K of main memory. The jobs arrive and finish in the sequence Job 1 requiring 200 K arrives Job 2 requiring 350 K arrives Job 3 requiring 300 K arrives Job 1 finishes Job 4 requiring 120 K arrives Job 5 requiring 150 K arrives Job 6 requiring 80 K arrives Among best fit and first fit, which performs better for this sequence?",
+        "options": [
+          "A. First fit",
+          "B. Best fit",
+          "C. Both perform the same",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "question": "Disk requests come to a disk driver for cylinders in the order 10, 22, 20, 2, 40, 6, and 38 at a time when the disk drive is reading from cylinder 20. The seek time is 6 ms/cylinder. The total seek time, if the disk arm scheduling algorithms is first-come-first-served is",
+        "options": [
+          "A. 360 ms",
+          "B. 850 ms",
+          "C. 900 ms",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 19,
+        "question": "The running time of an algorithm is given by\n\nT(n) = T(n-1) + T(n-2) — T(n-3), if n > 3\n     = n, otherwise\nThen what should be the relation between T(1), T(2) and T(3), so that the order of the algorithm is constant ?",
+        "options": [
+          "A. T(1) = T(2) = T(3)",
+          "B. T(1) + T(3) = 2 * T(2)",
+          "C. T(1) - T(3) = T(2)",
+          "D. T(1) + T(2) = T(3)"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 20,
+        "question": "Which of the following is application of Breath First Search on the graph?",
+        "options": [
+          "A. Finding diameter of the graph",
+          "B. Finding bipartite graph",
+          "C. Both (a) and (b)",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 21,
+        "question": "Immunity of the external schemas (or application programs) to changes in the conceptual schema is referred to as:",
+        "options": [
+          "A. Physical Data Independence",
+          "B. Logical Data Independence",
+          "C. Both (a) and (b)",
+          "D. None of the above"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 22,
+        "question": "In E-R model, Y is the dominant entity and X is subordinate entity",
+        "options": [
+          "A. None of the above",
+          "B. If Y is deleted, then X is also deleted",
+          "C. If Y is deleted, then X is not deleted",
+          "D. If X is deleted, then Y is also deleted"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 23,
+        "question": "The set of attributes X will be fully functionally dependent on the set of attributes Y if the following conditions are satisfied.",
+        "options": [
+          "A. X is functionally dependent on Y",
+          "B. X is not functionally dependent on any subset of Y",
+          "C. Both (a) and (b)",
+          "D. None of these"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 24,
+        "question": "For a database relation R(a,b,c,d) where the domains of a, b, c and d include only atomic values, only the following functional dependencies and those that can be inferred from them hold\n\na -> c\nb -> d\nThe relation is in",
+        "options": [
+          "A. First normal form but not in second normal form",
+          "B. Second normal form but not in third normal form",
+          "C. Third normal form",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 25,
+        "question": "Given relations R(w,x) and S(y,z), the result of\n\nSELECT DISTINCT w, x\nFROM R, S\nIs guaranteed to be same as R, if",
+        "options": [
+          "A. R has no duplicates and S is non-empty",
+          "B. R and S have no duplicates",
+          "C. S has no duplicates and R is non-empty",
+          "D. R and S have the same number of tuples"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 26,
+        "question": "Consider the set of relations given below and the SQL query that follows\n\nStudents : (Roll number, Name, Date of birth)\nCourses: (Course number, Course name, instructor)\nGrades: (Roll number, Course number, Grade)\nSELECT DISTINCT Name\nFROM Students, Courses, Grades\nWHERE Students.Roll_number = Grades.Roll_number\n       AND Courses.Instructor =Sriram\n       AND Courses.Course_number = Grades.Course_number\n       AND Grades.Grade = A\nWhich of the following sets is computed by the above query?",
+        "options": [
+          "A. Names of Students who have got an A grade in all courses taught by Sriram",
+          "B. Names of Students who have got an A grade in all courses",
+          "C. Names of Students who have got an A grade in at least one of the courses taught by Sriram",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 27,
+        "question": "Let us assume that transaction T1 has arrived before transaction T2. Consider the schedule\n\nS=r1(A); r2(B) ; w2(A); w1(B) \nWhich of the following is true?",
+        "options": [
+          "A. Allowed under basic timestamp protocol.",
+          "B. Not allowed under basic timestamp protocols because T1 is rolled back",
+          "C. Not allowed under basic timestamp protocols because T2 is rolled back",
+          "D. None of these"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 28,
+        "question": "Which of the following is dense index?",
+        "options": [
+          "A. Primary index",
+          "B. Clusters index",
+          "C. Secondary index",
+          "D. Secondary non key index"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 29,
+        "question": "A class of 30 students occupy a classroom containing 5 rows of seats, with 8 seats in each row. If the students seat themselves at random, the probability that the sixth seat in the fifth row will be empty is",
+        "options": [
+          "A. 1/5",
+          "B. 1/3",
+          "C. 1/4",
+          "D. 2/5"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 30,
+        "question": "( G, *) is an abelian group. Then",
+        "options": [
+          "A. x = x -1, for any x belonging to G",
+          "B. x = x2, for any x belonging to G",
+          "C. (x * y )2 = x2 * y2, for any x, y belonging to G",
+          "D. G is of finite order"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 31,
+        "question": "In the diagram above, the inverter (NOT gate) and the AND-gates labeled 1 and 2 have delays of 9, 10 and 12 nanoseconds(ns), respectively. Wire delays are negligible. For certain values of a and c, together with certain transition of b, a glitch (spurious output) is generated for a short time, after which the output assumes its correct value. The duration of the glitch is",
+        "options": [
+          "A. 7 ns",
+          "B. 9 ns",
+          "C. 11 ns",
+          "D. 13 ns"
+        ],
+        "answer": "A",
+        "image": "glitch_circuit_q31.png"
+      },
+      {
+        "id": 32,
+        "question": "Given √224r = 13r the value of radix r is",
+        "options": [
+          "A. 10",
+          "B. 8",
+          "C. 6",
+          "D. 5"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 33,
+        "question": "If a variable can take only integral values from 0 to n, where n is an integer, then the variable can be represented as a bit-field whose width is (the log in the answers are to the base 2, and [log n] means the floor of log n)",
+        "options": [
+          "A. [log(n)] + 1 bits",
+          "B. [log (n-1)) + 1 bits",
+          "C. [log (n+1)] + 1 bits",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 34,
+        "question": "Any set of Boolean operators that is sufficient to represent all Boolean expressions is said to be complete. Which of the following is not complete?",
+        "options": [
+          "A. { AND, OR }",
+          "B. { AND, NOT }",
+          "C. { NOT, OR }",
+          "D. { NOR }"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 35,
+        "question": "The FSM (Finite State Machine) machine pictured in the figure above",
+        "options": [
+          "A. Complements a given bit pattern",
+          "B. Finds 2's complement of a given bit pattern",
+          "C. Increments a given bit pattern by 1",
+          "D. Changes the sign bit"
+        ],
+        "answer": "C",
+        "image": "fsm_q35.png"
+      },
+      {
+        "id": 36,
+        "question": "CFG (Context Free Grammar) is not closed under",
+        "options": [
+          "A. Union",
+          "B. Complementation",
+          "C. Kleene star",
+          "D. Product"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 37,
+        "question": "A CFG(Context Free Grammar) is said to be in Chomsky Normal Form (CNF), if all the productions are of the form A -> BC or A -> a. Let G be a CFG in CNF. To derive a string of terminals of length x, the number of products to be used is",
+        "options": [
+          "A. 2x - 1",
+          "B. 2x",
+          "C. 2x + 1",
+          "D. 2x"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 38,
+        "question": "The domain of the function log( log sin(x) ) is",
+        "options": [
+          "A. 0 < x < π",
+          "B. 2nπ < x < (2n + 1) π , for n in N",
+          "C. Empty set",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 39,
+        "question": "The number of edges in a regular graph of degree d and n vertices is",
+        "options": [
+          "A. maximum of n and d",
+          "B. n + d",
+          "C. nd",
+          "D. nd / 2"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 40,
+        "question": "Of the following, which best characterizes computers that use memory-mapped I/O?",
+        "options": [
+          "A. The computer provides special instructions for manipulating I/O ports",
+          "B. I/O ports are placed at addresses on the bus and are accessed just like other memory locations",
+          "C. To perform I/O operations, it is sufficient to place the data in an address register and call channel to perform the operation",
+          "D. I/O can be performed only when memory management hardware is turned on"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 41,
+        "question": "A byte addressable computer has a memory capacity of 2m KB( kbytes ) and can perform 2m operations. An instruction involving 3 operands and one operator needs maximum of",
+        "options": [
+          "A. 3m bits",
+          "B. 3m + n bits",
+          "C. m + n bits",
+          "D. none of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 42,
+        "question": "A particular parallel program computation requires 100 sec when executed on a single processor. If 40% of this computation is inherently sequential (i.e. will not benefit from additional processors), then theoretically best possible elapsed times of this program running with 2 and 4 processors, respectively, are",
+        "options": [
+          "A. 20 sec and 10 sec",
+          "B. 30 sec and 15 sec",
+          "C. 50 sec and 25 sec",
+          "D. 70 sec and 55 sec"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 43,
+        "question": "For a multi-processor architecture, In which protocol a write transaction is forwarded to only those processors that are known to possess a copy of newly altered cache line ?",
+        "options": [
+          "A. Snoopy bus protocol",
+          "B. Cache coherency protocol",
+          "C. Directory based protocol",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 44,
+        "question": "Micro program is",
+        "options": [
+          "A. the name of a source program in micro computers",
+          "B. set of micro instructions that defines the individual operations in response to a machine-language instruction",
+          "C. a primitive form of macros used in assembly language programming",
+          "D. a very small segment of machine code"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 45,
+        "question": "A computer uses ternary system instead of the traditional binary system. An n bit string in the binary system will occupy",
+        "options": [
+          "A. 3 + n ternary digits",
+          "B. 2n / 3 ternary digits",
+          "C. n(log23) ternary digits",
+          "D. n(log32 ) ternary digits"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 46,
+        "question": "Assuming that for a given network layer implementation, connection establishment overhead is 100 bytes and disconnection overhead is 28 bytes. What would be the minimum size of the packet the transport layer needs to keep up, if it wishes to implement a datagram service above the network needs to keep its overhead to a minimum of 12.5%. (Ignore transport layer overhead)",
+        "options": [
+          "A. 512 bytes",
+          "B. 768 bytes",
+          "C. 1152 bytes",
+          "D. 1024 bytes"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 47,
+        "question": "What is one advantage of setting up a DMZ(Demilitarized Zone) with two firewalls?",
+        "options": [
+          "A. You can control where traffic goes in the three networks",
+          "B. You can do stateful packet filtering",
+          "C. You can do load balancing",
+          "D. Improve network performance"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 48,
+        "question": "The lower degree of cohesion is kind of",
+        "options": [
+          "A. Logical Cohesion",
+          "B. Coincidental Cohesion",
+          "C. Procedural Cohesion",
+          "D. Communicational Cohesion"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 49,
+        "question": "In a particular program, it is found that 1% of the code accounts for 50% of the execution time. To code a program in C++, it takes 100 man-days. Coding in assembly language is 10 times harder than coding in C++, but runs 5 times faster. Converting an existing C++ program into an assembly language program is 4 times faster. To completely write the program in C++ and rewrite the 1% code in assembly language, if a project team needs 13 days, the team consists",
+        "options": [
+          "A. 13 programmers",
+          "B. 10 programmers",
+          "C. 8 programmers",
+          "D. 100/13 programmers"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 50,
+        "question": "In unit testing of a module, it is found that for a set of test data, at the maximum 90% of the code alone were tested with the probability of success 0.9. The reliability of the module is",
+        "options": [
+          "A. Greater than 0.9",
+          "B. Equal to 0.9",
+          "C. At most 0.81",
+          "D. At least 0.81"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 51,
+        "question": "The Functions Point (FP) metric is",
+        "options": [
+          "A. Calculated from user requirement",
+          "B. Calculated from lines of code",
+          "C. Calculated from software complexity assessment",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 52,
+        "question": "Avalanche effect in cryptography",
+        "options": [
+          "A. Is desirable property of cryptographic algorithm",
+          "B. Is undesirable property of cryptographic algorithm",
+          "C. Has no effect on encryption algorithm",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 53,
+        "question": "In cryptography, the following uses transposition ciphers and the keyword is LAYER. Encrypt the following message. (Spaces are omitted during encryption) WELCOME TO NETWORK SECURITY !",
+        "options": [
+          "A. WMEKREETSILTWETCOOCYONRU!",
+          "B. EETSICOOCYWMEKRONRU!LTWET",
+          "C. LTWETONRU!WMEKRCOOCYEETSI",
+          "D. ONRU!COOCYLTWETEETSIWMEKR"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 54,
+        "question": "Which one of the following algorithm is not used in asymmetric key cryptography?",
+        "options": [
+          "A. RSA Algorithm",
+          "B. Diffie-Hellman Algorithm",
+          "C. Electronic Code Book Algorithm",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 55,
+        "question": "The Operating System of a computer may periodically collect all the free memory space to form contiguous block of free space. This is called:",
+        "options": [
+          "A. Concatenation",
+          "B. Garbage collection",
+          "C. Collision",
+          "D. Dynamic Memory Allocation"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 56,
+        "question": "Let P be a procedure that for some inputs calls itself (i.e. is recursive). If P is guaranteed to terminate, which of the following statement(s) must be true?\n\nI.   P has a local variable\nII.  P has an execution path where it does not call itself\nIII. P either refers to a global variable or has at least one parameter",
+        "options": [
+          "A. I only",
+          "B. II only",
+          "C. III only",
+          "D. II and III only"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 57,
+        "question": "The difference between a named pipe and a regular file in Unix is that",
+        "options": [
+          "A. Unlike a regular file, named pipe is a special file",
+          "B. The data in a pipe is transient, unlike the content of a regular file",
+          "C. Pipes forbid random accessing, while regular files do allow this.",
+          "D. All of the above"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 58,
+        "question": "Consider a system having m resources of the same type. These resources are shared by 3 processes A, B, C which have peak time demands of 3, 4, 6 respectively. The minimum value of m that ensures deadlock will never occur is",
+        "options": [
+          "A. 11",
+          "B. 12",
+          "C. 13",
+          "D. 14"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 59,
+        "question": "Given two sorted list of size m and n respectively. The number of comparisons needed the worst case by the merge sort algorithm will be",
+        "options": [
+          "A. m x n",
+          "B. maximum of m and n",
+          "C. minimum of m and n",
+          "D. m + n - 1"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 60,
+        "question": "Of the following sorting algorithms, which has a running time that is least dependent on the initial ordering of the input?",
+        "options": [
+          "A. Merge Sort",
+          "B. Insertion Sort",
+          "C. Selection Sort",
+          "D. Quick Sort"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 61,
+        "question": "Perform window to viewport transformation for the point (20, 15). Assume that (Xwmin, Ywmin) is (0,0); (Xwmax, Ywmax) is (100,100); (Xvmin, Yvmin) is (5,5); (Xvmax, Yvmax) is (20,20). The value of x and y in the viewport is",
+        "options": [
+          "A. x = 4 , y = 4",
+          "B. x = 3 , y = 3",
+          "C. x = 8 , y = 7.25",
+          "D. x = 3 , y = 4"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 62,
+        "question": "Consider a hash table with 100 slots. Collisions are resolved using chaining. Assuming simple uniform hashing, what is the probability that the first 3 slots are unfilled after the first 3 insertions?",
+        "options": [
+          "A. (97 × 97 × 97)/1003",
+          "B. (99 × 98 × 97)/1003",
+          "C. (97 × 96 × 95)/1003",
+          "D. (97 × 96 × 95)/(3! x 1003)"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 63,
+        "question": "What is the probability of a collision when hashing n keys into a hash table of size m, assuming that the hash function produces a uniform random distribution?",
+        "options": [
+          "A. O(1/n)",
+          "B. O(n/m)",
+          "C. O(logn)",
+          "D. O(m/n)"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 64,
+        "question": "Consider the following table in a relational database\n\n Last Name      Rank          Room       Shift\n Smith          Manager       234        Morning\n Jones          Custodian     33         Afternoon\n Smith          Custodian     33         Evening\n Doe            Clerical      222        Morning\nAccording to the data shown in the table, which of the following could be a candidate key of the table?",
+        "options": [
+          "A. {Last Name}",
+          "B. {Room}",
+          "C. {Shift}",
+          "D. {Room, Shift}"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 65,
+        "question": "A data driven machine is one that executes an instruction if the needed data is available. The physical ordering of the code listing does not dictate the course of execution. Consider the following pseudo-code:\n\n(A) Multiply E by 0.5 to get F\n\n(B) Add A and B to get E\n\n(C) Add B with 0.5 to get D\n\n(D) Add E and F to get G\n\n(E) Add A with 10.5 to get C\n\nAssume A, B, C are already assigned values and the desired output is G. Which of the following sequence of execution is valid?",
+        "options": [
+          "A. B, C, D, A, E",
+          "B. C, B, E, A, D",
+          "C. A, B, C, D, E",
+          "D. E, D, C, B, A"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 66,
+        "question": "Choose the correct statement:",
+        "options": [
+          "A. A = {an bn | n = 1, 2, 3, .... } is a regular language",
+          "B. The set B, consisting of all strings made up of only a's and b's having equal number of a's and b's defines a regular language",
+          "C. L(A * B) ∩ B gives the set A",
+          "D. None of the above"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 67,
+        "question": "In neural network, the network capacity is defined as",
+        "options": [
+          "A. The traffic carry capacity of the network",
+          "B. The total number of nodes in the network",
+          "C. The number of patterns that can be stored and recalled in a network",
+          "D. None of the above"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 68,
+        "question": "Consider a singly linked list of the form where F is a pointer to the first element in the linked list and L is the pointer to the last element in the list. The time of which of the following operations depends on the length of the list?",
+        "options": [
+          "A. Delete the last element of the list",
+          "B. Delete the first element of the list",
+          "C. Add an element after the last element of the list",
+          "D. Interchange the first two elements of the list"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 69,
+        "question": "A doubly linked list is declared as\n\n// Struct definition in Java\nclass Node {\n    int Value;\n    Node Fwd;\n    Node Bwd;\n}\nWhere Fwd and Bwd represent forward and backward link to the adjacent elements of the list. Which of the following segments of code deletes the node pointed to by X from the doubly linked list, if it is assumed that X points to neither the first nor the last node of the list?",
+        "options": [
+          "A. X->Bwd->Fwd = X->Fwd; X->Fwd->Bwd = X->Bwd ;",
+          "B. X->Bwd.Fwd = X->Fwd ; X.Fwd->Bwd = X->Bwd ;",
+          "C. X.Bwd->Fwd = X.Bwd ; X->Fwd.Bwd = X.Bwd ;",
+          "D. X->Bwd->Fwd = X->Bwd ; X->Fwd->Bwd = X->Fwd;"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 70,
+        "question": "An array A consists of n integers in locations A[0], A[1] ....A[n-1]. It is required to shift the elements of the array cyclically to the left by k places, where 1 <= k <= (n-1). An incomplete algorithm for doing this in linear time, without using another array is given below. Complete the algorithm by filling in the blanks. Assume all the variables are suitably declared.\n\nmin = n; i = 0;\n\nwhile (___________) {	\n\n     temp = A[i]; j = i;\n\n     while (________) {\n\n     A[j] = ________	\n\n     j= (j + k) mod n ;\n\n     If ( j< min ) then\n\n         min = j;\n\n}\n\nA[(n + i — k) mod n] = _________\n\ni = __________",
+        "options": [
+          "A. i > min; j!= (n+i)mod n; A[j + k]; temp; i + 1 ;",
+          "B. i < min; j!= (n+i)mod n; A[j + k]; temp; i + 1;",
+          "C. i > min; j!= (n+i+k)mod n; A[(j + k)]; temp; i + 1;",
+          "D. i < min; j!= (n+i-k)mod n; A[(j + k)mod n]; temp; i + 1;"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 71,
+        "question": "A hash table with 10 buckets with one slot per bucket is depicted here. The symbols, S1 to S7 are initially entered using a hashing function with linear probing. The maximum number of comparisons needed in searching an item that is not present is",
+        "options": [
+          "A. 4",
+          "B. 5",
+          "C. 6",
+          "D. 3"
+        ],
+        "answer": "B",
+        "image": "hash_table_q71.png"
+      },
+      {
+        "id": 72,
+        "question": "Incremental-Compiler is a compiler",
+        "options": [
+          "A. which is written in a language that is different from the source language",
+          "B. compiles the whole source code to generate object code afresh",
+          "C. compiles only those portion of source code that have been modified.",
+          "D. that runs on one machine but produces object code for another machine"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 73,
+        "question": "DU-chains(Definition-Use) in compiler design",
+        "options": [
+          "A. consist of a definition of a variable and all its uses, reachable from that definition",
+          "B. are created using a form of static code analysis",
+          "C. are prerequisite for many compiler optimization including constant propagation and common sub-expression elimination",
+          "D. All of the above"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 74,
+        "question": "If Tree-1 and Tree-2 are the trees indicated below :  Which traversals of Tree-1 and Tree-2, respectively, will produce the same sequence?",
+        "options": [
+          "A. Preorder, postorder",
+          "B. Postorder, inorder",
+          "C. Postorder, preorder",
+          "D. Inorder, preorder"
+        ],
+        "answer": "D",
+        "image": "trees_q74.png"
+      },
+      {
+        "id": 75,
+        "question": "A particular BNF definition for a \"word\" is given by the following rules. Which of the following lexical entries can be derived from < word > ?\n\nI. pick\n\nII. picks\n\nIII. c44",
+        "options": [
+          "A. I, II and III",
+          "B. I and II only",
+          "C. I and III only",
+          "D. II and III only"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 76,
+        "question": "In a file which contains 1 million records and the order of the tree is 100, then what is the maximum number of nodes to be accessed if B+ tree index is used?",
+        "options": [
+          "A. 5",
+          "B. 4",
+          "C. 3",
+          "D. 10"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 77,
+        "question": "Given a binary-max heap. The elements are stored in an arrays as 25, 14, 16, 13, 10, 8, 12. What is the content of the array after two delete operations?",
+        "options": [
+          "A. 14,13,8,12,10",
+          "B. 14,12,13,10,8",
+          "C. 14,13,12,8,10",
+          "D. 14,13,12,10,8"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 78,
+        "question": "In multi-programmed systems, it is advantageous if some programs such as editors and compilers can be shared by several users. Which of the following must be true of multi-programmed systems in order that a single copy of a program can be shared by several users?\n\nI. The program is a macro\n\nII. The program is recursive\n\nIII. The program is reentrant",
+        "options": [
+          "A. I only",
+          "B. II only",
+          "C. III only",
+          "D. I, II and III"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 79,
+        "question": "Which of the following comment about peep-hole optimization is true?",
+        "options": [
+          "A. It is applied to small part of the code and applied repeatedly",
+          "B. It can be used to optimize intermediate code",
+          "C. It can be applied to a portion of the code that is not contiguous",
+          "D. It is applied in symbol table to optimize the memory requirements."
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 80,
+        "question": "Which of the following comparisons between static and dynamic type checking is incorrect?",
+        "options": [
+          "A. Dynamic type checking slows down the execution",
+          "B. Dynamic type checking offers more flexibility to the programmers",
+          "C. In contrast to Static type checking, dynamic type checking may cause failure in runtime due to type errors",
+          "D. Unlike static type checking, dynamic type checking is done during compilation"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 81,
+        "question": "Cloaking is a search engine optimization (SEO) technique. During cloaking",
+        "options": [
+          "A. Content presented to search engine spider is different from that presented to user's browser",
+          "B. Content present to search engine spider and browser is same",
+          "C. Contents of user's requested website are changed",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      }
+    ]
+  }

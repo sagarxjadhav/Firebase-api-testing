@@ -1,0 +1,887 @@
+{
+    "exam": "ISRO 2020",
+    "questions": [
+      {
+        "id": 1,
+        "question": "If n has 3, then the statement a[++n]=n++;",
+        "options": [
+          "A. assigns 3 to a[5]",
+          "B. assigns 4 to a[5]",
+          "C. assigns 4 to a[4]",
+          "D. what is assigned is compiler dependent"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 2,
+        "question": "The for loop\n\nfor (i=0; i<10; ++i)\nprintf(\"%d\", i&1);\nprints:",
+        "options": [
+          "A. 0101010101",
+          "B. 0111111111",
+          "C. 0000000000",
+          "D. 1111111111"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "question": "The output of the following program is\n\nmain()\n{\nstatic int x[] = {1,2,3,4,5,6,7,8}\nint i;\nfor (i=2; i<6; ++i)\nx[x[i]]=x[i];\nfor (i=0; i<8; ++i)\nprintf(\"%d\", x[i]);\n}",
+        "options": [
+          "A. 1 2 3 3 5 5 7 8",
+          "B. 1 2 3 4 5 6 7 8",
+          "C. 8 7 6 5 4 3 2 1",
+          "D. 1 2 3 5 4 6 7 8"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 4,
+        "question": "Consider the following program fragment i=6720; j=4; while (i%j)==0 { i=i/j; j=j+1; } On termination j will have the value",
+        "options": [
+          "A. 4",
+          "B. 8",
+          "C. 9",
+          "D. 6720"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "question": "Consider the following program fragment\n\nif(a > b)\nif(b > c)\ns1;\nelse s2;\ns2 will be executed if",
+        "options": [
+          "A. a <= b",
+          "B. b > c",
+          "C. b >= c and a <= b",
+          "D. a > b and b <= c"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 6,
+        "question": "Consider the following C declaration \n\n\nstruct \n{\n    short s[5];\n    union \n    {\n        float y;\n        long z;\n    }\n    u;\n}t;\n\nAssume that the objects of the type short, float and long occupy 2 bytes, 4 bytes and 8 bytes, respectively. The memory requirement for variable t, ignoring alignment consideration, is",
+        "options": [
+          "A. 22 bytes",
+          "B. 18 bytes",
+          "C. 14 bytes",
+          "D. 10 bytes"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "question": "Consider the following statements\n\n#define hypotenuse (a, b) sqrt (a*a+b*b); \nThe macro call hypotenuse(a+2,b+3);",
+        "options": [
+          "A. Finds the hypotenuse of a triangle with sides a+2 and b+3",
+          "B. Finds the square root of (a+2)2 and (b+3)2",
+          "C. Is invalid",
+          "D. Find the square root of 3*a + 4*b + 5"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 8,
+        "question": "In a lottery scheduler with 40 tickets, how we will distribute the tickets among 4 processes and such that each process gets 10%, 5%, 60% and 25% respectively?\n\n     P1   P2   P3   P4\na)   12   4    70   30\nb)   7    5    20   10\nc)   4    2    24   10\nd)   8    5    40   30",
+        "options": [
+          "A. a",
+          "B. b",
+          "C. c",
+          "D. d"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "question": "Suppose a system contains n processes and system uses the round-robin algorithm for CPU scheduling then which data structure is best suited for ready queue of the process",
+        "options": [
+          "A. stack",
+          "B. queue",
+          "C. circular queue",
+          "D. tree"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 10,
+        "question": "A certain population of ALOHA users manages to generate 70 request/sec. If the time is slotted in units of 50 msec, then channel load would be",
+        "options": [
+          "A. 4.25",
+          "B. 3.5",
+          "C. 350",
+          "D. 450"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 11,
+        "question": "In CRC if the data unit is 100111001 and the divisor is 1011 then what is dividend at the receiver?",
+        "options": [
+          "A. 100111001101",
+          "B. 100111001011",
+          "C. 100111001",
+          "D. 100111001110"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "question": "If the sequence of operations - push (1), push (2), pop, push (1), push (2), pop, pop, pop, push (2), pop are performed on a stack, the sequence of popped out values",
+        "options": [
+          "A. 2,2,1,1,2",
+          "B. 2,2,1,2,2",
+          "C. 2,1,2,2,1",
+          "D. 2,1,2,2,2"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 13,
+        "question": "The time complexity of the following C function is (assume n > 0)\n\nint recursive (int n) {\n     if(n == 1)\n     return (1);\n     else\n     return (recursive (n-1) + recursive (n-1));\n}",
+        "options": [
+          "A. O(n)",
+          "B. O(n log n)",
+          "C. O(n2)",
+          "D. O(2n)"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 14,
+        "question": "Six files F1, F2, F3, F4, F5 and F6 have 100, 200, 50, 80, 120, 150 records respectively. In what order should they be stored so as to optimize act. Assume each file is accessed with the same frequency",
+        "options": [
+          "A. F3, F4, F1, F5, F6, F2",
+          "B. F2, F6, F5, F1, F4, F3",
+          "C. F1, F2, F3, F4, F5, F6",
+          "D. Ordering is immaterial as all files are accessed with the same frequency."
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "question": "Consider the following declaration:\n\nint a, *b=&a, **c=&b;\nThe following program fragment\n\na=4;\n**c=5;",
+        "options": [
+          "A. does not change the value of a",
+          "B. assigns address of c to a",
+          "C. assigns the value of b to a",
+          "D. assigns 5 to a"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 16,
+        "question": "Dirty bit for a page in a page table",
+        "options": [
+          "A. helps avoid unnecessary writes on a paging device",
+          "B. helps maintain LRU information",
+          "C. allows only read on a page",
+          "D. None of the above"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 17,
+        "question": "Semaphores are used to solve the problem of I. Race Condition II. Process Synchronization III. Mutual Exclusion IV. None of the above",
+        "options": [
+          "A. I and II",
+          "B. II and III",
+          "C. All of the above",
+          "D. None of the above"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 18,
+        "question": "If there are 32 segments, each size 1 k bytes, then the logical address should have",
+        "options": [
+          "A. 13 bits",
+          "B. 14 bits",
+          "C. 15 bits",
+          "D. 16 bits"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 19,
+        "question": "At a particular time of computation the value of a counting semaphore is 7. Then 20 P operations and 15 V operations were completed on this semaphore. The resulting value of the semaphore is :",
+        "options": [
+          "A. 42",
+          "B. 2",
+          "C. 7",
+          "D. 12"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 20,
+        "question": "Increasing the RAM of a computer typically improves performance because:",
+        "options": [
+          "A. Virtual Memory increases",
+          "B. Larger RAMs are faster",
+          "C. Fewer page faults occur",
+          "D. Fewer segmentation faults occur"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 21,
+        "question": "The following program\n\nmain()\n{\ninc(); inc(); inc();\n}\ninc()\n{\nstatic int x;\nprintf(\"%d\", ++x);\n}",
+        "options": [
+          "A. prints 012",
+          "B. prints 123",
+          "C. prints 3 consecutive, but unpredictable numbers",
+          "D. prints 111"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 22,
+        "question": "Consider the following code fragment void foo(int x, int y) { x+=y; y+=x; } main() { int x=5.5; foo(x,x); } What is the final value of x in both call by value and call by reference, respectively?",
+        "options": [
+          "A. 5 and 16",
+          "B. 5 and 12",
+          "C. 5 and 20",
+          "D. 12 and 20"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 23,
+        "question": "How do you write a single-line comment in C?",
+        "options": [
+          "A. /* This is a comment */",
+          "B. # This is a comment",
+          "C. // This is a comment",
+          "D. -- This is a comment"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 24,
+        "question": "If D1, D2...Dn are domains in a relational model, then the relation is a table, which is a subset of",
+        "options": [
+          "A. D1⊕D2⊕...⊕Dn",
+          "B. D1xD2x...xDn",
+          "C. D1∪D2∪...∪Dn",
+          "D. D1∩D2∩...∩Dn"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 25,
+        "question": "Consider the following Relationship Entity Diagram(ERD)\n\nWhich of the following possible relations will not hold if the above ERD is mapped into a relation model?",
+        "options": [
+          "A. Person (NID, Name)",
+          "B. Qualification (NID, ExamID, QualifiedDate)",
+          "C. Exam (ExamID, NID, ExamName)",
+          "D. Exam (ExamID, ExamName)"
+        ],
+        "answer": "C",
+        "image": "erd_question25.png"
+      },
+      {
+        "id": 26,
+        "question": "Let R = (A, B, C, D, E, F) be a relation schema with the following dependencies C->F, E->A, EC->D, A->B. Which of the following is a key of R?",
+        "options": [
+          "A. CD",
+          "B. EC",
+          "C. AE",
+          "D. AC"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 27,
+        "question": "Consider the following relational schema:\n\nSuppliers(sid:integer, sname:string, city:string, street:string)\nParts(pid:integer, pname:string, color:string)\nCatalog(sid:integer, pid:integer, cost:real)\nConsider the following relational query on the above database:\n\nSELECT S.sname\n    FROM Suppliers S\n        WHERE S.sid NOT IN (SELECT C.sid\n                            FROM Catalog C\n                            WHERE C.pid NOT IN (SELECT P.pid  \n                                                FROM Parts P\n                                                WHERE P.color<> 'blue'))\nAssume that relations corresponding to the above schema are not empty. Which one of the following is the correct interpretation of the above query?",
+        "options": [
+          "A. Find the names of all suppliers who have supplied a non-blue part.",
+          "B. Find the names of all suppliers who have not supplied a non-blue part",
+          "C. Find the names of all suppliers who have supplied only non blue parts.",
+          "D. Find the names of all suppliers who have not supplied only non-blue parts."
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 28,
+        "question": "Consider the following schema:\n\nEmp (Empcode, Name, Sex, Salary, Deptt)\nA simple SQL query is executed as follows:\n\nSELECT Deptt FROM Emp\nWHERE sex = 'M'\nGROUP by Dept\nHaving avg (Salary) > {select avg (Salary) from Emp}\nThe output will be",
+        "options": [
+          "A. Average salary of male employee is the average salary of the organization",
+          "B. Average salary of male employee is less than the average salary of the organization",
+          "C. Average salary of male employee is equal to the average salary of the organization",
+          "D. Average salary of male employee is more than the average salary of the organization"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 29,
+        "question": "Consider the following log sequence of two transactions on a bank account, with initial balance 12000, that transfer 2000 to a mortgage payment and then apply a 5% interest. 1. T1 start 2. T1 B old=1200 new=10000 3. T1 M old=0 new=2000 4. T1 commit 5. T2 start 6. T2 B old=10000 new=10500 7. T2 commit Suppose the database system crashes just before log record 7 is written. When the system is restarted, which one statement is true of the recovery procedure?",
+        "options": [
+          "A. We must redo log record 6 to set B to 10500",
+          "B. We must undo log record 6 to set B to 10000 and then redo log records 2 and 3",
+          "C. We need not redo log records 2 and 3 because transaction T1 has committed",
+          "D. We can apply redo and undo operations in arbitrary order because they are idempotent."
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 30,
+        "question": "Given a block can hold either 3 records or 10 key pointers. A database contains n records, then how many blocks do we need to hold the data file and the dense index",
+        "options": [
+          "A. 13n/30",
+          "B. n/3",
+          "C. n/10",
+          "D. n/30"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 31,
+        "question": "Which of the given number has its IEEE-754 32 bit floating point representation as 0 10000000 110 0000 0000 0000 0000 0000",
+        "options": [
+          "A. 2.5",
+          "B. 3.0",
+          "C. 3.5",
+          "D. 4.5"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 32,
+        "question": "The boolean expression AB + AB'+ A'C + AC is independent of the boolean variable",
+        "options": [
+          "A. A",
+          "B. B",
+          "C. C",
+          "D. None of these"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 33,
+        "question": "The range of integers that can be represented by an n bit 2’s complement number system is:",
+        "options": [
+          "A. - 2n - 1 to 2n - 1 - 1",
+          "B. - (2n - 1 - 1) to (2n - 1 - 1)",
+          "C. - 2n - 1 to 2n - 1",
+          "D. - (2n - 1 + 1) to (2n - 1 - 1)"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 34,
+        "question": "The number of 1's in the binary representation of (3*4096 + 15*256 + 5*16 + 3) are:",
+        "options": [
+          "A. 8",
+          "B. 9",
+          "C. 10",
+          "D. 12"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 35,
+        "question": "Minimum number of multiplexers required to realize the following function,f = A'B'C + A'B'C' Assume that inputs are available only in true form and Boolean constant 1 and 0 are available.",
+        "options": [
+          "A. 1",
+          "B. 2",
+          "C. 3",
+          "D. 7"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 36,
+        "question": "If half adders and full adders are implemented using gates, then for the addition of two 17 bit numbers (using minimum gates) the number of half adders and full adders required will be",
+        "options": [
+          "A. 0, 17",
+          "B. 16, 1",
+          "C. 1, 16",
+          "D. 8, 8"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 37,
+        "question": "The complement of the Boolean expression AB ( B'C + AC ) is",
+        "options": [
+          "A. ( A' + B' ) + ( B + C' )( A' + C' )",
+          "B. ( A' + B' ) + ( BC' + A'C' )",
+          "C. ( A' + B' )( B + C') + ( A + C' )",
+          "D. ( A + B )( B' + C )( A + C )"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 38,
+        "question": "A modulus -12 ring counter requires a minimum of",
+        "options": [
+          "A. 10 flip-flops",
+          "B. 12 flip-flops",
+          "C. 8 flip-flops",
+          "D. 6 flip-flops"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 39,
+        "question": "The minimum time delay between the initiation of two independent memory operations is called",
+        "options": [
+          "A. Access time",
+          "B. Cycle time",
+          "C. Rotational time",
+          "D. Latency time"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 40,
+        "question": "The contents of the flag register after execution of the following program by 8085 microprocessor will be\n\nProgram\nSUB A\nMVI B,(01)H\nDCR B\nHLT",
+        "options": [
+          "A. (54)H",
+          "B. (00)H",
+          "C. (01)H",
+          "D. (45)H"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 41,
+        "question": "How many 32K X 1 RAM chips are needed to provide a memory capacity of 256K-bytes?",
+        "options": [
+          "A. 8",
+          "B. 32",
+          "C. 64",
+          "D. 128"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 42,
+        "question": "In X = (M + N x O)/(P x Q), how many one-address instructions are required to evaluate it?",
+        "options": [
+          "A. 4",
+          "B. 6",
+          "C. 8",
+          "D. 10"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 43,
+        "question": "Which statement is false?",
+        "options": [
+          "A. PING is a TCP/IP application that sends datagrams once every second in the hope of an echo response from the machine being PINGED",
+          "B. If the machine is connected and running a TCP/IP protocol stack, it should respond to the PING datagram with a datagram of its own",
+          "C. If PING encounters an error condition, an ICMP message is not returned",
+          "D. PING display the time of the return response in milliseconds or one of several error message"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 44,
+        "question": "An ACK number of 1000 in TCP always means that",
+        "options": [
+          "A. 999 bytes have been successfully received",
+          "B. 1000 bytes have been successfully received",
+          "C. 1001 bytes have been successfully received",
+          "D. None of the above"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 45,
+        "question": "A T-switch is used to",
+        "options": [
+          "A. Control how messages are passed between computers",
+          "B. Echo every character that is received",
+          "C. Transmit characters one at a time",
+          "D. Rearrange the connections between computing equipments"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 46,
+        "question": "What frequency range is used for microwave communications, satellite and radar?",
+        "options": [
+          "A. Low frequency: 30 kHz to 300 kHz",
+          "B. Medium frequency: 300 kHz to 3 MHz",
+          "C. Super high frequency: 3000 MHz to 30000 MHz",
+          "D. Extremely high frequency: 30000 kHz"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 47,
+        "question": "What is compression ratio in a typical mp3 audio files?",
+        "options": [
+          "A. 4:1",
+          "B. 6:1",
+          "C. 8:1",
+          "D. 10:1"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 48,
+        "question": "Consider an uncompressed stereo audio signal of CD quality which is sampled at 44.1 kHz and quantized using 16 bits. What is required storage space if a compression ratio of 0.5 is achieved for 10 seconds of this audio?",
+        "options": [
+          "A. 172 KB",
+          "B. 430 KB",
+          "C. 860 KB",
+          "D. 1720 KB"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 49,
+        "question": "Alpha and Beta testing are forms of",
+        "options": [
+          "A. Acceptance testing",
+          "B. Integration testing",
+          "C. System testing",
+          "D. Unit testing"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 50,
+        "question": "If in a software project the number of user input, user output, enquiries, files and external interfaces are (15, 50, 24, 12, 8), respectively, with complexity average weighing factor. The productivity if effort = 70 percent-month is",
+        "options": [
+          "A. 110.54",
+          "B. 408.74",
+          "C. 304.78",
+          "D. 220.14"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 51,
+        "question": "The code which uses 7 bits to represent a character is",
+        "options": [
+          "A. ASCII",
+          "B. BCD",
+          "C. EBCDIC",
+          "D. Gray"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 52,
+        "question": "The decimal number has 64 digits.The number of bits needed for its equivalent binary representation is?",
+        "options": [
+          "A. 200",
+          "B. 213",
+          "C. 246",
+          "D. 277"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 53,
+        "question": "The DNS maps the IP address to",
+        "options": [
+          "A. A binary address as strings",
+          "B. An alphanumeric address",
+          "C. A hierarchy of domain names",
+          "D. A hexadecimal address"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 54,
+        "question": "How many bits internet address is assigned to each host on a TCP/IP internet which is used in all communication with the host?",
+        "options": [
+          "A. 16 bits",
+          "B. 32 bits",
+          "C. 48 bits",
+          "D. 64 bits"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 55,
+        "question": "In a class B subnet, we know the IP address of one host and the mask as given below:\n\nIP address: 125.134.112.66\nMask: 255.255.224.0\nWhat is the first address(Network address)?",
+        "options": [
+          "A. 125.134.96.0",
+          "B. 125.134.112.0",
+          "C. 125.134.112.66",
+          "D. 125.134.0.0"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 56,
+        "question": "A machine needs a minimum of 100 sec to sort 1000 names by quick sort. The minimum time needed to sort 100 names will be approximately",
+        "options": [
+          "A. 50.2 sec",
+          "B. 6.7 sec",
+          "C. 72.7 sec",
+          "D. 11.2 sec"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 57,
+        "question": "If one uses straight two-way merge sort algorithm to sort the following elements in ascending order: 20, 47, 15, 8, 9, 4, 40, 30, 12, 17 then the order of these elements after second pass of the algorithm is:",
+        "options": [
+          "A. 8, 9, 15, 20, 47, 4, 12, 17, 30, 40",
+          "B. 8, 15, 20, 47, 4, 9, 30, 40, 12, 17",
+          "C. 15, 20, 47, 4, 8, 9, 12, 30, 40, 17",
+          "D. 4, 8, 9, 15, 20, 47, 12, 17, 30, 40"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 58,
+        "question": "Which of the following is not an image type used in MPEG?",
+        "options": [
+          "A. A frame",
+          "B. B frame",
+          "C. D frame",
+          "D. P frame"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 59,
+        "question": "The correct syntax to write \"Hi there\" in Javascript is",
+        "options": [
+          "A. jscript.write (\"Hi There\");",
+          "B. document.write (\"Hi There\");",
+          "C. print (\"Hi There\");",
+          "D. print.jscript (\"Hi There\");"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 60,
+        "question": "A router uses the following routing table:\n\nA packet bearing a destination address 144.16.68.117 arrives at the router. On which interface will it be forwarded?",
+        "options": [
+          "A. eth 0",
+          "B. eth 1",
+          "C. eth 2",
+          "D. eth 3"
+        ],
+        "answer": "C",
+        "image": "routing_table_q60.png"
+      },
+      {
+        "id": 61,
+        "question": "Which of the following compression algorithms is used to generate a .png file?",
+        "options": [
+          "A. LZ78",
+          "B. Deflate",
+          "C. LZW",
+          "D. Huffman"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 62,
+        "question": "Which layers of the OSI reference model are host-to-host layers?",
+        "options": [
+          "A. Transport, session, presentation, application",
+          "B. Session, presentation, application",
+          "C. Datalink, transport, presentation, application",
+          "D. Physical, datalink, network, transport"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 63,
+        "question": "Which statement is true?",
+        "options": [
+          "A. LALR parser is more powerful and costly as compare to other parsers",
+          "B. All CFG's are LP and not all grammars are uniquely defined",
+          "C. Every SLR grammar is unambiguous but not every unambiguous grammar is SLR",
+          "D. LR(K) is the most general back tracking shift reduce parsing method"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 64,
+        "question": "The queue data structure is to be realized by using stack. The number of stacks needed would be",
+        "options": [
+          "A. It cannot be implemented",
+          "B. 2 stacks",
+          "C. 4 stacks",
+          "D. 1 stack"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 65,
+        "question": "The maximum length of an attribute of type text is",
+        "options": [
+          "A. 127",
+          "B. 255",
+          "C. 256",
+          "D. It is variable"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 66,
+        "question": "How many characters per sec (7 bits + 1 parity) can be transmitted over a 2400 bps line if the transfer is synchronous ( 1 start and 1 stop bit)?",
+        "options": [
+          "A. 300",
+          "B. 240",
+          "C. 250",
+          "D. 275"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 67,
+        "question": "Which one of the following is a top-down parser?",
+        "options": [
+          "A. Recursive descent parser",
+          "B. Shift left associative parser",
+          "C. SLR(k) parser",
+          "D. LR(k) parser"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 68,
+        "question": "A hard disk system has the following parameters : Number of tracks = 500 Number of sectors/track = 100 Number of bytes /sector = 500 Time taken by the head to move from one track to adjacent track = 1 ms Rotation speed = 600 rpm. What is the average time taken for transferring 250 bytes from the disk ?",
+        "options": [
+          "A. 300.5 ms",
+          "B. 255.5 ms",
+          "C. 255 ms",
+          "D. 300 ms"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 69,
+        "question": "Let R1 and R2 be regular sets defined over the alphabet, then",
+        "options": [
+          "A. R1 ∩ R2 is not regular",
+          "B. R1 ∪ R2is not regular",
+          "C. Σ * - R1 is regular",
+          "D. R1 * is not regular"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 70,
+        "question": "The number of spanning tree for a complete graph with seven vertices are:",
+        "options": [
+          "A. 25",
+          "B. 75",
+          "C. 35",
+          "D. 22x5"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 71,
+        "question": "Consider the following program. main() { fork(); fork(); fork(); } How many new processes will be created?",
+        "options": [
+          "A. 8",
+          "B. 6",
+          "C. 7",
+          "D. 5"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 72,
+        "question": "If a node has K children in Btree, then the node contains exactly _____ keys.",
+        "options": [
+          "A. K2",
+          "B. K - 1",
+          "C. K + 1",
+          "D. K1/2"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 73,
+        "question": "Suppose two jobs, each of which needs 10 minutes of CPU time, start simultaneously. Assume 50% I/O wait time. How long will it take for both to complete, if they run sequentially?",
+        "options": [
+          "A. 10",
+          "B. 20",
+          "C. 30",
+          "D. 40"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 74,
+        "question": "Which searching technique takes O(1) time complexity for searching the data?",
+        "options": [
+          "A. Binary Search",
+          "B. Linear Search",
+          "C. AVL Tree Search",
+          "D. Hashing"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 75,
+        "question": "Given the following expression grammar:\n\nE → E ∗ F ∣ F + E ∣ F\nF → F − F ∣ id\nWhich of the following is true?",
+        "options": [
+          "A. * has higher precedence than +",
+          "B. - has higher precedence than *",
+          "C. + and - have same precedence",
+          "D. + has higher precedence than *"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 76,
+        "question": "The number of tokens in the following C statement is printf(\"i=%d, &i=%x\", i,&i);",
+        "options": [
+          "A. 13",
+          "B. 6",
+          "C. 10",
+          "D. 9"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 77,
+        "question": "Which grammar rules violate the requirement of the operator grammar? A, B, C are variables and a, b, c are terminals\n\n1) A → BC\n2) A → CcBb\n3) A → BaC\n4) A → ε",
+        "options": [
+          "A. 1 only",
+          "B. 1 and 2 only",
+          "C. 1 and 3 only",
+          "D. 1 and 4 only"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 78,
+        "question": "Yacc stands for",
+        "options": [
+          "A. yet accept compiler constructs",
+          "B. yet accept compiler compiler",
+          "C. yet another compiler construct",
+          "D. yet another compiler compiler"
+        ],
+        "answer": "D"
+      },
+      {
+        "id": 79,
+        "question": "To add a background color for all h1 elements, which of the following HTML syntax is used",
+        "options": [
+          "A. h1 { background-color :#FFFFFF}",
+          "B. { background-color :#FFFFFF} . h1",
+          "C. h1 { background-color :#FFFFFF} . h1(all)",
+          "D. h1. all{bgcolor= #FFFFFF}"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 80,
+        "question": "To declare the version of XML, the correct syntax is",
+        "options": [
+          "A. <xml version='1.0'/>",
+          "B. <*xml version='1.0'/>",
+          "C. <*xml version=='1.0'/>",
+          "D. <*xml version='1.0'/"
+        ],
+        "answer": "A"
+      }
+    ]
+  }
